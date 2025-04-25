@@ -188,7 +188,10 @@ export default function App() {
   useEffect(() => {
     (async () => {
       setLoadingMsg("Loading phrases...");
-      const data = await loadPhrasesFromFile("phrases.txt");
+      //const data = await loadPhrasesFromFile("phrases.txt");
+      const data = await loadPhrasesFromFile(
+           `${process.env.PUBLIC_URL}/phrases.txt`
+         );
       setSections(data);
       setIsLoading(false);
     })();
