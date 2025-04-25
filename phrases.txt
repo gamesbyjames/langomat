@@ -70,6 +70,9 @@ gitmek, gelmek, yapmak, yemek, içmek - To go, to come, to do/make, to eat, to d
 görmek, bilmek, Konuşmak, sevmek, almak - To see, to know, to speak, to love, to buy
 vermek, çalışmak, anlamak, istemek, okumak - To give, to work/study, to understand, to want, to read
 
+#Test:
+abc | def
+
 #Random:
 Ne iş yapıyorsun | What do you do for work?
 Acıktım yemek yiyelim | I'm hungry, let's eat
