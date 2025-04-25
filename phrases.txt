@@ -1,0 +1,113 @@
+// Format: Turkish words | English translation
+#Small Talk:
+muhteşem, harika, fantastik, inanılmaz, mükemmel, şaşırtıcı | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing
+Her gün biraz daha öğreniyorum. en azından henüz değil. Bu ne? | I learn a little more every day. At least not yet. Whats that?
+n'aber kanka! n'apıyorsun? hadi ya? gercheckdin! sorun değil! bayıldım! | well mate, whats up? really? really! no problem. I loved it.
+saat kaçta kapanıyorsun? seni ilgilendirmez. deli misin? | what tiem you closed? none of your business! you crazy?
+nerede yaşıyorsun? bana bak. nerelisin? emin misin? burada bekle. sonra görüşürüz. | Where do you live? Look at me. Where are you from? Are you sure? Wait here. See you later.
+Türkçe konuşuyor musun? biraz konuşuyorum. Ama öğrenmek istiyorum | Do you speak Turkish? I speak a little. But I want to learn.
+Çok fazla anlamıyorum. Sadece biraz konuşuyorum. | I don't understand very much. I speak only a little.
+Aklını mı kaçırdın? Bu seni ilgilendirmez | Are you out of your mind? That is none of your business
+Bugün ne yapıyorsun? Hadi gidelim | what are you doing today? lets go
+hiçbir shey. Ya sen? | not much. And you?
+Günaydin. Peki, gitmem lazim. gidelim. | Good morning. Well, I have to go. lets go.
+
+#Questions:
+neden gittin? ne yedin? | why did you go? what did you eat? 
+ne bulduk? kimi gördün? | what did we find?  who did you see? 
+ne zaman geldin?  | when did you arrive?
+araba neredeydi? nereye gideceksin? hava nasıldı? |  where was the car? where will you go? how was the weather?
+kim, neden, ne zaman, nerede, ne, nasıl | who, why, when, where, what, how.
+
+#PPP:
+beni rahat bırak | leave me alone
+Ayrica Çok iyi. Burada bekle | Also Very good. Wait here.
+Bana bak Nerelisin Emin misin  Sonra görüşürüz | Look at me. Where are you from? Are you sure? See you later
+Nerelisin İyi günler Bilmiyorum Açım Susadım | Where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.
+Sonra görüşürüz Saat kaç Adın ne | See you later. What time is it? What's your name?
+Zor. Kolay. Kolay değil. Almanya'da yaşıyorum. İrlandalıyım. Harika. Muhteşem.  | Hard. Easy. Not easy. I live in Germany. I'm Irish. Great. Amazing. 
+Evet ve hayır Ne kadar Yorgunum Nerede | Yes and no. How much? I'm tired. Where? 
+lezzetli pahali buradayim oradayim  | Delicious. Expensive. I'm here. I'm there. 
+bugün hava nasil sorum var gidelim param yok memnun oldum | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.
+Tanıştığımıza memnun oldum | Nice to meet you
+Merhaba nasılsın | Hello, how are you?
+#Colours and Numbers:
+İyiyim teşekkürler sen | I'm fine thanks, and you?
+Benim adım ... | My name is ...
+Çok fazla Türkçe bilmiyorum |  I don't know much Turkish
+Ama öğrenmek istiyorum | But I want to learn
+Bana yardım eder misin | can you help me?
+Türkçe öğreniyorum | I'm learning Turkish
+Anlamadım tekrar eder misin | I didn't understand, can you repeat?
+Yavaş konuşabilir misin | Can you speak more slowly?
+Nerelisin | Where are you from?
+Ben Amerika'dan geliyorum | I am from America
+Bu ne demek | What does this mean?
+Bugün hava güzel | The weather is nice today
+Yardıma ihtiyacım var | I need help
+Kaç yaşındasın | How old are you?
+#Verbs
+Ben okula gittim ve kedi gördüm | I went to school and saw a cat
+Sen dün ne yaptın? | what did you do yesterday?
+Biz şehre gittik ve sonra yemek yedik | we went to the city and then ate food
+Siz Türkçe konuştunuz ve herkes anladı | You all spoke Turkish, and everyone understood
+Onlar kahve içtiler ve çalıştılar | They drank coffee and worked
+Ben seni gördüm ama sen beni bilmiyordun | I saw you, but you didn’t know me.
+Ben şimdi yemek yiyorum | I am eating now
+O, her gün kitap okuyor | He/she reads a book every day.
+Sen Türkçe öğrenmek istiyorsun ama pratik yapmalısın | You want to learn Turkish, but you need to practice
+Biz kahve içiyoruz ve konuşuyoruz. | We are drinking coffee and talking.
+Siz ne yapıyorsunuz | What are you all doing?
+Onlar dersi anlamıyorlar | They don’t understand the lesson.
+Ben seni çok seviyorum | I love you so much.
+Ben sonra yemek yiyeceğim. | I will eat later.
+Sen yarın okula gidecek misin? | Will you go to school tomorrow?
+O, hediyeyi alacak ve bize verecek. | He/she will buy the gift and give it to us.
+Biz yeni bir project yapacağız. | We will do a new project.
+Siz Türkçe konuşacaksınız ve herkes hayran olacak. | You all will speak Turkish, and everyone will be impressed.
+Onlar yarın eve gelecekler. | They will come home tomorrow.
+gitmek, gelmek, yapmak, yemek, içmek - To go, to come, to do/make, to eat, to drink
+görmek, bilmek, Konuşmak, sevmek, almak - To see, to know, to speak, to love, to buy
+vermek, çalışmak, anlamak, istemek, okumak - To give, to work/study, to understand, to want, to read
+
+#Random:
+Ne iş yapıyorsun | What do you do for work?
+Acıktım yemek yiyelim | I'm hungry, let's eat
+Su içmek istiyorum | I want to drink water
+Saat kaç | What time is it?
+Çok pahalı ucuz bir şey var mı | It's very expensive, is there something cheaper?
+Nerede oturuyorsun | Where do you live?
+Hoşçakal yarın görüşürüz | Goodbye, see you tomorrow
+Siyah beyaz kırmızı mavi yeşil | Black white red blue green
+Büyük küçük uzun kısa | Big small long short
+Sıcak soğuk yeni eski | Hot cold new old
+Güzel çirkin kolay zor | Beautiful ugly easy difficult
+Sağa sola düz git | Go right left straight
+
+#Opposites:
+Lütfen teşekkür ederim | Please thank you 
+rica ederim | you're welcome
+Kahve çay süt şeker | Coffee tea milk sugar
+Bir iki üç dört beş | One two three four five
+Bugün yarın dün | Today tomorrow yesterday
+Sabah öğlen akşam gece | Morning noon evening night
+
+#Learning Turkish:
+İki hafta önce Türkce öğrenmeye karar verdim. | 2 weeks ago I decided to learn Turkish. 
+Çünkü tatile Türkiye'ye gittim. | Because I went on a holiday to Turkey.
+Kolay şeylerle başladım. | I started with the easy stuff
+Pratik yapmam lazim yoksa her şeyi unutacağım! | I need to practice otherwise I will forget everything!
+Aslında, neredeyse her şeyi unuttum bile! | In fact, I already forgot almost everything!
+
+#Weather
+bugün hava güzel! gökyüzü mavi. bulut yok | Nice weather today! the sky is blue. No clouds!
+güneşli. rüzgarlı değil. yağmur yağmıyor. | Its sunny. Its not windy. Its not raining.
+güneşliydi. rüzgarlıydı. yağmur yağdı. | it was sunny. it was windy. it rained.
+hava güzeldi ve hiç fena değildi | weather was fine and not bad at all 
+Hava neredeyse mükemmeldi | The weather was nearly perfect
+Neredeyse her gün güneşliydi ama bir gün yağmur yağdı | it was sunny nearly every day but one day it rained
+
+#Adverbs of time:
+bazen, her zaman, asla, nadiren, sıklıkla | sometimes, always, never, seldom, often 
+şimdi, bugün, yarın, dün, geçen hafta, gelecek yıl, her gün | now, today, tomorrow, yesterday, last week, next year, every day
+gelecek hafta, bu yıl, geçen ay, üç gün önce, hafta sonunda | next week, this year, last month, three days ago, at the weekend
