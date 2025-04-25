@@ -1,38 +1,247 @@
-.App {
-  text-align: center;
-}
+// Add some CSS to improve the UI for the new features
+const extraStyles = `
+/* Add these to your App.css file */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  z-index: 1000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.loading-spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.settings-panel {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tts-toggle, .speech-speed {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tts-toggle button, .speech-speed button {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tts-toggle button.active, .speech-speed button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0069d9;
+}
+
+.word-tile {
+  position: absolute;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.word-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.word-tile.correct {
+  border-color: #28a745;
+  background-color: #e8f5e9;
+}
+
+.word-tile.incorrect {
+  border-color: #dc3545;
+  background-color: #ffebee;
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.pronunciation-guide {
+  text-align: center;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.pronunciation-guide button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.replay-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.replay-button:hover {
+  background-color: #f0f7ff;
+}
+
+.speak-translation-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 0 5px;
+}
+
+.sentence-display {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.word-tiles-container {
+  position: relative;
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: #fafafa;
+}
+
+.translation-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.next-button:hover {
+  background-color: #218838;
+}
+
+.progress-indicator {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .word-tiles-container {
+    height: 400px;
+    width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .settings-panel {
+    flex-direction: column;
+    align-items: center;
   }
+}
+
+
+/* General container styles */
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Display for the sentence (clicked words or full sentence hint) */
+.sentence-display {
+  margin: 20px auto;
+  min-height: 30px;
+  font-size: 20px;
+}
+
+/* Container for the word tiles with a fixed height and a border */
+.word-tiles-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+/* Styling for individual word tiles */
+.word-tile {
+  position: absolute;
+  background-color: #e0e0e0;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Footer for showing the translation */
+.translation-footer {
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Style for the Next button */
+.next-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
