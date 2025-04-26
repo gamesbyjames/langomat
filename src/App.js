@@ -16,6 +16,7 @@ if (!ELEVEN_LABS_API_KEY) {
 }
 const ELEVEN_LABS_BASE_URL = "https://api.elevenlabs.io/v1";
 const VOICE_IDS = {
+  "de-DE": "EXAVITQu4vr4xnSDxMaL",
   "tr-TR": "pNInz6obpgDQGcFmaJgB",
   "en-US": "21m00Tcm4TlvDq8ikWAM",
 };
@@ -62,11 +63,11 @@ function parsePhrases(text) {
       return;
     }
     if (!currentSection) return;
-    const [tr, en] = line.split("|").map((p) => p.trim());
-    if (!tr || !en) return;
+    const [first, second] = line.split("|").map((p) => p.trim());
+    if (!first || !second) return;
     sections[currentSection].push({
-      words: tr.split(" ").filter(Boolean),
-      translation: en,
+      words: first.split(" ").filter(Boolean),
+      translation: second,
       audioCache: {},
     });
   });
@@ -76,10 +77,10 @@ function parsePhrases(text) {
   return sections;
 }
 
-async function generateSpeech(text, language = "tr-TR") {
+async function generateSpeech(text, language = "de-DE") {
   const voiceId = VOICE_IDS[language] || VOICE_IDS["en-US"];
   try {
-    const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}` ,{
+    const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -100,13 +101,15 @@ async function generateSpeech(text, language = "tr-TR") {
   }
 }
 
-function fallbackSpeak(text, lang = "tr-TR", rate = 0.8) {
+function fallbackSpeak(text, lang = "de-DE", rate = 0.8) {
   return new Promise((resolve, reject) => {
     const ut = new SpeechSynthesisUtterance(text);
     ut.lang = lang;
     ut.rate = rate;
     const voices = window.speechSynthesis.getVoices();
-    const v = voices.find((vo) => vo.lang === lang) || voices.find((vo) => vo.lang.startsWith(lang.split("-")[0]));
+    const v =
+      voices.find((vo) => vo.lang === lang) ||
+      voices.find((vo) => vo.lang.startsWith(lang.split("-")[0]));
     if (v) ut.voice = v;
     ut.onend = resolve;
     ut.onerror = reject;
@@ -114,7 +117,7 @@ function fallbackSpeak(text, lang = "tr-TR", rate = 0.8) {
   });
 }
 
-async function speak(text, language = "tr-TR", cachedUrl = null) {
+async function speak(text, language = "de-DE", cachedUrl = null) {
   try {
     const url = cachedUrl || (await generateSpeech(text, language));
     if (url) {
@@ -130,7 +133,9 @@ async function speak(text, language = "tr-TR", cachedUrl = null) {
     return null;
   } catch (err) {
     console.error("speak", err);
-    try { await fallbackSpeak(text, language); } catch (_) {}
+    try {
+      await fallbackSpeak(text, language);
+    } catch (_) {}
     return null;
   }
 }
@@ -152,7 +157,9 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
   return (
     <div
       style={{ top: `${pos.top}%`, left: `${pos.left}%` }}
-      className={`word-tile ${isCorrect === true ? "correct" : isCorrect === false ? "incorrect" : ""}`}
+      className={`word-tile ${
+        isCorrect === true ? "correct" : isCorrect === false ? "incorrect" : ""
+      }`}
       onClick={() => onClick(word)}
     >
       {word}
@@ -162,6 +169,8 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
 
 // ──────────── main ──────────── //
 export default function App() {
+  // language state
+  const [language, setLanguage] = useState("de-DE");
   // navigation & data
   const [sections, setSections] = useState({});
   const [currentSection, setCurrentSection] = useState(null);
@@ -169,7 +178,7 @@ export default function App() {
 
   // game state
   const [shuffled, setShuffled] = useState([]);
-  const [shuffleVersion, setShuffleVersion] = useState(0); // forces re‑mount for new positions
+  const [shuffleVersion, setShuffleVersion] = useState(0);
   const [clicked, setClicked] = useState([]);
   const [wordStatus, setWordStatus] = useState({});
   const [showWords, setShowWords] = useState(false);
@@ -178,7 +187,6 @@ export default function App() {
   // ui misc
   const [loadingMsg, setLoadingMsg] = useState("Loading...");
   const [isLoading, setIsLoading] = useState(true);
-  const language = "tr-TR";
 
   // derived
   const phrases = currentSection ? sections[currentSection] || [] : [];
@@ -187,15 +195,18 @@ export default function App() {
   // ──────────── effects ──────────── //
   useEffect(() => {
     (async () => {
+      setIsLoading(true);
       setLoadingMsg("Loading phrases...");
-      //const data = await loadPhrasesFromFile("phrases.txt");
+      const fileName = language === "de-DE" ? "german_phrases.txt" : "phrases.txt";
       const data = await loadPhrasesFromFile(
-           `${process.env.PUBLIC_URL}/phrases.txt`
-         );
+        `${process.env.PUBLIC_URL}/${fileName}`
+      );
       setSections(data);
+      setCurrentSection(null);
+      setIdx(0);
       setIsLoading(false);
     })();
-  }, []);
+  }, [language]);
 
   // reset for new phrase
   useEffect(() => {
@@ -211,14 +222,11 @@ export default function App() {
   // ──────────── handlers ──────────── //
   const handleWordClick = async (word) => {
     if (!showWords || isSpeaking || isLoading) return;
-
     const expected = current.words[clicked.length];
     if (word === expected) {
       setWordStatus((p) => ({ ...p, [word]: true }));
       const newSeq = [...clicked, word];
       setClicked(newSeq);
-
-      // sentence complete
       if (newSeq.length === current.words.length) {
         const sentence = current.words.join(" ");
         setIsSpeaking(true);
@@ -245,7 +253,7 @@ export default function App() {
 
   const reshuffleWords = () => {
     setShuffled(shuffleArray(current.words));
-    setShuffleVersion((v) => v + 1); // different key => fresh positions
+    setShuffleVersion((v) => v + 1);
     if (!showWords) setShowWords(true);
   };
 
@@ -268,7 +276,18 @@ export default function App() {
   // ──────────── renders ──────────── //
   const renderHome = () => (
     <div className="home-screen">
-      <h1>Learn Turkish Game</h1>
+      <h1>Learn {language === "de-DE" ? "German" : "Turkish"} Game</h1>
+      <div className="language-selector">
+        <label htmlFor="language" className="mr-2">Select Language:</label>
+        <select
+          id="language"
+          value={language}
+          onChange={(e) => setLanguage(e.target.value)}
+        >
+          <option value="de-DE">German</option>
+          <option value="tr-TR">Turkish</option>
+        </select>
+      </div>
       <p>Select a section:</p>
       <div className="section-buttons">
         {Object.keys(sections).map((sec) => (
@@ -290,7 +309,14 @@ export default function App() {
       <div className="sentence-display flex items-center gap-2">
         {clicked.join(" ")} {" "}
         {clicked.length === current.words.length && (
-          <button className="repeat-btn" title="Repeat" onClick={repeatSentence} disabled={isSpeaking}>🔊</button>
+          <button
+            className="repeat-btn"
+            title="Repeat"
+            onClick={repeatSentence}
+            disabled={isSpeaking}
+          >
+            🔊
+          </button>
         )}
       </div>
 
@@ -312,7 +338,13 @@ export default function App() {
 
       <div className="translation-footer">
         <p>{current.translation}</p>
-        <button className="next-button" onClick={nextPhrase} disabled={clicked.length !== current.words.length && showWords}>Next</button>
+        <button
+          className="next-button"
+          onClick={nextPhrase}
+          disabled={clicked.length !== current.words.length && showWords}
+        >
+          Next
+        </button>
       </div>
 
       <div className="progress-indicator">{phrases.length} phrases in this section</div>
