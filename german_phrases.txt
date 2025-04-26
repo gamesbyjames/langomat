@@ -1,0 +1,153 @@
+// Format: German words | English translation
+#Small Talk:
+hallo, wie geht's, mir geht's gut, freut mich | hello how are you good a pleasure
+woher kommst du, ich bin Ire aber ich lebe in Deutschland | where are you from from ireland but i live in germany
+was machst du beruflich, ich bin ingenieur | what do you do for work i am an engineer
+ich habe einen Bruder und drei Schwestern | i have a brother and three sisters
+ich habe zwei Kinder, zwei Söhne und eine Tochter | i have two kids 2 sons and a daughter
+guten Morgen, guten Abend, tschüss, bis später | good morning good evening goodbye see you later
+bitte, danke, entschuldigung, ich verstehe | please thank you sorry i understand
+
+#More small talk
+ich habe Hunger, ich muss etwas essen | i am hungry i need to eat something
+ich habe Durst, ich muss etwas trinken | i am thirsty i need to drink something
+lass mich in Ruhe | leave me alone
+außerdem sehr gut. warte hier | Also Very good. Wait here.
+schau mich an woher kommst du bist du sicher bis später | Look at me. Where are you from? Are you sure? See you later
+woher kommst du guten Tag ich weiß nicht ich habe Hunger ich habe Durst | Where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.
+bis später wie spät ist es wie heißt du | See you later. What time is it? What's your name?
+schwer. einfach. nicht einfach. ich wohne in Deutschland. ich bin Ire. großartig. wunderbar. | Hard. Easy. Not easy. I live in Germany. I'm Irish. Great. Amazing.
+ja und nein. wie viel? ich bin müde. wo? | Yes and no. How much? I'm tired. Where?
+lecker teuer ich bin hier ich bin dort | Delicious. Expensive. I'm here. I'm there.
+wie ist das Wetter heute? ich habe eine Frage lass uns gehen ich habe kein Geld freut mich | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.
+Freut mich, dich kennenzulernen | Nice to meet you
+hallo wie geht's | Hello, how are you?
+jemand, niemand, alle | someone nobody everybody
+
+#Even more:
+Mir geht's gut danke, und dir | I'm fine thanks, and you?
+mein Name ist James | My name is James
+ich kann nicht viel Türkisch | I don't know much Turkish
+aber ich möchte es lernen | But I want to learn
+kannst du mir helfen | can you help me?
+ich lerne Türkisch | I'm learning Turkish
+ich habe es nicht verstanden kannst du das wiederholen | I didn't understand, can you repeat?
+kannst du langsamer sprechen | Can you speak more slowly?
+woher kommst du | Where are you from?
+ich komme aus Amerika | I am from America
+was bedeutet das | What does this mean?
+heute ist das Wetter schön | The weather is nice today
+ich brauche Hilfe | I need help
+wie alt bist du | How old are you?
+was machst du beruflich | What do you do for work?
+ich habe Hunger lass uns essen | I'm hungry, let's eat
+ich möchte Wasser trinken | I want to drink water
+wie spät ist es | What time is it?
+es ist sehr teuer gibt es etwas Billigeres | It's very expensive, is there something cheaper?
+wo wohnst du | Where do you live?
+Tschüss bis morgen | Goodbye, see you tomorrow
+bitte danke | Please thank you
+gern geschehen | you're welcome
+Kaffee Tee Milch Zucker | Coffee tea milk sugar
+heute morgen gestern | Today tomorrow yesterday
+Morgen Mittag Abend Nacht | Morning noon evening night
+
+#Useful:
+großartig, wunderbar, fantastisch, unglaublich, perfekt, erstaunlich | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing
+Ich lerne jeden Tag ein bisschen mehr. Zumindest noch nicht. Was ist das? | I learn a little more every day. at least not yet. Whats that?
+Na, was geht, Kumpel! Was machst du? Wirklich? Hast du's gecheckt! Kein Problem! Ich lieb's! | well mate, whats up? really? really! no problem. I loved it.
+Um wie viel Uhr machst du zu? Geht dich nichts an. Bist du verrückt? | what tiem you closed? none of your business! you crazy?
+Wo wohnst du? Schau mich an. Woher kommst du? Bist du sicher? Warte hier. Bis später. | Where do you live? Look at me. Where are you from? Are you sure? Wait here. See you later.
+Sprichst du Türkisch? Ich spreche ein bisschen. Aber ich möchte es lernen | Do you speak Turkish? I speak a little. But I want to learn.
+Ich verstehe nicht viel. Ich spreche nur ein bisschen. | I don't understand very much. I speak only a little.
+Hast du den Verstand verloren? Das geht dich nichts an | Are you out of your mind? That is none of your business
+Was machst du heute? Lass uns gehen | what are you doing today? lets go
+Nichts Besonderes. Und du | not much. And you?
+Guten Morgen. Okay, ich muss gehen. Lass uns gehen. | Good morning. Well, I have to go. lets go.
+
+#Questions:
+warum bist du gegangen? was hast du gegessen? | why did you go? what did you eat?
+was haben wir gefunden? wen hast du gesehen? | what did we find? who did you see?
+wann bist du angekommen? | when did you arrive?
+wo war das Auto? wohin wirst du gehen? wie war das Wetter? | where was the car? where will you go? how was the weather?
+wer, warum, wann, wo, was, wie | who, why, when, where, what, how.
+
+#Colours and Numbers:
+rot, blau, grün, gelb | red blue green yellow
+orange, lila, rosa, braun | orange purple pink brown
+schwarz, weiß, grau, beige | black white gray beige
+gold, silber, kupfer, bronze | gold silver copper bronze
+marineblau, türkis, hellblau, dunkelgrün | navy turquoise light-blue dark-green
+eins, zwei, drei, vier | one two three four
+fünf, sechs, sieben, acht | five six seven eight
+neun, zehn, elf, zwölf | nine ten eleven twelve
+zwanzig, dreißig, vierzig, fünfzig | twenty thirty forty fifty
+hundert, tausend, million, milliarde | hundred thousand million billion
+sechzig, siebzig, achtzig, neunzig | sixty seventy eighty ninety
+einundzwanzig, zweiunddreißig, dreiundvierzig, vierundfünfzig | twenty-one thirty-two forty-three fifty-four
+fünfundsechzig, sechsundsiebzig, siebenundachtzig, achtundneunzig | sixty-five seventy-six eighty-seven ninety-eight
+
+#Verbs
+Ich bin zur Schule gegangen und habe eine Katze gesehen | I went to school and saw a cat
+Was hast du gestern gemacht | what did you do yesterday?
+Wir sind in die Stadt gegangen und dann haben wir gegessen | we went to the city and then ate food
+Ihr habt Türkisch gesprochen und alle haben verstanden | You all spoke Turkish, and everyone understood
+Sie haben Kaffee getrunken und gearbeitet | They drank coffee and worked
+Ich habe dich gesehen aber du kanntest mich nicht | I saw you, but you didn’t know me.
+Ich esse jetzt | I am eating now
+Er/Sie liest jeden Tag ein Buch | He/she reads a book every day.
+Du willst Türkisch lernen aber du musst üben | You want to learn Turkish, but you need to practice
+Wir trinken Kaffee und reden | We are drinking coffee and talking.
+Was macht ihr | What are you all doing?
+Sie verstehen die Lektion nicht | They don’t understand the lesson.
+Ich liebe dich sehr | I love you so much.
+Ich werde später essen | I will eat later.
+Wirst du morgen zur Schule gehen | Will you go to school tomorrow?
+Er/Sie wird das Geschenk kaufen und es uns geben | He/she will buy the gift and give it to us.
+Wir werden ein neues Projekt machen | We will do a new project.
+Ihr werdet Türkisch sprechen und alle werden beeindruckt sein | You all will speak Turkish, and everyone will be impressed.
+Sie werden morgen nach Hause kommen | They will come home tomorrow.
+gehen, kommen, machen, essen, trinken - To go, to come, to do/make, to eat, to drink
+sehen, wissen, sprechen, lieben, kaufen - To see, to know, to speak, to love, to buy
+geben, arbeiten, verstehen, wollen, lesen - To give, to work/study, to understand, to want, to read
+
+#Opposites:
+groß, klein, lang, kurz | big small long short
+heiß, kalt, schnell, langsam | hot cold fast slow
+neu, alt, hoch, niedrig | new old high low
+offen, geschlossen, schwer, leicht | open closed heavy light
+glücklich, traurig, richtig, falsch | happy sad right wrong
+oben, unten, innen, außen | up down inside outside
+gut, schlecht, einfach, schwer | good bad easy hard
+rechts, links, vorne, hinten | right left front back
+voll, leer, teuer, billig | full empty expensive cheap
+wenig, viel, hart, weich | little much hard soft
+jung, alt, nah, fern | young old near far
+sauber, schmutzig, früh, spät | clean dirty early late
+dick, dünn, vollständig, unvollständig | thick thin complete incomplete
+hell, dunkel, leise, laut | bright dark quiet noisy
+groß klein lang kurz | Big small long short
+heiß kalt neu alt | Hot cold new old
+schön hässlich leicht schwierig | Beautiful ugly easy difficult
+Geh nach rechts nach links geradeaus | Go right left straight
+
+#Learning German:
+Vor zwei Wochen habe ich beschlossen, Türkisch zu lernen. | 2 weeks ago I decided to learn Turkish.
+Weil ich im Urlaub in die Türkei gefahren bin. | Because I went on a holiday to Turkey.
+Ich habe mit den einfachen Sachen angefangen. | I started with the easy stuff
+Ich muss üben sonst vergesse ich alles | I need to practice otherwise I will forget everything!
+Eigentlich habe ich fast alles schon vergessen | In fact, I already forgot almost everything!
+
+#Weather
+Heute ist das Wetter schön! Der Himmel ist blau. Keine Wolken! | Nice weather today! the sky is blue. No clouds!
+sonnig. nicht windig. es regnet nicht. | Its sunny. Its not windy. Its not raining.
+es war sonnig. es war windig. es hat geregnet. | it was sunny. it was windy. it rained.
+das Wetter war schön und gar nicht schlecht | weather was fine and not bad at all
+Das Wetter war fast perfekt | The weather was nearly perfect
+Es war fast jeden Tag sonnig aber an einem Tag hat es geregnet | it was sunny nearly every day but one day it rained
+
+#Time:
+manchmal, immer, niemals, selten, häufig | sometimes, always, never, seldom, often
+jetzt, heute, morgen, gestern, letzte Woche, nächstes Jahr, jeden Tag | now, today, tomorrow, yesterday, last week, next year, every day
+nächste Woche, dieses Jahr, letzten Monat, vor drei Tagen, am Wochenende | next week, this year, last month, three days ago, at the weekend
+
