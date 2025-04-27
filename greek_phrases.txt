@@ -1,12 +1,12 @@
-// Format: Greek words | English translation  
+// Format: Greek words | English translation : hint
 #Small Talk:  
 γεια, τι κάνεις, είμαι καλά, χαίρω πολύ  | hello how are you, I'm fine, pleased  
-από πού είσαι; είμαι Ιρλανδός όμως κατοικώ στη Γερμανία  | where are you from, I am Irish but I live in Germany  
-τι δουλειά κάνεις; είμαι μηχανικός  | what do you do for work; I am an engineer  
-έχω έναν αδελφό και τρεις αδελφές  | I have a brother and three sisters  
-έχω τρία παιδιά, δύο γιους και μια κόρη  | I have three kids, two sons and a daughter  
-καλημέρα, καλησπέρα, αντίο, τα λέμε  | good morning good evening goodbye see you later  
-παρακαλώ, ευχαριστώ, συγνώμη, καταλαβαίνω  | please thank you sorry I understand  
+από πού είσαι; είμαι Ιρλανδός όμως κατοικώ στη Γερμανία  | where are you from, I am Irish but I live in Germany : apo pou eisai? eimai Irlandos omos katoiko sti Germania
+τι δουλειά κάνεις; είμαι μηχανικός  | what do you do for work; I am an engineer  : ti douleia kaneis? eimai michanikos
+έχω έναν αδελφό και τρεις αδελφές  | I have a brother and three sisters  : echo enan adelfo kai treis adelfes
+έχω τρία παιδιά, δύο γιους και μια κόρη  | I have three kids, two sons and a daughter  : echo tria paidia, dyo gious kai mia kori
+καλημέρα, καλησπέρα, αντίο, τα λέμε  | good morning good evening goodbye see you later  : kalimera, kalispera, antio, ta leme
+παρακαλώ, ευχαριστώ, συγνώμη, καταλαβαίνω  | please thank you sorry I understand  parakalo, efcharisto, sygnomi, katalaveno
 
 #More small talk  
 πεινάω, πρέπει να φάω κάτι  | I am hungry I need to eat something  
