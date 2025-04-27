@@ -1,0 +1,154 @@
+// Format: French words | English translation  
+#Small Talk:  
+salut, ça va, je vais bien, enchanté  | hello how are you good a pleasure  
+d’où viens-tu, je suis irlandais mais j’habite en Allemagne  | where are you from, I am Irish but I live in Germany  
+qu’est-ce que tu fais dans la vie, je suis ingénieur  | what do you do for work i am an engineer  
+j’ai un frère et trois sœurs  | i have a brother and three sisters  
+j’ai trois enfants, deux fils et une fille  | i have three kids 2 sons and a daughter  
+bonjour, bonsoir, salut, à plus tard  | good morning good evening goodbye see you later  
+s’il te plaît, merci, pardon, je comprends  | please thank you sorry i understand  
+
+#More small talk  
+j’ai faim, je dois manger quelque chose  | i am hungry i need to eat something  
+j’ai soif, je dois boire quelque chose  | i am thirsty i need to drink something  
+laisse-moi tranquille  | leave me alone  
+de plus très bien. attends ici  | Also Very good. Wait here.  
+regarde-moi d’où viens-tu êtes-vous sûr à plus tard  | Look at me. Where are you from? Are you sure? See you later  
+d’où viens-tu bon après-midi je ne sais pas j’ai faim me sens assoiffé  | Where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.  
+à plus tard quelle heure est-il comment t’appelles-tu  | See you later. What time is it? What's your name?  
+difficile. facile. pas simple. j’habite en Allemagne. je suis Irlandais. génial. merveilleux.  | Hard. Easy. Not simple. I live in Germany. I'm Irish. Great. Amazing.  
+oui et non. combien ? je suis fatigué. où ?  | Yes and no. How much? I'm tired. Where?  
+délicieux, coûteux, me voici ici, voilà là-bas  | Delicious. Expensive. Here I am. There I am.  
+quel temps fait-il aujourd’hui ? j’ai une question allons-y je n’ai pas d’argent enchanté  | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.  
+ravi de te rencontrer  | Nice to meet you  
+salut ça va  | Hello, how are you?  
+quelqu’un, personne, tout le monde  | someone nobody everybody  
+
+#Even more:  
+ça va bien merci, et toi  | I'm fine thanks, and you?  
+mon nom est James  | My name is James  
+je ne connais pas beaucoup de turc  | I don't know much Turkish  
+mais je veux l’apprendre  | But I want to learn  
+peux-tu m’aider  | can you help me?  
+j’apprends le turc  | I'm learning Turkish  
+je n’ai pas compris peux-tu répéter  | I didn't understand, can you repeat?  
+peux-tu parler plus lentement  | Can you speak more slowly?  
+d’où viens-tu  | Where are you from?  
+je viens d’Amérique  | I am from America  
+qu’est-ce que ça veut dire  | What does this mean?  
+il fait beau aujourd’hui  | The weather is nice today  
+j’ai besoin d’aide  | I need help  
+quel âge as-tu  | How old are you?  
+que fais-tu comme travail  | What do you do for work?  
+j’ai faim allons manger  | I'm hungry, let's eat  
+je veux boire de l’eau  | I want to drink water  
+quelle heure est-il  | What time is it?  
+c’est très cher y a-t-il quelque chose de meilleur marché  | It's very expensive, is there something cheaper?  
+où habites-tu  | Where do you live?  
+salut à demain  | Goodbye, see you tomorrow  
+s’il te plaît merci  | Please thank you  
+de rien  | you're welcome  
+café thé lait sucre  | Coffee tea milk sugar  
+aujourd’hui demain hier  | Today tomorrow yesterday  
+matin midi soir nuit  | Morning noon evening night  
+
+#Useful  
+génial, merveilleux, fantastique, incroyable, parfait, étonnant  | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing  
+j’apprends un peu plus chaque jour. du moins pas encore. qu’est-ce que c’est ?  | I learn a little more every day. at least not yet. What's that?  
+alors, quoi de neuf, pote ! que fais-tu ? vraiment ? t’as vérifié ! aucun problème ! j’adore !  | well mate, what's up? what are you doing? really? really! no problem. I loved it.  
+tu fermes à quelle heure ? ça ne te regarde pas. t’es fou ?  | what time you closed? none of your business! you crazy?  
+où habites-tu ? regarde-moi. d’où venez-vous ? tout va bien ? attends ici. à plus tard.  | Where do you live? Look at me. Where are you from? All good? Wait here. See you later.  
+parles-tu turc ? je parle un peu. mais j’aimerais l’apprendre  | Do you speak Turkish? I speak a little. But I would like to learn.  
+je ne comprends pas grand-chose. parle seulement un peu.  | I don't understand very much. I only speak a little.  
+tu as perdu la tête ? ça ne te regarde pas  | Are you out of your mind? That is none of your business  
+tu fais quoi aujourd’hui ? allons-y  | what are you doing today? let's go  
+rien de spécial. et toi  | not much. And you?  
+bonjour. ok, je dois y aller. partons.  | Good morning. Okay, I have to go. Let's go.  
+
+#Questions  
+pourquoi es-tu parti ? qu’avez-vous mangé ?  | why did you go? what did you eat?  
+qu’avons-nous trouvé ? qui as-tu vu ?  | what did we find? who did you see?  
+quand es-tu arrivé ?  | when did you arrive?  
+à quel endroit se trouvait la voiture ? où irez-vous ? comment décrirais-tu le temps ?  | At what place was the car? Where will you go? How would you describe the weather?  
+qui, pourquoi, quand, où, quoi, comment  | who, why, when, where, what, how.  
+
+#Colours and Numbers  
+rouge, bleu, vert, jaune  | red blue green yellow  
+orange, violet, rose, brun  | orange purple pink brown  
+noir, blanc, gris, beige  | black white gray beige  
+or, argent, cuivre, bronze  | gold silver copper bronze  
+bleu marine, turquoise, azur clair, vert foncé  | navy turquoise light azure dark green  
+
+un, deux, trois, quatre  | one two three four  
+cinq, six, sept, huit  | five six seven eight  
+neuf, dix, onze, douze  | nine ten eleven twelve  
+vingt, trente, quarante, cinquante  | twenty thirty forty fifty  
+cent, mille, million, milliard  | hundred thousand million billion  
+cinquante, soixante-dix, quatre-vingts, nonante  | fifty, seventy, eighty, ninety  
+vingt-et-un, trente-deux, quarante-trois, cinquante-quatre  | twenty-one thirty-two forty-three fifty-four  
+cinquante-deux, soixante-treize, quatre-vingt-sept, nonante-huit  | fifty-two, seventy-three, eighty-seven, ninety-eight  
+
+#Verbs  
+je suis allé à l’école et j’ai vu un chat  | I went to school and saw a cat  
+qu’as-tu fait hier  | what did you do yesterday?  
+nous sommes allés en ville et ensuite on a mangé  | we went to the city and then ate  
+vous avez parlé turc et tout le monde a compris  | You all spoke Turkish, and everyone understood  
+ils ont bu du café et travaillé  | They drank coffee and worked  
+je t’ai vu mais tu ne me connaissais pas  | I saw you, but you didn’t know me.  
+je mange maintenant  | I am eating now  
+il/elle lit un livre chaque jour  | He/she reads a book every day.  
+tu veux apprendre le turc mais il te faut pratiquer  | You want to learn Turkish, but you need to practice  
+nous buvons du café et discutons  | We are drinking coffee and talking.  
+que faites-vous  | What are you all doing?  
+ils ne comprennent pas la leçon  | They don’t understand the lesson.  
+je t’aime beaucoup  | I love you so much.  
+je mangerai plus tard  | I will eat later.  
+iras-tu à l’école demain  | Will you go to school tomorrow?  
+il/elle achètera le cadeau et nous l’offrira  | He/she will buy the gift and offer it to us.  
+nous ferons un nouveau projet  | We will do a new project.  
+vous parlerez turc et tout le monde sera impressionné  | You all will speak Turkish, and everyone will be impressed.  
+ils rentreront chez eux demain  | They will come home tomorrow.  
+
+aller, venir, faire, manger, boire - To go, to come, to do/make, to eat, to drink  
+voir, savoir, parler, aimer, acheter - To see, to know, to speak, to love, to buy  
+donner, travailler, comprendre, vouloir, lire - To give, to work/study, to understand, to want, to read  
+
+#Opposites  
+grand, petit, long, court  | big small long short  
+chaud, froid, rapide, lent  | hot cold fast slow  
+neuf, vieux, haut, bas  | new old high low  
+ouvert, fermé, lourd, léger  | open closed heavy light  
+heureux, triste, juste, faux  | happy sad right wrong  
+en haut, au-dessous, dedans, dehors  | up below inside outside  
+bon, mauvais, facile, difficile  | good bad easy hard  
+droite, gauche, devant, derrière  | right left front back  
+plein, vide, cher, bon marché  | full empty expensive cheap  
+peu, beaucoup, dur, mou  | little much hard soft  
+jeune, vieux, proche, loin  | young old near far  
+propre, sale, tôt, tard  | clean dirty early late  
+épais, mince, complet, incomplet  | thick thin complete incomplete  
+clair, sombre, silencieux, bruyant  | bright dark quiet noisy  
+grand petit long court  | Big small long short  
+chaud froid nouveau ancien  | Hot cold new old  
+beau laid facile difficile  | Beautiful ugly easy difficult  
+va vers la droite, puis gauche, tout droit  | Go to the right, then left, straight ahead  
+
+#Learning French  
+il y a deux semaines, j’ai décidé d’apprendre le turc.  | 2 weeks ago I decided to learn Turkish.  
+parce que je suis allé passer des vacances en Turquie.  | Because I went to spend a holiday in Turkey.  
+j’ai commencé par les choses faciles.  | I started with the easy stuff  
+je dois pratiquer sinon j’oublierai tout  | I need to practice otherwise I will forget everything!  
+en fait, j’ai déjà presque tout oublié  | In fact, I already forgot almost everything!  
+
+#Weather  
+il fait beau aujourd’hui ! le ciel est bleu. pas de nuages !  | Nice weather today! the sky is blue. No clouds!  
+ensoleillé. aucun vent. il ne pleut pas.  | Sunny. No wind. It isn't raining.  
+soleil radieux. présence de vent. puis la pluie.  | Bright sun. Some wind. Then rain.  
+le temps était beau et pas du tout mauvais  | weather was fine and not bad at all  
+le temps était presque parfait  | The weather was nearly perfect  
+soleil presque tous les jours, mais un jour la pluie est tombée  | Sunny almost every day, but one day it rained  
+
+#Time  
+parfois, toujours, jamais, rarement, souvent  | sometimes, always, never, seldom, often  
+maintenant, aujourd’hui, demain, hier, la semaine dernière, l’année prochaine, tous les jours  | now, today, tomorrow, yesterday, last week, next year, every day  
+la semaine prochaine, cette année, mois précédent, il y a trois jours, le week-end  | next week, this year, last month, three days ago, at the weekend  
