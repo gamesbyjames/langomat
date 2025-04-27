@@ -84,9 +84,9 @@ cinq, six, sept, huit  | five six seven eight
 neuf, dix, onze, douze  | nine ten eleven twelve  
 vingt, trente, quarante, cinquante  | twenty thirty forty fifty  
 cent, mille, million, milliard  | hundred thousand million billion  
-cinquante, soixante-dix, quatre-vingts, nonante  | fifty, seventy, eighty, ninety  
+cinquante, soixante, soixante-dix, quatre-vingts, quatre-vingt-dix  | fifty, sixty, seventy, eighty, ninety  
 vingt-et-un, trente-deux, quarante-trois, cinquante-quatre  | twenty-one thirty-two forty-three fifty-four  
-cinquante-deux, soixante-treize, quatre-vingt-sept, nonante-huit  | fifty-two, seventy-three, eighty-seven, ninety-eight  
+cinquante-deux, soixante-trois, soixante-dix-neuf, quatre-vingt-sept, quatre-vingt-dix-huit  | fifty-two, sixty-three, seventy-nine, eighty-seven, ninety-eight  
 
 #Verbs  
 je suis allé à l’école et j’ai vu un chat  | I went to school and saw a cat  
