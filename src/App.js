@@ -235,7 +235,7 @@ export default function App() {
           fileName = "greek_phrases_easy.txt";
           break;
         default:
-          fileName = "phrases.txt";
+          fileName = "german_phrases.txt";
       }
       const data = await loadPhrasesFromFile(`${process.env.PUBLIC_URL}/${fileName}`);
       setSections(data);
