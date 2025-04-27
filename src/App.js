@@ -18,6 +18,7 @@ const ELEVEN_LABS_BASE_URL = "https://api.elevenlabs.io/v1";
 const VOICE_IDS = {
   "de-DE": "EXAVITQu4vr4xnSDxMaL",
   "tr-TR": "pNInz6obpgDQGcFmaJgB",
+  "fr-FR": "ErXwobaYiN019PkySvjV",
   "en-US": "21m00Tcm4TlvDq8ikWAM",
 };
 
@@ -42,7 +43,7 @@ async function loadPhrasesFromFile(url) {
     return {
       Demo: [
         {
-          words: ["Merhaba", "nasılsın"],
+          words: ["Bonjour", "comment", "ça", "va"],
           translation: "Hello, how are you?",
           audioCache: {},
         },
@@ -77,7 +78,7 @@ function parsePhrases(text) {
   return sections;
 }
 
-async function generateSpeech(text, language = "de-DE") {
+async function generateSpeech(text, language = "en-US") {
   const voiceId = VOICE_IDS[language] || VOICE_IDS["en-US"];
   try {
     const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
@@ -101,7 +102,7 @@ async function generateSpeech(text, language = "de-DE") {
   }
 }
 
-function fallbackSpeak(text, lang = "de-DE", rate = 0.8) {
+function fallbackSpeak(text, lang = "en-US", rate = 0.8) {
   return new Promise((resolve, reject) => {
     const ut = new SpeechSynthesisUtterance(text);
     ut.lang = lang;
@@ -117,7 +118,7 @@ function fallbackSpeak(text, lang = "de-DE", rate = 0.8) {
   });
 }
 
-async function speak(text, language = "de-DE", cachedUrl = null) {
+async function speak(text, language = "en-US", cachedUrl = null) {
   try {
     const url = cachedUrl || (await generateSpeech(text, language));
     if (url) {
@@ -133,9 +134,7 @@ async function speak(text, language = "de-DE", cachedUrl = null) {
     return null;
   } catch (err) {
     console.error("speak", err);
-    try {
-      await fallbackSpeak(text, language);
-    } catch (_) {}
+    try { await fallbackSpeak(text, language); } catch (_) {}
     return null;
   }
 }
@@ -169,14 +168,11 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
 
 // ──────────── main ──────────── //
 export default function App() {
-  // language state
-  const [language, setLanguage] = useState("de-DE");
-  // navigation & data
+  const [language, setLanguage] = useState("en-US");
   const [sections, setSections] = useState({});
   const [currentSection, setCurrentSection] = useState(null);
   const [idx, setIdx] = useState(0);
 
-  // game state
   const [shuffled, setShuffled] = useState([]);
   const [shuffleVersion, setShuffleVersion] = useState(0);
   const [clicked, setClicked] = useState([]);
@@ -184,23 +180,31 @@ export default function App() {
   const [showWords, setShowWords] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
 
-  // ui misc
   const [loadingMsg, setLoadingMsg] = useState("Loading...");
   const [isLoading, setIsLoading] = useState(true);
 
-  // derived
   const phrases = currentSection ? sections[currentSection] || [] : [];
   const current = phrases[idx] || { words: [], translation: "", audioCache: {} };
 
-  // ──────────── effects ──────────── //
   useEffect(() => {
     (async () => {
       setIsLoading(true);
       setLoadingMsg("Loading phrases...");
-      const fileName = language === "de-DE" ? "german_phrases.txt" : "phrases.txt";
-      const data = await loadPhrasesFromFile(
-        `${process.env.PUBLIC_URL}/${fileName}`
-      );
+      let fileName;
+      switch (language) {
+        case "de-DE":
+          fileName = "german_phrases.txt";
+          break;
+        case "tr-TR":
+          fileName = "phrases.txt";
+          break;
+        case "fr-FR":
+          fileName = "french_phrases.txt";
+          break;
+        default:
+          fileName = "phrases.txt";
+      }
+      const data = await loadPhrasesFromFile(`${process.env.PUBLIC_URL}/${fileName}`);
       setSections(data);
       setCurrentSection(null);
       setIdx(0);
@@ -208,7 +212,6 @@ export default function App() {
     })();
   }, [language]);
 
-  // reset for new phrase
   useEffect(() => {
     if (current.words.length) {
       setShuffled(shuffleArray(current.words));
@@ -219,7 +222,6 @@ export default function App() {
     }
   }, [idx, current.words]);
 
-  // ──────────── handlers ──────────── //
   const handleWordClick = async (word) => {
     if (!showWords || isSpeaking || isLoading) return;
     const expected = current.words[clicked.length];
@@ -260,7 +262,6 @@ export default function App() {
   const nextPhrase = () => {
     if (!phrases.length) return;
     setIdx((prev) => {
-      if (phrases.length === 1) return prev;
       let newIdx = Math.floor(Math.random() * phrases.length);
       while (newIdx === prev) newIdx = Math.floor(Math.random() * phrases.length);
       return newIdx;
@@ -273,19 +274,15 @@ export default function App() {
     setClicked([]);
   };
 
-  // ──────────── renders ──────────── //
   const renderHome = () => (
     <div className="home-screen">
-      <h1>Learn {language === "de-DE" ? "German" : "Turkish"} Game</h1>
+      <h1>Learn {language === "de-DE" ? "German" : language === "tr-TR" ? "Turkish" : "French"} Game</h1>
       <div className="language-selector">
         <label htmlFor="language" className="mr-2">Select Language:</label>
-        <select
-          id="language"
-          value={language}
-          onChange={(e) => setLanguage(e.target.value)}
-        >
+        <select id="language" value={language} onChange={(e) => setLanguage(e.target.value)}>
           <option value="de-DE">German</option>
           <option value="tr-TR">Turkish</option>
+          <option value="fr-FR">French</option>
         </select>
       </div>
       <p>Select a section:</p>
@@ -309,12 +306,7 @@ export default function App() {
       <div className="sentence-display flex items-center gap-2">
         {clicked.join(" ")} {" "}
         {clicked.length === current.words.length && (
-          <button
-            className="repeat-btn"
-            title="Repeat"
-            onClick={repeatSentence}
-            disabled={isSpeaking}
-          >
+          <button className="repeat-btn" title="Repeat" onClick={repeatSentence} disabled={isSpeaking}>
             🔊
           </button>
         )}
@@ -326,23 +318,13 @@ export default function App() {
 
       <div className="word-tiles-container">
         {shuffled.map((w) => (
-          <WordTile
-            key={`${w}-${shuffleVersion}`}
-            word={w}
-            hidden={!showWords || clicked.includes(w)}
-            isCorrect={wordStatus[w]}
-            onClick={handleWordClick}
-          />
+          <WordTile key={`${w}-${shuffleVersion}`} word={w} hidden={!showWords || clicked.includes(w)} isCorrect={wordStatus[w]} onClick={handleWordClick} />
         ))}
       </div>
 
       <div className="translation-footer">
         <p>{current.translation}</p>
-        <button
-          className="next-button"
-          onClick={nextPhrase}
-          disabled={clicked.length !== current.words.length && showWords}
-        >
+        <button className="next-button" onClick={nextPhrase} disabled={clicked.length !== current.words.length && showWords}>
           Next
         </button>
       </div>
