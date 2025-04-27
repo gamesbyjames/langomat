@@ -17,9 +17,9 @@ regarde-moi d’où viens-tu êtes-vous sûr à plus tard  | Look at me. Where a
 d’où viens-tu bon après-midi je ne sais pas j’ai faim me sens assoiffé  | Where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.  
 à plus tard quelle heure est-il comment t’appelles-tu  | See you later. What time is it? What's your name?  
 difficile. facile. pas simple. j’habite en Allemagne. je suis Irlandais. génial. merveilleux.  | Hard. Easy. Not simple. I live in Germany. I'm Irish. Great. Amazing.  
-oui et non. combien ? je suis fatigué. où ?  | Yes and no. How much? I'm tired. Where?  
+oui et non. combien? je suis fatigué. où?  | Yes and no. How much? I'm tired. Where?  
 délicieux, coûteux, me voici ici, voilà là-bas  | Delicious. Expensive. Here I am. There I am.  
-quel temps fait-il aujourd’hui ? j’ai une question allons-y je n’ai pas d’argent enchanté  | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.  
+quel temps fait-il aujourd’hui? j’ai une question allons-y je n’ai pas d’argent enchanté  | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.  
 ravi de te rencontrer  | Nice to meet you  
 salut ça va  | Hello, how are you?  
 quelqu’un, personne, tout le monde  | someone nobody everybody  
@@ -54,22 +54,22 @@ matin midi soir nuit  | Morning noon evening night
 
 #Useful  
 génial, merveilleux, fantastique, incroyable, parfait, étonnant  | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing  
-j’apprends un peu plus chaque jour. du moins pas encore. qu’est-ce que c’est ?  | I learn a little more every day. at least not yet. What's that?  
-alors, quoi de neuf, pote ! que fais-tu ? vraiment ? t’as vérifié ! aucun problème ! j’adore !  | well mate, what's up? what are you doing? really? really! no problem. I loved it.  
-tu fermes à quelle heure ? ça ne te regarde pas. t’es fou ?  | what time you closed? none of your business! you crazy?  
-où habites-tu ? regarde-moi. d’où venez-vous ? tout va bien ? attends ici. à plus tard.  | Where do you live? Look at me. Where are you from? All good? Wait here. See you later.  
-parles-tu turc ? je parle un peu. mais j’aimerais l’apprendre  | Do you speak Turkish? I speak a little. But I would like to learn.  
+j’apprends un peu plus chaque jour. du moins pas encore. qu’est-ce que c’est?  | I learn a little more every day. at least not yet. What's that?  
+alors, quoi de neuf, pote? que fais-tu? vraiment? t’as vérifié! aucun problème! j’adore!  | well mate, what's up? what are you doing? really? really! no problem. I loved it.  
+tu fermes à quelle heure? ça ne te regarde pas. t’es fou?  | what time you closed? none of your business! you crazy?  
+où habites-tu? regarde-moi. d’où venez-vous? tout va bien? attends ici. à plus tard.  | Where do you live? Look at me. Where are you from? All good? Wait here. See you later.  
+parles-tu turc? je parle un peu. mais j’aimerais l’apprendre  | Do you speak Turkish? I speak a little. But I would like to learn.  
 je ne comprends pas grand-chose. parle seulement un peu.  | I don't understand very much. I only speak a little.  
-tu as perdu la tête ? ça ne te regarde pas  | Are you out of your mind? That is none of your business  
-tu fais quoi aujourd’hui ? allons-y  | what are you doing today? let's go  
+tu as perdu la tête? ça ne te regarde pas  | Are you out of your mind? That is none of your business  
+tu fais quoi aujourd’hui? allons-y  | what are you doing today? let's go  
 rien de spécial. et toi  | not much. And you?  
 bonjour. ok, je dois y aller. partons.  | Good morning. Okay, I have to go. Let's go.  
 
 #Questions  
-pourquoi es-tu parti ? qu’avez-vous mangé ?  | why did you go? what did you eat?  
-qu’avons-nous trouvé ? qui as-tu vu ?  | what did we find? who did you see?  
-quand es-tu arrivé ?  | when did you arrive?  
-à quel endroit se trouvait la voiture ? où irez-vous ? comment décrirais-tu le temps ?  | At what place was the car? Where will you go? How would you describe the weather?  
+pourquoi es-tu parti? qu’avez-vous mangé?  | why did you go? what did you eat?  
+qu’avons-nous trouvé? qui as-tu vu?  | what did we find? who did you see?  
+quand es-tu arrivé?  | when did you arrive?  
+à quel endroit se trouvait la voiture? où irez-vous? comment décrirais-tu le temps?  | At what place was the car? Where will you go? How would you describe the weather?  
 qui, pourquoi, quand, où, quoi, comment  | who, why, when, where, what, how.  
 
 #Colours and Numbers  
@@ -141,7 +141,7 @@ je dois pratiquer sinon j’oublierai tout  | I need to practice otherwise I wil
 en fait, j’ai déjà presque tout oublié  | In fact, I already forgot almost everything!  
 
 #Weather  
-il fait beau aujourd’hui ! le ciel est bleu. pas de nuages !  | Nice weather today! the sky is blue. No clouds!  
+il fait beau aujourd’hui.  le ciel est bleu. pas de nuages.   | Nice weather today. the sky is blue. No clouds.  
 ensoleillé. aucun vent. il ne pleut pas.  | Sunny. No wind. It isn't raining.  
 soleil radieux. présence de vent. puis la pluie.  | Bright sun. Some wind. Then rain.  
 le temps était beau et pas du tout mauvais  | weather was fine and not bad at all  
