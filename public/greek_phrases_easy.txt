@@ -1,0 +1,131 @@
+// Format: Greek (latin letters) | English translation  
+#Small Talk:  
+geia, ti kaneis, eimai kala, chairo poly  | hello how are you, I'm fine, pleased  
+apo pou eisai? eimai Irlandos omos katoiko sti Germania  | where are you from, I am Irish but I live in Germany  
+ti douleia kaneis? eimai michanikos  | what do you do for work; I am an engineer  
+echo enan adelfo kai treis adelfes  | I have a brother and three sisters  
+echo tria paidia, dyo gious kai mia kori  | I have three kids, two sons and a daughter  
+kalimera, kalispera, antio, ta leme  | good morning good evening goodbye see you later  
+parakalo, efcharisto, sygnomi, katalaveno  | please thank you sorry I understand  
+
+#More small talk  
+peinao, prepei na fao kati  | I am hungry I need to eat something  
+dipsao, prepei na pio kati  | I am thirsty I need to drink something  
+afise me isycho  | leave me alone  
+epipleon poly kala. perimene edo  | also very good. wait here  
+koita me, apo pou eisai? eisai sigouros? ta leme  | look at me. where are you from? are you sure? see you later  
+apo pou eisai? kalo apogevma; den ksero; peinao; dipsao  | where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.  
+ta leme argotera, ti ora einai, pos se lene  | see you later. what time is it? what's your name?  
+dyskolo. efkolo. ochi aplo. meno sti Germania. eimai Irlandos. yperocho. thavmasio.  | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing.  
+nai kai ochi. poso? eimai kourasmenos. pou?  | yes and no. how much? I'm tired. where?  
+nostimo, akrivó, eimai edo, vriskomai ekei  | delicious. expensive. I'm here. I'm there.  
+pos einai o kairos simera? erotisi· pame· den diatheto chrimata· chairo poly  | how's the weather today? question. let's go. I have no money. nice to meet you.  
+chairo gia ti gnorimia  | nice to meet you  
+geia sou, pos paei  | hello, how are you?  
+kapoios, kaneis, oloi  | someone nobody everybody  
+
+#Even more:  
+eimai kala efcharisto, ki esy?  | I'm fine thanks, and you?  
+me lene Tzeims  | my name is James  
+den ksero poly tourkika  | I don't know much Turkish  
+alla thelo na ta matho  | but I want to learn  
+boreis na voithiseis?  | can you help me?  
+mathaino tourkika  | I'm learning Turkish  
+den katalava· boreis na epanalaveis?  | I didn't understand, can you repeat?  
+boreis na milas pio arga?  | can you speak more slowly?  
+apo pou eisai?  | where are you from?  
+erchomai apo Amerika  | I am from America  
+ti simainei afto?  | what does this mean?  
+simera o kairos einai kalos  | the weather is nice today  
+chreiazomai voitheia  | I need help  
+poson eton eisai?  | how old are you?  
+ti douleia kaneis?  | what do you do for work?  
+peinao, pame na fame  | I'm hungry, let's eat  
+thelo na pio nero  | I want to drink water  
+ti ora einai?  | what time is it?  
+einai poly akrivó, yparchei kati fthinotero?  | it's very expensive, is there something cheaper?  
+pou meneis?  | where do you live?  
+antio, ta leme avrio  | goodbye, see you tomorrow  
+parakalo efcharisto  | please thank you  
+parakalo  | you're welcome  
+kafes tsai gala zachari  | coffee tea milk sugar  
+simera avrio chthes  | today tomorrow yesterday  
+proi mesimeri apogevma nychta  | morning noon evening night  
+
+#Useful  
+yperocho, thavmasio, fantastiko, apistefto, teleio, katapliktiko  | fabulous wonderful fantastic unbelievable perfect amazing  
+mathaino ligo perissotero kathe mera. touleaston ochi akoma. ti einai afto?  | I learn a little more every day. at least not yet. what's that?  
+loipon, nea file! pos pas? alithia? tsekares? kanena provlima! latrevo!  | well mate, what's up? what are you doing? really? really! no problem. I loved it.  
+ti ora kleineis? den se afora. eisai trelos?  | what time you closed? none of your business! you crazy?  
+pou meneis? koita me. apo pou erchesai? ola kala? perimene edo. ta leme  | where do you live? look at me. where are you from? all good? wait here. see you later.  
+milas tourkika? milo ligo. alla tha ithela na matho  | do you speak Turkish? I speak a little. but I would like to learn.  
+den katalaveno poly. milo mono ligo.  | I don't understand very much. I only speak a little.  
+echases to myalo sou? den se afora  | are you out of your mind? that is none of your business  
+ti kaneis simera? pame  | what are you doing today? let's go  
+tipota idiaitero. esi?  | not much. and you?  
+kalimera. endaxi, prepei na fugo. pame.  | good morning. okay, I have to go. let's go.  
+
+#Questions  
+giati efyges? ti efages?  | why did you go? what did you eat?  
+ti vrikame? poion eides?  | what did we find? who did you see?  
+pote eftases?  | when did you arrive?  
+se poio simeio itan to aftokinito? pou tha pas? pos itan o kairos?  | at what place was the car? where will you go? how was the weather?  
+poios, giati, pote, pou, ti, pos  | who, why, when, where, what, how.  
+
+#Colours and Numbers  
+kokkino, ble, prasino, kitrino  | red blue green yellow  
+portokali, mov, roz, kafe  | orange purple pink brown  
+mavro, aspro, gkri, bez  | black white gray beige  
+chryso, asimi, chalkos, bronze  | gold silver copper bronze  
+naftiko, tirkuaz, galazio, vathy prasino  | navy turquoise light blue dark green  
+
+ena, dyo, tria, tessera  | one two three four  
+pente, exi, efta, okto  | five six seven eight  
+ennea, deka, enteka, dodeka  | nine ten eleven twelve  
+eikosi, trianta, saranta, peninta  | twenty thirty forty fifty  
+ekato, chilia, ekatommyrio, disekatommyrio  | hundred thousand million billion  
+peninta, exinta, evdominta, ogdonta, eneninta  | fifty sixty seventy eighty ninety  
+eikosi ena, trianta dyo, saranta tria, peninta tessera  | twenty-one thirty-two forty-three fifty-four  
+peninta dyo, exinta tria, evdominta ennia, ogdonta efta, eneninta okto  | fifty-two sixty-three seventy-nine eighty-seven ninety-eight  
+
+#Verbs  
+piga sto scholeio kai eida gata  | I went to school and saw a cat  
+ti ekanes chthes?  | what did you do yesterday?  
+pigame stin poli kai meta fagame  | we went to the city and then ate  
+milisate tourkika kai oloi katalavan  | you all spoke Turkish, and everyone understood  
+epian kafe kai doulepsan  | they drank coffee and worked  
+se eida alla den me ixeres  | I saw you, but you didn’t know me.  
+troo tora  | I am eating now  
+diavazei vivlio kathe mera  | He/she reads a book every day.  
+theleis na matheis tourkika alla chreiazetai askisi  | you want to learn Turkish, but you need to practice  
+pinoume kafe kai sizitame  | we are drinking coffee and talking.  
+ti kanete?  | What are you all doing?  
+den katalavainoun to mathima  | They don’t understand the lesson.  
+s’ agapo poly  | I love you so much.  
+tha fao argotera  | I will eat later.  
+tha pas scholeio avrio?  | Will you go to school tomorrow?  
+skopos na agorasei doro kai tha mas to dosei  | He/she will buy the gift and give it to us.  
+tha kanoume neo ergo  | We will do a new project.  
+miliste tourkika kai oloi tha entyposiastoun  | You all will speak Turkish, and everyone will be impressed.  
+tha epistrepsoun spiti avrio  | They will come home tomorrow.  
+
+pao, erchomai, kano, troo, pino - to go, to come, to do/make, to eat, to drink  
+vlepo, ksero, milao, agapo, agorazo - to see, to know, to speak, to love, to buy  
+dino, ergazomai, katalaveno, thelo, diavazo - to give, to work/study, to understand, to want, to read  
+
+#Opposites  
+megalos, mikros, makrys, syntomos  | big small long short  
+zestos, kryos, grigoros, argos  | hot cold fast slow  
+kainourios, palios, psilos, chamilos  | new old high low  
+anoichtos, kleistos, varys, elafrys  | open closed heavy light  
+charoumenos, lypimenos, sostos, lathos  | happy sad right wrong  
+pano, kato, mesa, exo  | up down inside outside  
+kalos, kakos, efkolos, dyskolos  | good bad easy hard  
+dexia, aristera, brosta, piso  | right left front back  
+gematos, adeios, akrivós, fthinos  | full empty expensive cheap  
+ligo, poly, sklirós, malakos  | little much hard soft  
+neos, geros, kontinos, makrinos  | young old near far  
+katharos, vromikos, noris, arga  | clean dirty early late  
+pachys, leptos, pliris, ellipis  | thick thin complete incomplete  
+foteinos, skoteinos, isyhos, thorivodis  | bright dark quiet noisy  
+megalos mikros makrys syntomos  | big

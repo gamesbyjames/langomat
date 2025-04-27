@@ -31,6 +31,7 @@ const LANGUAGE_NAMES = {
   "fr-FR": "French",
   "es-ES": "Spanish",
   "el-GR": "Greek",
+  "el-GR-2": "Greek (easy)",
 };
 
 // ──────────── utility helpers ──────────── //
@@ -219,6 +220,9 @@ export default function App() {
           break;
         case "el-GR":
           fileName = "greek_phrases.txt";
+          break;
+        case "el-GR-2":
+          fileName = "greek_phrases_easy.txt";
           break;
         default:
           fileName = "phrases.txt";
