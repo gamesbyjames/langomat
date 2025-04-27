@@ -111,12 +111,12 @@ function parsePhrases(text) {
 }
 
 // ──────────── TTS helpers ──────────── //
-async function generateSpeech(text, language = "en-US") {
+async function generateSpeech(text, language = "de-DE") {
   if (!ELEVEN_LABS_API_KEY) {
       console.warn("generateSpeech called without API key.");
       return null; // No key, can't generate
   }
-  const voiceId = VOICE_IDS[language] || VOICE_IDS["en-US"];
+  const voiceId = VOICE_IDS[language] || VOICE_IDS["de-DE"];
   try {
     const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
       method: "POST",
@@ -147,7 +147,7 @@ async function generateSpeech(text, language = "en-US") {
   }
 }
 
-function fallbackSpeak(text, lang = "en-US", rate = 0.8) {
+function fallbackSpeak(text, lang = "de-DE", rate = 0.8) {
   // Wrap the entire logic in a promise
   return new Promise((resolve, reject) => {
     const MAX_WAIT_TIME = 5000; // Increased wait time for mobile potentially slow voice loading/initiation
@@ -286,7 +286,7 @@ function fallbackSpeak(text, lang = "en-US", rate = 0.8) {
 }
 
 
-async function speak(text, language = "en-US", cachedUrl = null) {
+async function speak(text, language = "de-DE", cachedUrl = null) {
   let generatedUrl = null;
   try {
     // Use cache if available
@@ -402,7 +402,7 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
 
 // ──────────── Main App ──────────── //
 export default function App() {
-  const [language, setLanguage] = useState("en-US");
+  const [language, setLanguage] = useState("de-DE");
   const [sections, setSections] = useState({});
   const [currentSection, setCurrentSection] = useState(null);
   const [idx, setIdx] = useState(0);
