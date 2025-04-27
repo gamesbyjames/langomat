@@ -1,6 +1,6 @@
 // Format: Greek words | English translation : hint
 #Small Talk:  
-γεια, τι κάνεις, είμαι καλά, χαίρω πολύ  | hello how are you, I'm fine, pleased  
+Γεια σου, τι κάνεις, είμαι καλά, Χαίρω πολύ  | hello how are you, I'm fine, pleased to meet you : yia sou, ti kanis, ime kala, chairo poli
 από πού είσαι; είμαι Ιρλανδός όμως κατοικώ στη Γερμανία  | where are you from, I am Irish but I live in Germany : apo pou eisai? eimai Irlandos omos katoiko sti Germania
 τι δουλειά κάνεις; είμαι μηχανικός  | what do you do for work; I am an engineer  : ti douleia kaneis? eimai michanikos
 έχω έναν αδελφό και τρεις αδελφές  | I have a brother and three sisters  : echo enan adelfo kai treis adelfes
