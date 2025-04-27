@@ -1,0 +1,152 @@
+// Format: Portuguese words | English translation
+#Small Talk:
+olá, como vai, estou bem, prazer | hello how are you, I'm fine, pleased
+de onde você é, sou irlandês mas moro na Alemanha | where are you from, I am Irish but I live in Germany
+o que você faz, sou engenheiro | what do you do for work i am an engineer
+tenho um irmão e três irmãs | i have a brother and three sisters
+tenho dois filhos, dois meninos e uma filha | i have two kids 2 sons and a daughter
+bom dia, boa noite, tchau, até logo | good morning good evening goodbye see you later
+por favor, obrigado, desculpe, entendo | please thank you sorry i understand
+
+#More small talk
+estou com fome, preciso comer algo | i am hungry i need to eat something
+estou com sede, preciso beber algo | i am thirsty i need to drink something
+me deixe em paz | leave me alone
+além disso muito bem. espere aqui | Also very good. Wait here.
+olhe para mim de onde você vem tem certeza até logo | Look at me. Where are you from? Are you sure? See you later
+de onde você vem boa tarde não sei estou com fome estou com sede | Where are you from? Good afternoon. I don't know. I'm hungry. I'm thirsty.
+até logo que horas são como você se chama | See you later. What time is it? What's your name?
+difícil. fácil. não fácil. moro na Alemanha. sou irlandês. ótimo. maravilhoso. | Hard. Easy. Not easy. I live in Germany. I'm Irish. Great. Amazing.
+sim e não. quanto? estou cansado. onde? | Yes and no. How much? I'm tired. Where?
+delicioso caro estou aqui estou lá | Delicious. Expensive. I'm here. I'm there.
+como está o tempo hoje? tenho uma pergunta vamos eu não tenho dinheiro prazer | How's the weather today? I have a question. Let's go. I have no money. Nice to meet you.
+prazer em conhecê-lo | Nice to meet you
+olá como vai | Hello, how are you?
+alguém, ninguém, todos | someone nobody everybody
+
+#Even more:
+estou bem obrigado, e você | I'm fine thanks, and you?
+meu nome é James | My name is James
+não sei muito turco | I don't know much Turkish
+mas quero aprendê-lo | But I want to learn
+você pode me ajudar | can you help me?
+estou aprendendo turco | I'm learning Turkish
+não entendi pode repetir | I didn't understand, can you repeat?
+você pode falar mais devagar | Can you speak more slowly?
+de onde você é | Where are you from?
+venho da América | I am from America
+o que isso significa | What does this mean?
+hoje o tempo está bonito | The weather is nice today
+preciso de ajuda | I need help
+quantos anos você tem | How old are you?
+o que você faz | What do you do for work?
+estou com fome vamos comer | I'm hungry, let's eat
+quero beber água | I want to drink water
+que horas são | What time is it?
+é muito caro existe algo mais barato | It's very expensive, is there something cheaper?
+onde você mora | Where do you live?
+tchau até amanhã | Goodbye, see you tomorrow
+por favor obrigado | Please thank you
+de nada | you're welcome
+café chá leite açúcar | Coffee tea milk sugar
+hoje amanhã ontem | Today tomorrow yesterday
+manhã meio-dia noite madrugada | Morning noon evening night
+
+#Useful:
+incrível, maravilhoso, fantástico, inacreditável, perfeito, surpreendente | fabulous wonderful fantastic unbelievable perfect amazing
+aprendo um pouco mais todo dia. pelo menos ainda não. o que é isso | I learn a little more every day. at least not yet. Whats that?
+ei, e aí, amigo! o que faz? sério? conferiu! sem problema! adoro! | well mate, whats up? really? really! no problem. I loved it.
+que horas você fecha? não é da sua conta. você é louco | what time you closed? none of your business! you crazy?
+onde mora? olhe para mim. de onde vem? tem certeza? espere aqui. até logo | Where do you live? Look at me. Where are you from? Are you sure? Wait here. See you later.
+você fala turco? falo um pouco. mas quero aprender | Do you speak Turkish? I speak a little. But I want to learn.
+não entendo muito. falo só um pouco. | I don't understand very much. I speak only a little.
+você perdeu a cabeça? não é da sua conta | Are you out of your mind? That is none of your business
+o que faz hoje? vamos | what are you doing today? lets go
+nada especial. e você | not much. And you?
+bom dia. ok preciso ir. vamos | Good morning. Well, I have to go. lets go.
+
+#Questions:
+por que você foi? o que comeu | why did you go? what did you eat?
+o que encontramos? quem você viu | what did we find? who did you see?
+quando você chegou | when did you arrive?
+onde estava o carro? para onde você vai? como estava o tempo | where was the car? where will you go? how was the weather?
+quem, por que, quando, onde, o que, como | who, why, when, where, what, how.
+
+#Colours and Numbers:
+vermelho, azul, verde, amarelo | red blue green yellow
+laranja, roxo, rosa, marrom | orange purple pink brown
+preto, branco, cinza, bege | black white gray beige
+ouro, prata, cobre, bronze | gold silver copper bronze
+azul-marinho, turquesa, azul-claro, verde-escuro | navy turquoise light-blue dark-green
+um, dois, três, quatro | one two three four
+cinco, seis, sete, oito | five six seven eight
+nove, dez, onze, doze | nine ten eleven twelve
+vinte, trinta, quarenta, cinquenta | twenty thirty forty fifty
+cem, mil, milhão, bilhão | hundred thousand million billion
+sessenta, setenta, oitenta, noventa | sixty seventy eighty ninety
+vinte e um, trinta e dois, quarenta e três, cinquenta e quatro | twenty-one thirty-two forty-three fifty-four
+sessenta e cinco, setenta e seis, oitenta e sete, noventa e oito | sixty-five seventy-six eighty-seven ninety-eight
+
+#Verbs
+fui à escola e vi um gato | I went to school and saw a cat
+o que você fez ontem | what did you do yesterday?
+fomos à cidade e depois comemos | we went to the city and then ate food
+vocês falaram turco e todos entenderam | You all spoke Turkish, and everyone understood
+eles beberam café e trabalharam | They drank coffee and worked
+eu te vi mas você não me conhecia | I saw you, but you didn’t know me.
+estou comendo agora | I am eating now
+ele/ela lê um livro todo dia | He/she reads a book every day.
+você quer aprender turco mas precisa praticar | You want to learn Turkish, but you need to practice
+bebemos café e conversamos | We are drinking coffee and talking.
+o que vocês fazem | What are you all doing?
+eles não entendem a lição | They don’t understand the lesson.
+eu te amo muito | I love you so much.
+vou comer mais tarde | I will eat later.
+você vai à escola amanhã | Will you go to school tomorrow?
+ele/ela vai comprar o presente e nos dará | He/she will buy the gift and give it to us.
+faremos um novo projeto | We will do a new project.
+vocês falarão turco e todos ficarão impressionados | You all will speak Turkish, and everyone will be impressed.
+eles voltarão para casa amanhã | They will come home tomorrow.
+ir, vir, fazer, comer, beber - to go, to come, to do/make, to eat, to drink
+ver, saber, falar, amar, comprar - to see, to know, to speak, to love, to buy
+dar, trabalhar, entender, querer, ler - to give, to work/study, to understand, to want, to read
+
+#Opposites:
+grande, pequeno, longo, curto | big small long short
+quente, frio, rápido, lento | hot cold fast slow
+novo, velho, alto, baixo | new old high low
+aberto, fechado, pesado, leve | open closed heavy light
+feliz, triste, certo, errado | happy sad right wrong
+em cima, embaixo, dentro, fora | up down inside outside
+bom, mau, fácil, difícil | good bad easy hard
+direita, esquerda, frente, trás | right left front back
+cheio, vazio, caro, barato | full empty expensive cheap
+pouco, muito, duro, macio | little much hard soft
+jovem, velho, perto, longe | young old near far
+limpo, sujo, cedo, tarde | clean dirty early late
+grosso, fino, completo, incompleto | thick thin complete incomplete
+claro, escuro, silencioso, barulhento | bright dark quiet noisy
+grande pequeno longo curto | Big small long short
+quente frio novo antigo | Hot cold new old
+bonito feio fácil difícil | Beautiful ugly easy difficult
+vá à direita depois esquerda reto | Go right left straight
+
+#Learning Portuguese:
+duas semanas atrás decidi aprender turco | 2 weeks ago I decided to learn Turkish.
+porque fui de férias para a Turquia | Because I went on a holiday to Turkey.
+comecei com as coisas fáceis | I started with the easy stuff
+preciso praticar senão vou esquecer tudo | I need to practice otherwise I will forget everything!
+na verdade já esqueci quase tudo | In fact, I already forgot almost everything!
+
+#Weather
+hoje o tempo está bonito! o céu está azul. sem nuvens! | Nice weather today! the sky is blue. No clouds!
+ensolarado. sem vento. não chove. | Its sunny. Its not windy. Its not raining.
+estava ensolarado. estava ventando. choveu. | it was sunny. it was windy. it rained.
+o tempo estava bom e nada ruim | weather was fine and not bad at all
+o tempo estava quase perfeito | The weather was nearly perfect
+fez sol quase todos os dias mas um dia choveu | it was sunny nearly every day but one day it rained
+
+#Time:
+às vezes, sempre, nunca, raramente, frequentemente | sometimes, always, never, seldom, often
+agora, hoje, amanhã, ontem, semana passada, ano que vem, todo dia | now, today, tomorrow, yesterday, last week, next year, every day
+próxima semana, este ano, mês passado, três dias atrás, no fim de semana | next week, this year, last month, three days ago, at the weekend
