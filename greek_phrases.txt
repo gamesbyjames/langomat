@@ -1,0 +1,154 @@
+// Format: Greek words | English translation  
+#Small Talk:  
+γεια, τι κάνεις, είμαι καλά, χαίρω πολύ  | hello how are you, I'm fine, pleased  
+από πού είσαι; είμαι Ιρλανδός όμως κατοικώ στη Γερμανία  | where are you from, I am Irish but I live in Germany  
+τι δουλειά κάνεις; είμαι μηχανικός  | what do you do for work; I am an engineer  
+έχω έναν αδελφό και τρεις αδελφές  | I have a brother and three sisters  
+έχω τρία παιδιά, δύο γιους και μια κόρη  | I have three kids, two sons and a daughter  
+καλημέρα, καλησπέρα, αντίο, τα λέμε  | good morning good evening goodbye see you later  
+παρακαλώ, ευχαριστώ, συγνώμη, καταλαβαίνω  | please thank you sorry I understand  
+
+#More small talk  
+πεινάω, πρέπει να φάω κάτι  | I am hungry I need to eat something  
+διψάω, πρέπει να πιω κάτι  | I am thirsty I need to drink something  
+άφησέ με ήσυχο  | leave me alone  
+επιπλέον πολύ καλά. περίμενε εδώ  | also very good. wait here  
+κοίτα με, από πού είσαι; είσαι σίγουρος; τα λέμε  | look at me. where are you from? are you sure? see you later  
+από πού είσαι; καλό απόγευμα· δεν ξέρω· πεινάω· διψώ  | where are you from? good afternoon. I don't know. I'm hungry. I'm thirsty.  
+τα λέμε αργότερα, τι ώρα είναι, πώς σε λένε  | see you later. what time is it? what's your name?  
+δύσκολο. εύκολο. όχι απλό. μένω στη Γερμανία. είμαι Ιρλανδός. υπέροχο. θαυμάσιο.  | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing.  
+ναι και όχι. πόσο; είμαι κουρασμένος. πού;  | yes and no. how much? I'm tired. where?  
+νόστιμο, ακριβό, είμαι εδώ, βρίσκομαι εκεί  | delicious. expensive. I'm here. I'm there.  
+πώς είναι ο καιρός σήμερα; ερώτηση· πάμε· δεν διαθέτω χρήματα· χαίρω πολύ  | how's the weather today? question. let's go. I have no money. nice to meet you.  
+χαίρω για τη γνωριμία  | nice to meet you  
+γεια σου, πώς πάει  | hello, how are you?  
+κάποιος, κανείς, όλοι  | someone nobody everybody  
+
+#Even more:  
+είμαι καλά ευχαριστώ, κι εσύ;  | I'm fine thanks, and you?  
+με λένε Τζέιμς  | my name is James  
+δεν ξέρω πολύ τουρκικά  | I don't know much Turkish  
+αλλά θέλω να τα μάθω  | but I want to learn  
+μπορείς να βοηθήσεις;  | can you help me?  
+μαθαίνω τουρκικά  | I'm learning Turkish  
+δεν κατάλαβα· μπορείς να επαναλάβεις;  | I didn't understand, can you repeat?  
+μπορείς να μιλάς πιο αργά;  | can you speak more slowly?  
+από πού είσαι;  | where are you from?  
+έρχομαι από Αμερική  | I am from America  
+τι σημαίνει αυτό;  | what does this mean?  
+σήμερα ο καιρός είναι καλός  | the weather is nice today  
+χρειάζομαι βοήθεια  | I need help  
+πόσων ετών είσαι;  | how old are you?  
+τι δουλειά κάνεις;  | what do you do for work?  
+πεινάω, πάμε να φάμε  | I'm hungry, let's eat  
+θέλω να πιω νερό  | I want to drink water  
+τι ώρα είναι;  | what time is it?  
+είναι πολύ ακριβό, υπάρχει κάτι φθηνότερο;  | it's very expensive, is there something cheaper?  
+πού μένεις;  | where do you live?  
+αντίο, τα λέμε αύριο  | goodbye, see you tomorrow  
+παρακαλώ ευχαριστώ  | please thank you  
+παρακαλώ  | you're welcome  
+καφές τσάι γάλα ζάχαρη  | coffee tea milk sugar  
+σήμερα αύριο χθες  | today tomorrow yesterday  
+πρωί μεσημέρι απόγευμα νύχτα  | morning noon evening night  
+
+#Useful  
+υπέροχο, θαυμάσιο, φανταστικό, απίστευτο, τέλειο, καταπληκτικό  | fabulous wonderful fantastic unbelievable perfect amazing  
+μαθαίνω λίγο περισσότερο κάθε μέρα. τουλάχιστον όχι ακόμη. τι είναι αυτό;  | I learn a little more every day. at least not yet. what's that?  
+λοιπόν, νέα φίλε! πώς πας; αλήθεια; τσέκαρες; κανένα πρόβλημα! λατρεύω!  | well mate, what's up? what are you doing? really? really! no problem. I loved it.  
+τι ώρα κλείνεις; δεν σε αφορά. είσαι τρελός;  | what time you closed? none of your business! you crazy?  
+πού μένεις; κοίτα με. από πού έρχεσαι; όλα καλά; περίμενε εδώ. τα λέμε  | where do you live? look at me. where are you from? all good? wait here. see you later.  
+μιλάς τουρκικά; μιλώ λίγο. αλλά θα ήθελα να μάθω  | do you speak Turkish? I speak a little. but I would like to learn.  
+δεν καταλαβαίνω πολύ. μιλώ μόνο λίγο.  | I don't understand very much. I only speak a little.  
+έχασες το μυαλό σου; δεν σε αφορά  | are you out of your mind? that is none of your business  
+τι κάνεις σήμερα; πάμε  | what are you doing today? let's go  
+τίποτα ιδιαίτερο. εσύ;  | not much. and you?  
+καλημέρα. εντάξει, πρέπει να φύγω. πάμε.  | good morning. okay, I have to go. let's go.  
+
+#Questions  
+γιατί έφυγες; τι έφαγες;  | why did you go? what did you eat?  
+τι βρήκαμε; ποιον είδες;  | what did we find? who did you see?  
+πότε έφτασες;  | when did you arrive?  
+σε ποιο σημείο ήταν το αυτοκίνητο; πού θα πας; πώς ήταν ο καιρός;  | at what place was the car? where will you go? how was the weather?  
+ποιος, γιατί, πότε, πού, τι, πώς  | who, why, when, where, what, how.  
+
+#Colours and Numbers  
+κόκκινο, μπλε, πράσινο, κίτρινο  | red blue green yellow  
+πορτοκαλί, μοβ, ροζ, καφέ  | orange purple pink brown  
+μαύρο, άσπρο, γκρι, μπεζ  | black white gray beige  
+χρυσό, ασημί, χαλκός, μπρονζέ  | gold silver copper bronze  
+ναυτικό, τιρκουάζ, γαλάζιο, βαθύ πράσινο  | navy turquoise light blue dark green  
+
+ένα, δύο, τρία, τέσσερα  | one two three four  
+πέντε, έξι, επτά, οκτώ  | five six seven eight  
+εννέα, δέκα, έντεκα, δώδεκα  | nine ten eleven twelve  
+είκοσι, τριάντα, σαράντα, πενήντα  | twenty thirty forty fifty  
+εκατό, χίλια, εκατομμύριο, δισεκατομμύριο  | hundred thousand million billion  
+πενήντα, εξήντα, εβδομήντα, ογδόντα, ενενήντα  | fifty sixty seventy eighty ninety  
+είκοσι ένα, τριάντα δύο, σαράντα τρία, πενήντα τέσσερα  | twenty-one thirty-two forty-three fifty-four  
+πενήντα δύο, εξήντα τρία, εβδομήντα εννιά, ογδόντα επτά, ενενήντα οκτώ  | fifty-two sixty-three seventy-nine eighty-seven ninety-eight  
+
+#Verbs  
+πήγα στο σχολείο και είδα γάτα  | I went to school and saw a cat  
+τι έκανες χθες;  | what did you do yesterday?  
+πήγαμε στην πόλη και μετά φάγαμε  | we went to the city and then ate  
+μιλήσατε τουρκικά και όλοι κατάλαβαν  | you all spoke Turkish, and everyone understood  
+ήπιαν καφέ και δούλεψαν  | they drank coffee and worked  
+σε είδα αλλά δεν με ήξερες  | I saw you, but you didn’t know me.  
+τρώω τώρα  | I am eating now  
+διαβάζει βιβλίο κάθε μέρα  | He/she reads a book every day.  
+θέλεις να μάθεις τουρκικά αλλά χρειάζεται εξάσκηση  | you want to learn Turkish, but you need to practice  
+πίνουμε καφέ και συζητάμε  | we are drinking coffee and talking.  
+τι κάνετε;  | What are you all doing?  
+δεν καταλαβαίνουν το μάθημα  | They don’t understand the lesson.  
+σ’ αγαπώ πολύ  | I love you so much.  
+θα φάω αργότερα  | I will eat later.  
+θα πας σχολείο αύριο;  | Will you go to school tomorrow?  
+σκοπεύει να αγοράσει δώρο και θα μας το δώσει  | He/she will buy the gift and give it to us.  
+θα κάνουμε νέο έργο  | We will do a new project.  
+μιλήστε τουρκικά και όλοι θα εντυπωσιαστούν  | You all will speak Turkish, and everyone will be impressed.  
+θα επιστρέψουν σπίτι αύριο  | They will come home tomorrow.  
+
+πάω, έρχομαι, κάνω, τρώω, πίνω - to go, to come, to do/make, to eat, to drink  
+βλέπω, ξέρω, μιλάω, αγαπώ, αγοράζω - to see, to know, to speak, to love, to buy  
+δίνω, εργάζομαι, καταλαβαίνω, θέλω, διαβάζω - to give, to work/study, to understand, to want, to read  
+
+#Opposites  
+μεγάλος, μικρός, μακρύς, σύντομος  | big small long short  
+ζεστός, κρύος, γρήγορος, αργός  | hot cold fast slow  
+καινούριος, παλιός, ψηλός, χαμηλός  | new old high low  
+ανοιχτός, κλειστός, βαρύς, ελαφρύς  | open closed heavy light  
+χαρούμενος, λυπημένος, σωστός, λάθος  | happy sad right wrong  
+πάνω, κάτω, μέσα, έξω  | up down inside outside  
+καλός, κακός, εύκολος, δύσκολος  | good bad easy hard  
+δεξιά, αριστερά, μπροστά, πίσω  | right left front back  
+γεμάτος, άδειος, ακριβός, φτηνός  | full empty expensive cheap  
+λίγο, πολύ, σκληρός, μαλακός  | little much hard soft  
+νέος, γέρος, κοντινός, μακρινός  | young old near far  
+καθαρός, βρώμικος, νωρίς, αργά  | clean dirty early late  
+παχύς, λεπτός, πλήρης, ελλιπής  | thick thin complete incomplete  
+φωτεινός, σκοτεινός, ήσυχος, θορυβώδης  | bright dark quiet noisy  
+μεγάλος μικρός μακρύς σύντομος  | big small long short  
+ζεστός κρύος νέος αρχαίος  | hot cold new old  
+όμορφος άσχημος εύκολος δύσκολος  | beautiful ugly easy difficult  
+πήγαινε δεξιά, μετά αριστερά, ίσια  | go right then left straight ahead  
+
+#Learning Greek  
+πριν δύο εβδομάδες αποφάσισα να μάθω τουρκικά  | two weeks ago I decided to learn Turkish  
+επειδή πήγα διακοπές στην Τουρκία  | because I went on a holiday to Turkey  
+ξεκίνησα με τα εύκολα  | I started with the easy stuff  
+πρέπει να εξασκούμαι αλλιώς θα τα ξεχάσω όλα  | I need to practice otherwise I will forget everything!  
+στην πραγματικότητα έχω ήδη ξεχάσει σχεδόν όλα  | in fact, I already forgot almost everything!  
+
+#Weather  
+σήμερα ο καιρός είναι υπέροχος. ο ουρανός μπλε. χωρίς σύννεφα.  | nice weather today. the sky is blue. no clouds.  
+ηλιόλουστο. καθόλου αέρας. δεν βρέχει.  | sunny. no wind. it isn't raining.  
+λαμπρός ήλιος. λίγος αέρας. ύστερα βροχή.  | bright sun. some wind. then rain.  
+ο καιρός ήταν καλός και καθόλου κακός  | weather was fine and not bad at all  
+ο καιρός ήταν σχεδόν τέλειος  | the weather was nearly perfect  
+ήλιος σχεδόν κάθε μέρα, αλλά μία μέρα έβρεξε  | sunny almost every day, but one day it rained  
+
+#Time  
+μερικές φορές, πάντα, ποτέ, σπάνια, συχνά  | sometimes, always, never, seldom, often  
+τώρα, σήμερα, αύριο, χθες, την περασμένη εβδομάδα, τον επόμενο χρόνο, κάθε μέρα  | now, today, tomorrow, yesterday, last week, next year, every day  
+επόμενη εβδομάδα, φέτος, προηγούμενος μήνας, πριν τρεις μέρες, Σαββατοκύριακο  | next week, this year, last month, three days ago, at the weekend  

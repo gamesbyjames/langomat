@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/langomat/static/css/main.48a2c583.css",
-    "main.js": "/langomat/static/js/main.8c558e81.js",
+    "main.js": "/langomat/static/js/main.d97984fc.js",
     "index.html": "/langomat/index.html",
     "main.48a2c583.css.map": "/langomat/static/css/main.48a2c583.css.map",
-    "main.8c558e81.js.map": "/langomat/static/js/main.8c558e81.js.map"
+    "main.d97984fc.js.map": "/langomat/static/js/main.d97984fc.js.map"
   },
   "entrypoints": [
     "static/css/main.48a2c583.css",
-    "static/js/main.8c558e81.js"
+    "static/js/main.d97984fc.js"
   ]
 }
