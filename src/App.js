@@ -35,8 +35,10 @@ const LANGUAGE_NAMES = {
   "po-PO": "Portuguese",
   "it-IT": "Italian",
   "el-GR": "Greek",
-  "el-GR-2": "Greek (easy)",
 };
+
+// Languages that need romanisation hints
+const HINT_LANGS = ["el-GR", "ru-RU", "ja-JP", "fa-IR"];
 
 // ──────────── utility helpers ──────────── //
 const shuffleArray = (array) => {
@@ -61,6 +63,7 @@ async function loadPhrasesFromFile(url) {
         {
           words: ["Hola", "¿qué", "tal?"],
           translation: "Hello, how are you?",
+          hint: null,
           audioCache: {},
         },
       ],
@@ -80,20 +83,34 @@ function parsePhrases(text) {
       return;
     }
     if (!currentSection) return;
-    const [first, second] = line.split("|").map((p) => p.trim());
-    if (!first || !second) return;
+
+    const barParts = line.split("|");
+    if (barParts.length < 2) return;
+
+    const first = barParts[0].trim();
+    const rightSide = barParts.slice(1).join("|").trim();
+
+    let translation = rightSide;
+    let hint = null;
+    const colonIdx = rightSide.indexOf(":");
+    if (colonIdx !== -1) {
+      translation = rightSide.slice(0, colonIdx).trim();
+      hint = rightSide.slice(colonIdx + 1).trim();
+    }
+
     sections[currentSection].push({
-      words: first.split(" ").filter(Boolean),
-      translation: second,
+      words: first.split(/\s+/).filter(Boolean),
+      translation,
+      hint: hint || null,
       audioCache: {},
     });
   });
-  Object.keys(sections).forEach((s) => {
-    sections[s] = shuffleArray(sections[s]);
-  });
+
+  Object.keys(sections).forEach((s) => (sections[s] = shuffleArray(sections[s])));
   return sections;
 }
 
+// ──────────── TTS helpers ──────────── //
 async function generateSpeech(text, language = "en-US") {
   const voiceId = VOICE_IDS[language] || VOICE_IDS["en-US"];
   try {
@@ -150,23 +167,19 @@ async function speak(text, language = "en-US", cachedUrl = null) {
     return null;
   } catch (err) {
     console.error("speak", err);
-    try {
-      await fallbackSpeak(text, language);
-    } catch (_) {}
+    try { await fallbackSpeak(text, language); } catch (_) {}
     return null;
   }
 }
 
-// ──────────── components ──────────── //
-function LoadingOverlay({ isLoading, message }) {
-  if (!isLoading) return null;
-  return (
+// ──────────── Components ──────────── //
+const LoadingOverlay = ({ isLoading, message }) =>
+  !isLoading ? null : (
     <div className="fixed inset-0 flex flex-col items-center justify-center gap-4 bg-black/60 text-white z-50">
       <div className="h-10 w-10 animate-spin rounded-full border-4 border-t-transparent"></div>
       <p className="text-lg font-semibold">{message}</p>
     </div>
   );
-}
 
 function WordTile({ word, hidden, isCorrect, onClick }) {
   const [pos] = useState({ top: Math.random() * 70 + 5, left: Math.random() * 70 + 5 });
@@ -174,9 +187,7 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
   return (
     <div
       style={{ top: `${pos.top}%`, left: `${pos.left}%` }}
-      className={`word-tile ${
-        isCorrect === true ? "correct" : isCorrect === false ? "incorrect" : ""
-      }`}
+      className={`word-tile ${isCorrect === true ? "correct" : isCorrect === false ? "incorrect" : ""}`}
       onClick={() => onClick(word)}
     >
       {word}
@@ -184,7 +195,7 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
   );
 }
 
-// ──────────── main ──────────── //
+// ──────────── Main App ──────────── //
 export default function App() {
   const [language, setLanguage] = useState("en-US");
   const [sections, setSections] = useState({});
@@ -197,46 +208,29 @@ export default function App() {
   const [wordStatus, setWordStatus] = useState({});
   const [showWords, setShowWords] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   const [loadingMsg, setLoadingMsg] = useState("Loading...");
   const [isLoading, setIsLoading] = useState(true);
 
   const phrases = currentSection ? sections[currentSection] || [] : [];
-  const current = phrases[idx] || { words: [], translation: "", audioCache: {} };
+  const current = phrases[idx] || { words: [], translation: "", hint: null, audioCache: {} };
+  const langNeedsHint = HINT_LANGS.some((l) => language.startsWith(l));
 
+  // Load file whenever language changes
   useEffect(() => {
     (async () => {
       setIsLoading(true);
-      setLoadingMsg("Loading phrases...");
-      let fileName;
-      switch (language) {
-        case "de-DE":
-          fileName = "german_phrases.txt";
-          break;
-        case "tr-TR":
-          fileName = "phrases.txt";
-          break;
-        case "fr-FR":
-          fileName = "french_phrases.txt";
-          break;
-        case "es-ES":
-          fileName = "spanish_phrases.txt";
-          break;
-        case "po-PO":
-          fileName = "portuguese_phrases.txt";
-          break;
-        case "it-IT":
-          fileName = "italian_phrases.txt";
-          break;
-        case "el-GR":
-          fileName = "greek_phrases.txt";
-          break;
-        case "el-GR-2":
-          fileName = "greek_phrases_easy.txt";
-          break;
-        default:
-          fileName = "german_phrases.txt";
-      }
+      const fileMap = {
+        "de-DE": "german_phrases.txt",
+        "tr-TR": "phrases.txt",
+        "fr-FR": "french_phrases.txt",
+        "es-ES": "spanish_phrases.txt",
+        "po-PO": "portuguese_phrases.txt",
+        "it-IT": "italian_phrases.txt",
+        "el-GR": "greek_phrases.txt",
+      };
+      const fileName = fileMap[language] || "german_phrases.txt";
       const data = await loadPhrasesFromFile(`${process.env.PUBLIC_URL}/${fileName}`);
       setSections(data);
       setCurrentSection(null);
@@ -245,6 +239,7 @@ export default function App() {
     })();
   }, [language]);
 
+  // reset UI when phrase changes
   useEffect(() => {
     if (current.words.length) {
       setShuffled(shuffleArray(current.words));
@@ -252,6 +247,7 @@ export default function App() {
       setClicked([]);
       setWordStatus({});
       setShowWords(false);
+      setShowHint(false);
     }
   }, [idx, current.words]);
 
@@ -259,30 +255,23 @@ export default function App() {
     if (!showWords || isSpeaking || isLoading) return;
     const expected = current.words[clicked.length];
     if (word === expected) {
-      setWordStatus((p) => ({ ...p, [word]: true }));
-      const newSeq = [...clicked, word];
-      setClicked(newSeq);
-      if (newSeq.length === current.words.length) {
-        const sentence = current.words.join(" ");
+      setWordStatus((prev) => ({ ...prev, [word]: true }));
+      const newArr = [...clicked, word];
+      setClicked(newArr);
+      if (newArr.length === current.words.length) {
         setIsSpeaking(true);
-        const url = await speak(sentence, language, current.audioCache.fullSentence);
+        await speak(current.words.join(" "), language, current.audioCache.fullSentence);
         setIsSpeaking(false);
-        if (url && !current.audioCache.fullSentence) {
-          const copy = { ...sections };
-          copy[currentSection][idx].audioCache.fullSentence = url;
-          setSections(copy);
-        }
       }
     } else {
-      setWordStatus((p) => ({ ...p, [word]: false }));
+      setWordStatus((prev) => ({ ...prev, [word]: false }));
     }
   };
 
   const repeatSentence = async () => {
     if (clicked.length !== current.words.length) return;
-    const sentence = current.words.join(" ");
     setIsSpeaking(true);
-    await speak(sentence, language, current.audioCache.fullSentence);
+    await speak(current.words.join(" "), language, current.audioCache.fullSentence);
     setIsSpeaking(false);
   };
 
@@ -294,11 +283,11 @@ export default function App() {
 
   const nextPhrase = () => {
     if (!phrases.length) return;
-    setIdx((prev) => {
-      let newIdx = Math.floor(Math.random() * phrases.length);
-      while (newIdx === prev) newIdx = Math.floor(Math.random() * phrases.length);
-      return newIdx;
-    });
+    let newIdx = Math.floor(Math.random() * phrases.length);
+    while (newIdx === idx && phrases.length > 1) {
+      newIdx = Math.floor(Math.random() * phrases.length);
+    }
+    setIdx(newIdx);
   };
 
   const goHome = () => {
@@ -307,18 +296,19 @@ export default function App() {
     setClicked([]);
   };
 
+  // ─────────── render helpers ─────────── //
   const renderHome = () => (
     <div className="home-screen">
       <h1>Learn {LANGUAGE_NAMES[language]} Game</h1>
       <div className="language-selector">
-        <label htmlFor="language" className="mr-2">Select Language:</label>
+        <label htmlFor="language" className="mr-2">Language:</label>
         <select id="language" value={language} onChange={(e) => setLanguage(e.target.value)}>
           {Object.keys(LANGUAGE_NAMES).map((code) => (
             <option key={code} value={code}>{LANGUAGE_NAMES[code]}</option>
           ))}
         </select>
       </div>
-      <p>Select a section:</p>
+      <p className="mt-4">Select a section:</p>
       <div className="section-buttons">
         {Object.keys(sections).map((sec) => (
           <button key={sec} className="section-btn" onClick={() => setCurrentSection(sec)}>
@@ -331,41 +321,83 @@ export default function App() {
 
   const renderGame = () => (
     <div className="game-screen">
+      {/* Top Bar */}
       <div className="top-bar">
         <button className="home-btn" onClick={goHome}>Home</button>
         <h2>{currentSection}</h2>
       </div>
 
+      {/* Sentence Display */}
       <div className="sentence-display flex items-center gap-2">
-        {clicked.join(" ")}{" "}
+        {clicked.join(" ")}
         {clicked.length === current.words.length && (
-          <button className="repeat-btn" title="Repeat" onClick={repeatSentence} disabled={isSpeaking}>
+          <button
+            className="repeat-btn"
+            title="Repeat"
+            onClick={repeatSentence}
+            disabled={isSpeaking}
+          >
             🔊
           </button>
         )}
       </div>
 
-      <button className="show-words-btn" onClick={reshuffleWords}>
-        {showWords ? "Reshuffle" : "Show Words"}
-      </button>
+      {/* Controls */}
+      <div className="controls flex gap-2 mt-3">
+        <button className="show-words-btn" onClick={reshuffleWords}>
+          {showWords ? "Reshuffle" : "Show Words"}
+        </button>
+        {langNeedsHint && (
+          <button className="hint-btn" onClick={() => setShowHint((v) => !v)}>
+            {showHint ? "Hide Hint" : "Hint"} {/* Optional: Change button text */}
+          </button>
+        )}
+      </div>
 
+      {/* Word Tiles */}
       <div className="word-tiles-container">
         {shuffled.map((w) => (
-          <WordTile key={`${w}-${shuffleVersion}`} word={w} hidden={!showWords || clicked.includes(w)} isCorrect={wordStatus[w]} onClick={handleWordClick} />
+          <WordTile
+            key={`${w}-${shuffleVersion}`}
+            word={w}
+            hidden={!showWords || clicked.includes(w)}
+            isCorrect={wordStatus[w]}
+            onClick={handleWordClick}
+          />
         ))}
       </div>
 
-      <div className="translation-footer">
-        <p>{current.translation}</p>
-        <button className="next-button" onClick={nextPhrase} disabled={clicked.length !== current.words.length && showWords}>
-          Next
-        </button>
+      {/* Translation and Next Button Section */}
+      <div className="translation-footer flex flex-col items-center gap-2 mt-4">
+        <div className="flex items-center gap-2">
+          <p>{current.translation}</p>
+          <button
+            className="next-button"
+            onClick={nextPhrase}
+            disabled={clicked.length !== current.words.length && showWords}
+          >
+            Next
+          </button>
+        </div>
+        {/* Hint is MOVED FROM HERE */}
       </div>
 
-      <div className="progress-indicator">{phrases.length} phrases in this section</div>
+      {/* Hint Section - NEW LOCATION */}
+      {/* Conditionally render the hint container below the translation/next button */}
+      {showHint && (
+        <div className="hint-container w-full text-center mt-2"> {/* Container for centering and spacing */}
+          <p className="hint-text text-sm italic"> {/* Styling for the text itself */}
+            Hint: {current.hint || "no hint available"}
+          </p>
+        </div>
+      )}
+
+      {/* Progress Indicator (might need position adjustment in CSS depending on desired final layout) */}
+      <div className="progress-indicator mt-4">{phrases.length} phrases in this section</div>
     </div>
   );
 
+  // ──────────── component output ──────────── //
   return (
     <div className="app">
       <LoadingOverlay isLoading={isLoading} message={loadingMsg} />
