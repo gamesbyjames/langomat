@@ -1,0 +1,154 @@
+// Format: Spanish words | English translation  
+#Small Talk:  
+hola, ¿qué tal?, estoy bien, encantado  | hello how are you, I'm fine, pleased  
+¿de dónde eres? soy irlandés pero vivo en Alemania  | where are you from, I am Irish but I live in Germany  
+¿a qué te dedicas? soy ingeniero  | what do you do for work i am an engineer  
+tengo un hermano y tres hermanas  | i have a brother and three sisters  
+tengo tres hijos, dos varones y una hija  | i have three kids 2 sons and a daughter  
+buenos días, buenas noches, adiós, hasta luego  | good morning good evening goodbye see you later  
+por favor, gracias, perdón, entiendo  | please thank you sorry i understand  
+
+#More small talk  
+tengo hambre, debo comer algo  | i am hungry i need to eat something  
+tengo sed, debo beber algo  | i am thirsty i need to drink something  
+déjame en paz  | leave me alone  
+además muy bien. espera aquí  | also very good. wait here.  
+mírame ¿de dónde eres? ¿estás seguro? hasta luego  | look at me. where are you from? are you sure? see you later  
+¿de dónde vienes? buenas tardes no lo sé tengo hambre siento sed  | where are you from? good afternoon. i don't know. i'm hungry. i'm thirsty.  
+hasta luego qué hora es cómo te llamas  | see you later. what time is it? what's your name?  
+difícil. fácil. no simple. vivo en Alemania. soy irlandés. genial. maravilloso.  | hard. easy. not simple. i live in germany. i'm irish. great. amazing.  
+sí y no. ¿cuánto? estoy cansado. ¿dónde?  | yes and no. how much? i'm tired. where?  
+delicioso, caro, aquí estoy, allí voy  | delicious. expensive. here i am. there i am.  
+qué tiempo hace hoy? tengo una pregunta vamos no tengo dinero encantado  | how's the weather today? i have a question. let's go. i have no money. nice to meet you.  
+encantado de conocerte  | nice to meet you  
+hola, ¿qué tal?  | hello, how are you?  
+alguien, nadie, todo el mundo  | someone nobody everybody  
+
+#Even more:  
+todo bien gracias, ¿y tú?  | i'm fine thanks, and you?  
+me llamo James  | my name is James  
+no sé mucho turco  | i don't know much Turkish  
+pero quiero aprenderlo  | but i want to learn  
+¿puedes ayudarme?  | can you help me?  
+estoy aprendiendo turco  | i'm learning Turkish  
+no entendí ¿puedes repetir?  | i didn't understand, can you repeat?  
+¿puedes hablar más despacio?  | can you speak more slowly?  
+¿de dónde eres?  | where are you from?  
+vengo de América  | i am from America  
+¿qué significa esto?  | what does this mean?  
+hoy hace buen tiempo  | the weather is nice today  
+necesito ayuda  | i need help  
+¿cuántos años tienes?  | how old are you?  
+¿a qué te dedicas?  | what do you do for work?  
+tengo hambre vamos a comer  | i'm hungry, let's eat  
+quiero beber agua  | i want to drink water  
+¿qué hora es?  | what time is it?  
+es muy caro ¿hay algo más barato?  | it's very expensive, is there something cheaper?  
+¿dónde vives?  | where do you live?  
+adiós hasta mañana  | goodbye, see you tomorrow  
+por favor gracias  | please thank you  
+de nada  | you're welcome  
+café té leche azúcar  | coffee tea milk sugar  
+hoy mañana ayer  | today tomorrow yesterday  
+mañana mediodía tarde noche  | morning noon evening night  
+
+#Useful  
+genial, maravilloso, fantástico, increíble, perfecto, asombroso  | fabulous wonderful fantastic unbelievable perfect amazing  
+aprendo un poco más cada día. al menos aún no. ¿qué es esto?  | i learn a little more every day. at least not yet. what's that?  
+hey, ¿novedades, amigo? ¿qué haces? ¿en serio? ¿lo revisaste? ningún problema! me encanta!  | well mate, what's up? what are you doing? really? really! no problem. i loved it.  
+¿a qué hora cierras? no es asunto tuyo. ¿estás loco?  | what time you closed? none of your business! you crazy?  
+¿dónde vives? mírame. ¿de dónde vienes? ¿todo bien? espera aquí. hasta luego.  | where do you live? look at me. where are you from? all good? wait here. see you later.  
+¿hablas turco? hablo un poco, pero me gustaría aprenderlo  | do you speak Turkish? i speak a little. but i would like to learn.  
+no entiendo gran cosa. sólo hablo un poco.  | i don't understand very much. i only speak a little.  
+¿has perdido la cabeza? no te incumbe  | are you out of your mind? that is none of your business  
+¿qué haces hoy? vamos  | what are you doing today? let's go  
+nada especial. ¿y tú?  | not much. and you?  
+buenos días. ok, debo irme. vámonos.  | good morning. okay, i have to go. let's go.  
+
+#Questions  
+¿por qué te fuiste? ¿qué comieron?  | why did you go? what did you eat?  
+¿qué encontramos? ¿a quién viste?  | what did we find? who did you see?  
+¿cuándo llegaste?  | when did you arrive?  
+¿dónde estaba el coche? ¿adónde irás? ¿cómo describirías el tiempo?  | at what place was the car? where will you go? how would you describe the weather?  
+quién, por qué, cuándo, dónde, qué, cómo  | who, why, when, where, what, how.  
+
+#Colours and Numbers  
+rojo, azul, verde, amarillo  | red blue green yellow  
+naranja, morado, rosa, marrón  | orange purple pink brown  
+negro, blanco, gris, beige  | black white gray beige  
+oro, plata, cobre, bronce  | gold silver copper bronze  
+azul marino, turquesa, celeste, verde oscuro  | navy turquoise light blue dark green  
+
+uno, dos, tres, cuatro  | one two three four  
+cinco, seis, siete, ocho  | five six seven eight  
+nueve, diez, once, doce  | nine ten eleven twelve  
+veinte, treinta, cuarenta, cincuenta  | twenty thirty forty fifty  
+cien, mil, millón, billón  | hundred thousand million billion  
+cincuenta, sesenta, setenta, ochenta, noventa  | fifty, sixty, seventy, eighty, ninety  
+veintiuno, treintidós, cuarentatres, cincuentacuatro  | twenty-one thirty-two forty-three fifty-four  
+cincuenta-dos, sesenta-tres, setenta-nueve, ochenta-siete, noventa-ocho  | fifty-two sixty-three seventy-nine eighty-seven ninety-eight  
+
+#Verbs  
+fui a la escuela y vi un gato  | I went to school and saw a cat  
+¿qué hiciste ayer?  | what did you do yesterday?  
+fuimos a la ciudad y luego comimos  | we went to the city and then ate  
+hablasteis turco y todos entendieron  | you all spoke Turkish, and everyone understood  
+bebieron café y trabajaron  | they drank coffee and worked  
+te vi pero no me conocías  | I saw you, but you didn’t know me.  
+como ahora  | I am eating now  
+lee un libro cada día  | he/she reads a book every day.  
+quieres aprender turco pero necesitas practicar  | you want to learn Turkish, but you need to practice  
+bebemos café y charlamos  | we are drinking coffee and talking.  
+¿qué hacéis?  | what are you all doing?  
+no entienden la lección  | they don’t understand the lesson.  
+te quiero mucho  | I love you so much.  
+comeré más tarde  | I will eat later.  
+¿irás mañana a la escuela?  | will you go to school tomorrow?  
+comprará el regalo y nos lo ofrecerá  | he/she will buy the gift and offer it to us.  
+haremos un nuevo proyecto  | we will do a new project.  
+hablaréis turco y todos quedarán impresionados  | you all will speak Turkish, and everyone will be impressed.  
+vendrán a casa mañana  | they will come home tomorrow.  
+
+ir, venir, hacer, comer, beber - to go, to come, to do/make, to eat, to drink  
+ver, saber, hablar, amar, comprar - to see, to know, to speak, to love, to buy  
+dar, trabajar, entender, querer, leer - to give, to work/study, to understand, to want, to read  
+
+#Opposites  
+grande, pequeño, largo, corto  | big small long short  
+caliente, frío, rápido, lento  | hot cold fast slow  
+nuevo, viejo, alto, bajo  | new old high low  
+abierto, cerrado, pesado, ligero  | open closed heavy light  
+feliz, triste, correcto, falso  | happy sad right wrong  
+arriba, abajo, dentro, fuera  | up down inside outside  
+bueno, malo, fácil, difícil  | good bad easy hard  
+derecha, izquierda, delante, detrás  | right left front back  
+lleno, vacío, caro, barato  | full empty expensive cheap  
+poco, mucho, duro, blando  | little much hard soft  
+joven, viejo, cercano, lejano  | young old near far  
+limpio, sucio, temprano, tarde  | clean dirty early late  
+grueso, delgado, completo, incompleto  | thick thin complete incomplete  
+claro, oscuro, silencioso, ruidoso  | bright dark quiet noisy  
+grande pequeño largo corto  | big small long short  
+caliente frío nuevo antiguo  | hot cold new old  
+bello feo fácil difícil  | beautiful ugly easy difficult  
+ve hacia derecha, luego izquierda, recto  | go right then left straight ahead  
+
+#Learning Spanish  
+hace dos semanas decidí aprender turco  | two weeks ago I decided to learn Turkish  
+porque fui de vacaciones a Turquía  | because I went on a holiday to Turkey  
+empecé con lo fácil  | I started with the easy stuff  
+tengo que practicar o lo olvidaré todo  | I need to practice otherwise I will forget everything!  
+de hecho, ya olvidé casi todo  | in fact, I already forgot almost everything!  
+
+#Weather  
+hoy hace buen tiempo. el cielo está azul. sin nubes.  | nice weather today. the sky is blue. no clouds.  
+soleado. sin viento. no llueve.  | sunny. no wind. it isn't raining.  
+sol radiante. algo de viento. luego lluvia.  | bright sun. some wind. then rain.  
+el tiempo era bueno y nada malo  | weather was fine and not bad at all  
+el tiempo fue casi perfecto  | the weather was nearly perfect  
+sol casi a diario, pero un día llovió  | sunny almost every day, but one day it rained  
+
+#Time  
+a veces, siempre, nunca, rara vez, frecuentemente  | sometimes, always, never, seldom, often  
+ahora, hoy, mañana, ayer, la semana pasada, el próximo año, cada día  | now, today, tomorrow, yesterday, last week, next year, every day  
+próxima semana, este año, mes pasado, hace tres días, fin de semana  | next week, this year, last month, three days ago, at the weekend  

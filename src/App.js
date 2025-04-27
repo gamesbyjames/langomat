@@ -20,6 +20,17 @@ const VOICE_IDS = {
   "tr-TR": "pNInz6obpgDQGcFmaJgB",
   "fr-FR": "ErXwobaYiN019PkySvjV",
   "en-US": "21m00Tcm4TlvDq8ikWAM",
+  "es-ES": "ThT5KcBeYPX3keUQqHPh",
+  "el-GR": "ThT5KcBeYPX3keUQqHPh",
+};
+
+// Human‑readable names for UI
+const LANGUAGE_NAMES = {
+  "de-DE": "German",
+  "tr-TR": "Turkish",
+  "fr-FR": "French",
+  "es-ES": "Spanish",
+  "el-GR": "Greek",
 };
 
 // ──────────── utility helpers ──────────── //
@@ -43,7 +54,7 @@ async function loadPhrasesFromFile(url) {
     return {
       Demo: [
         {
-          words: ["Bonjour", "comment", "ça", "va"],
+          words: ["Hola", "¿qué", "tal?"],
           translation: "Hello, how are you?",
           audioCache: {},
         },
@@ -134,7 +145,9 @@ async function speak(text, language = "en-US", cachedUrl = null) {
     return null;
   } catch (err) {
     console.error("speak", err);
-    try { await fallbackSpeak(text, language); } catch (_) {}
+    try {
+      await fallbackSpeak(text, language);
+    } catch (_) {}
     return null;
   }
 }
@@ -200,6 +213,12 @@ export default function App() {
           break;
         case "fr-FR":
           fileName = "french_phrases.txt";
+          break;
+        case "es-ES":
+          fileName = "spanish_phrases.txt";
+          break;
+        case "el-GR":
+          fileName = "greek_phrases.txt";
           break;
         default:
           fileName = "phrases.txt";
@@ -276,13 +295,13 @@ export default function App() {
 
   const renderHome = () => (
     <div className="home-screen">
-      <h1>Learn {language === "de-DE" ? "German" : language === "tr-TR" ? "Turkish" : "French"} Game</h1>
+      <h1>Learn {LANGUAGE_NAMES[language]} Game</h1>
       <div className="language-selector">
         <label htmlFor="language" className="mr-2">Select Language:</label>
         <select id="language" value={language} onChange={(e) => setLanguage(e.target.value)}>
-          <option value="de-DE">German</option>
-          <option value="tr-TR">Turkish</option>
-          <option value="fr-FR">French</option>
+          {Object.keys(LANGUAGE_NAMES).map((code) => (
+            <option key={code} value={code}>{LANGUAGE_NAMES[code]}</option>
+          ))}
         </select>
       </div>
       <p>Select a section:</p>
@@ -304,7 +323,7 @@ export default function App() {
       </div>
 
       <div className="sentence-display flex items-center gap-2">
-        {clicked.join(" ")} {" "}
+        {clicked.join(" ")}{" "}
         {clicked.length === current.words.length && (
           <button className="repeat-btn" title="Repeat" onClick={repeatSentence} disabled={isSpeaking}>
             🔊
