@@ -1,4 +1,24 @@
 // Format: French words | English translation  
+#Basics:
+Bonjour, je m'appelle James. Comment tu t'appelles? | Hi, my name is James. What's your name? 
+Enchanté de faire ta connaissance. Tu viens d'où? | Nice to meet you.  Where are you from?  
+Je suis irlandais mais j'habite en Allemagne. Et toi?  | I am Irish but I live in Germany.  And you?
+Tu aimes ici? Oui, j'adore ici. | Do you like it here? Yes I love it here.
+Tu travailles ici? Oui, Je suis ingénieur. | Do you work here? Yes I am an engineer. 
+Je ne parle pas très bien français. Et toi?| I don't speak much French. Do you?   
+Je l'ai appris à l'école il y a plusieurs années. | I learned it in school many years ago.  
+Mais j'ai oublié presque tout. | But I've forgotten almost all of it.  
+Ce n'est pas difficile. | It's not difficult.  
+Je voudrais le réapprendre. | I would like to learn it again.  
+J'ai besoin de pratiquer un peu chaque jour. | I need to practice a little every day.  
+Le mieux serait de parler avec quelqu'un comme toi tous les jours. | Best would be for me to speak with someone like you every day.  
+Qu'est-ce que tu fais aujourd'hui? | What are you doing today?  
+Il fait un temps fabuleux aujourd'hui, n'est-ce pas? | The weather is fabulous today isn't it?  
+Il fait ensoleillé et il ne pleut pas. | It's sunny and it's not raining.  
+Le ciel est bleu. Il n'y a pas de nuages | The sky is blue.  There are no clouds.
+Il n'y a pas de vent, mais on dirait qu'il va pleuvoir bientôt. | It's not windy but it looks like it will rain soon.   
+C'est comme si on était en vacances, non? | It's like being on holidays isn't it? 
+
 #Small Talk:  
 salut, ça va, je vais bien, enchanté  | hello how are you good a pleasure  
 d’où viens-tu, je suis irlandais mais j’habite en Allemagne  | where are you from, I am Irish but I live in Germany  
@@ -51,6 +71,11 @@ de rien  | you're welcome
 café thé lait sucre  | Coffee tea milk sugar  
 aujourd’hui demain hier  | Today tomorrow yesterday  
 matin midi soir nuit  | Morning noon evening night  
+
+#Slang:
+Salut, quoi de neuf, ça roule? | Hey, what’s up, how’s it rolling
+Ça va, tranquille, ça roule, pas mal | It’s good, chill, it’s rolling, not bad
+tout va bien, la forme, on gère, tranquille | all’s good, it’s going great, we’re handling it, chill.
 
 #Useful  
 génial, merveilleux, fantastique, incroyable, parfait, étonnant  | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing  
