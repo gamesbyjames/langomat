@@ -19,6 +19,8 @@ const VOICE_IDS = {
   "de-DE": "EXAVITQu4vr4xnSDxMaL",
   "tr-TR": "pNInz6obpgDQGcFmaJgB",
   "fr-FR": "ErXwobaYiN019PkySvjV",
+  "po-PO": "ErXwobaYiN019PkySvjV",
+  "it-IT": "ErXwobaYiN019PkySvjV",
   "en-US": "21m00Tcm4TlvDq8ikWAM",
   "es-ES": "ThT5KcBeYPX3keUQqHPh",
   "el-GR": "ThT5KcBeYPX3keUQqHPh",
@@ -30,6 +32,8 @@ const LANGUAGE_NAMES = {
   "tr-TR": "Turkish",
   "fr-FR": "French",
   "es-ES": "Spanish",
+  "po-PO": "Portuguese",
+  "it-IT": "Italian",
   "el-GR": "Greek",
   "el-GR-2": "Greek (easy)",
 };
@@ -217,6 +221,12 @@ export default function App() {
           break;
         case "es-ES":
           fileName = "spanish_phrases.txt";
+          break;
+        case "po-PO":
+          fileName = "portuguese_phrases.txt";
+          break;
+        case "it-IT":
+          fileName = "italian_phrases.txt";
           break;
         case "el-GR":
           fileName = "greek_phrases.txt";
