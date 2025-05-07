@@ -22,7 +22,7 @@ tengo hambre, necessito comer algo | Im hungry, I need to eat something
 tengo que tomar algo | I have to drink something 
 
 #BH:
-lo que pasa es... | The thing is...
+mira, lo que pasa es... | look, the thing is...
 puedo ver la casa | I can see the house 
 estoy cansado, queiro ir a la casa | Im tired, I want to go home 
 tengo hambre, necessito comer algo | Im hungry, I need to eat something 
