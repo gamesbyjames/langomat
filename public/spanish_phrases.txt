@@ -1,17 +1,17 @@
 // Format: Spanish words | English translation  
 
-#MB:
+#Basics:
 Hola, buenos días, ¿cómo estás? | Hello, good morning, how are you?
 Muy bien, gracias. ¿Y tú? | Very well, thank you. And you?
-Me llamo Sarah. ¿Cómo te llamas? | My name is Sarah. What's your name?
+Me llamo Maria. ¿Cómo te llamas? | My name is Maria. What's your name?
 ¿De dónde eres? | Where are you from?
-Soy de Argelia, pero ahora vivo en Alemania. | I'm from Algeria, but I now live in Germany.
+Soy de Irlanda, pero ahora vivo en Alemania. | I'm from Ireland, but I now live in Germany.
 Me gusta estar aquí. La gente es amable | I like it here. The people are friendly
 y el clima es agradable | and the weather is nice
 ¿Puedo ayudar-te? | can I help you?
 ¿Puedes ayudar-me? | can you help me?
 sí puedo ayudarte | yes I can help you
-Ya hablo francés, inglés, árabe y un poco de alemán | I speak French, English, Arabic, and a little German
+Ya hablo alemán, inglés y un poco de francés  | I already speak German, English and a little French
 pero quiero hablar español | But I want to speak Spanish.
 tengo que aprender español | I have to learn Spanish.
 ¡Voy a hablar español! | I'm going to speak Spanish!
@@ -21,7 +21,7 @@ estoy cansado, queiro ir a la casa | Im tired, I want to go home
 tengo hambre, necessito comer algo | Im hungry, I need to eat something 
 tengo que tomar algo | I have to drink something 
 
-#BH:
+#Key Verbs:
 mira, lo que pasa es... | look, the thing is...
 puedo ver la casa | I can see the house 
 estoy cansado, queiro ir a la casa | Im tired, I want to go home 
