@@ -12,7 +12,7 @@ let ELEVEN_LABS_API_KEY = localStorage.getItem(API_KEY_STORAGE_KEY) || ""; // Lo
 const ELEVEN_LABS_BASE_URL = "https://api.elevenlabs.io/v1";
 const VOICE_IDS = { // Keep your VOICE_IDS
   "de-DE": "EXAVITQu4vr4xnSDxMaL", "tr-TR": "pNInz6obpgDQGcFmaJgB", "fr-FR": "ErXwobaYiN019PkySvjV",
-  "pt-PT": "ErXwobaYiN019PkySvjV", "it-IT": "IDsj33mlask8d5k8no2b", "en-US": "21m00Tcm4TlvDq8ikWAM",
+  "pt-PT": "ErXwobaYiN019PkySvjV", "it-IT": "ThT5KcBeYPX3keUQqHPh", "en-US": "21m00Tcm4TlvDq8ikWAM",
   "es-ES": "ThT5KcBeYPX3keUQqHPh", "el-GR": "ThT5KcBeYPX3keUQqHPh",
 };
 const LANGUAGE_NAMES = { // Keep your LANGUAGE_NAMES
