@@ -1,0 +1,154 @@
+// Format: Algerian Arabic words | English translation : hint
+#Small Talk:
+سلام، واش راك؟ راني لاباس، متشرفين | hello how are you, I'm fine, pleased to meet you : salam, wach rak? rani labas, mtsharfin
+منين انت؟ أنا إيرلندي بصح ساكن في ألمانيا | where are you from, I am Irish but I live in Germany : menin nta? ana irlandi bṣaḥ sakin fi lmania
+واش تخدم؟ أنا مهندس | what do you do for work; I am an engineer : wach tkhdem? ana muhendis
+عندي خو واحد وثلاث خيات | I have a brother and three sisters : andi khu waḥed w tlata khayyat
+عندي ثلاثة دراري، زوج دراري ودرّية | I have three kids, two sons and a daughter : andi tlata drari, zuj drari w drriya
+صباح الخير، مسا الخير، تهلاّ، نشوفك من بعد | good morning good evening goodbye see you later : ṣbaḥ el-khir, msa el-khir, thalla, nshufek men baʿd
+عافاك، بارك الله فيك، سمحلي، فهمت | please thank you sorry I understand : ʿafak, barak allah fik, smḥli, fhemt
+
+#More small talk
+راني جوعان، لازم ناكل حاجة | I am hungry I need to eat something : rani juʿan, lazem nakul ḥaja
+راني عطشان، لازم نشرب حاجة | I am thirsty I need to drink something : rani ʿaṭshan, lazem nshreb ḥaja
+خلّيني وحدي | leave me alone : khallini waḥdi
+حتى هو مزيان بزاف. استنى هنا | also very good. wait here : ḥetta hwa mzian bzzaf. stanna hna
+شوف فيّا. منين انت؟ متأكد؟ نشوفك من بعد | look at me. where are you from? are you sure? see you later : shuf fiya. menin nta? mtaʾked? nshufek men baʿd
+منين انت؟ نهارك مبروك؛ ما نعرفش؛ راني جوعان؛ راني عطشان | where are you from? good afternoon. I don't know. I'm hungry. I'm thirsty. : menin nta? nhark mbruk; ma naʿrafsh; rani juʿan; rani ʿaṭshan
+نشوفك من بعد، شحال فالساعة، شنو اسمك | see you later. what time is it? what's your name? : nshufek men baʿd, shḥal f ssaʿa, shnu smek
+صعيب. ساهل. ماشي بسيط. ساكن في ألمانيا. أنا إيرلندي. رائع. هايل | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing. : ṣʿib. sahl. mashi bṣiṭ. sakin fi lmania. ana irlandi. raʾeʿ. hayel
+إييه ولا. شحال؟ راني عيّان. وين؟ | yes and no. how much? I'm tired. where? : eyya wla. shḥal? rani ʿayyan. win?
+بنّين. غالي. راني هنا. راني تمام | delicious. expensive. I'm here. I'm there. : bennin. ghali. rani hna. rani temm
+كيفاش الجو اليوم؟ سؤال؛ يلا نمشيو؛ ما عنديش دراهم؛ متشرفين | how's the weather today? question. let's go. I have no money. nice to meet you. : kifash ljaw lyum? suʾal; yalla nmshiw; ma ʿandish drahm; mtsharfin
+فرحانين بالتعارف | nice to meet you : farḥanin b-ttaʿaruf
+سلام، واش حوالك | hello, how are you? : salam, wach ḥwalek
+شي واحد، حتى واحد، الجميع | someone nobody everybody : shi waḥed, ḥatta waḥed, ljamiʿ
+
+#Even more
+راني لاباس، شكراً، وانت؟ | I'm fine thanks, and you? : rani labas, shukran, w nta?
+اسمي جيمس | my name is James : ismi Jims
+ما نعرفش بزاف تركي | I don't know much Turkish : ma naʿrafsh bzzaf turki
+بصح حاب نتعلّم | but I want to learn : bṣaḥ ḥab ntʿallam
+تقدر تعاون؟ | can you help me? : tqdar tʿawn?
+راني نتعلّم تركي | I'm learning Turkish : rani ntʿallam turki
+ما فهمتش؛ تقدر تعاود؟ | I didn't understand, can you repeat? : ma fhemtsh; tqdar tʿawd?
+تقدر تهدر بشوية؟ | can you speak more slowly? : tqdar thdr b-shwiya?
+منين راك؟ | where are you from? : menin rak?
+أنا من مريكان | I am from America : ana men merikan
+شنو معنى هادا؟ | what does this mean? : shnu maʿna hada?
+اليوم الجو زين | the weather is nice today : lyum ljaw zin
+نحتاج مساعدة | I need help : nḥtaj msaʿda
+شحال في عمرك؟ | how old are you? : shḥal fi ʿumrek?
+واش تخدم؟ | what do you do for work? : wach tkhdem?
+راني جوعان، يلا ناكلو | I'm hungry, let's eat : rani juʿan, yalla naklu
+حاب نشرب ماء | I want to drink water : ḥab nshreb ma
+شحال فالساعة؟ | what time is it? : shḥal f ssaʿa?
+غالي بزاف، عندك شي أرخص؟ | it's very expensive, is there something cheaper? : ghali bzzaf, ʿandak shi arkhass?
+فين ساكن؟ | where do you live? : fin sakin?
+تهلاّ، نشوفك غدوة | goodbye, see you tomorrow : thalla, nshufek ghodwa
+عافاك شكراً | please thank you : ʿafak shukran
+مرحبا | you're welcome : marḥba
+قهوة شاي حليب سكر | coffee tea milk sugar : qahwa shay ḥlib sukkar
+اليوم غدوة البارح | today tomorrow yesterday : lyum ghodwa lbareḥ
+صباح، نص النهار، لعشية، الليل | morning noon evening night : ṣbaḥ, nuṣ nnhar, laʿshiya, llil
+
+#Useful
+هايل، عجيب، فنتاستيك، ما يتصدقش، كامل، خطير | fabulous wonderful fantastic unbelievable perfect amazing : hayel, ʿajib, fantastik, ma ytsaddaqsh, kamel, khṭir
+كل نهار نتعلم شوية. مزال. شنو هادا؟ | I learn a little more every day. at least not yet. what's that? : kul nhar ntʿallam shwiya. mazal. shnu hada?
+إيوا، خويا! كيداير؟ واش كتدير؟ بصح؟ بصح! بلا مشاكل! عجبني! | well mate, what's up? what are you doing? really? really! no problem. I loved it. : iwa, khuya! kidayr? wach katdir? bṣaḥ? bṣaḥ! bla mashakil! ʿjabni!
+وقتاش تسدّ؟ ماشي شغلك! راك مهبول؟ | what time you closed? none of your business! you crazy? : weqtash tsedd? mashi shghlek! rak mhboul?
+فين ساكن؟ شوف فيّا. منين جاي؟ كلشي لاباس؟ استنى هنا. نشوفك من بعد | where do you live? look at me. where are you from? all good? wait here. see you later. : fin sakin? shuf fiya. menin jay? kulshi labas? stanna hna. nshufek men baʿd
+تهدر تركي؟ نهدر شوية. بصح حاب نتعلم | do you speak Turkish? I speak a little. but I would like to learn. : thdr turki? nahdr shwiya. bṣaḥ ḥab ntʿallam
+ما نفهمش بزاف. نهدر غير شوية | I don't understand very much. I only speak a little. : ma nfh msh bzzaf. nahdr ghir shwiya
+غبرت عليك؟ ما يهمكش | are you out of your mind? that is none of your business : ghabert ʿlik? ma yhemmeksh
+شنو غادي تدير اليوم؟ يلا | what are you doing today? let's go : shnu ghadi tdir lyum? yalla
+والو مميز. وانت؟ | not much. and you? : walu mumayyaz. w nta?
+صباح الخير. صافي، خصني نمشي. يلا. | good morning. okay, I have to go. let's go. : ṣbaḥ el-khir. safi, khsni nmshi. yalla.
+
+#Questions
+علاش مشيت؟ شنو كليت؟ | why did you go? what did you eat? : ʿlash mshit? shnu klit?
+شنو لقينا؟ شكون شفت؟ | what did we find? who did you see? : shnu lqina? shkun shft?
+وقتاش وصلتي؟ | when did you arrive? : weqtash wslti?
+فين كانت الطوموبيل؟ وين غادي تمشي؟ كيفاش كان الجو؟ | at what place was the car? where will you go? how was the weather? : fin kant ṭumubil? win ghadi tmshi? kifash kan ljaw?
+شكون، علاش، وقتاش، فين، شنو، كيفاش | who, why, when, where, what, how. : shkun, ʿlash, weqtash, fin, shnu, kifash
+
+#Colours and Numbers
+أحمر، أزرق، أخضر، أصفر | red blue green yellow : aḥmar, azraq, akhdar, aṣfar
+برتقالي، بنفسجي، وردي، بني | orange purple pink brown : burtuqali, banafssaji, wardi, bunni
+كحل، بيض، رَمادي، بيج | black white gray beige : kḥel, beyḍ, rmadi, beej
+ذهبي، فضي، نحاسي، برونزي | gold silver copper bronze : dhahabi, fiḍḍi, nḥasi, brunzi
+كُحلي، تركواز، سماوي، أخضر غامق | navy turquoise light blue dark green : kuḥli, turkuaz, smawi, akhdar ghameq
+
+واحد، جوج، ثلاثة، ربعة | one two three four : waḥed, juj, tlata, rbʿa
+خمسة، ستة، سبعة، ثمانية | five six seven eight : khamsa, stta, sbʿa, thmenia
+تسعة، عشرة، حداش، تناش | nine ten eleven twelve : tsʿa, ʿshra, ḥdash, tnash
+عشرين، ثلاثين، أربعين، خمسين | twenty thirty forty fifty : ʿshrin, tlathin, rbʿin, khmsin
+مية، ألف، مليون، مليار | hundred thousand million billion : miya, alf, milyun, milyar
+خمسين، ستين، سبعين، ثمانين، تسعين | fifty sixty seventy eighty ninety : khmsin, sttin, sbʿin, thmanin, tsʿin
+واحد وعشرين، اثنين وثلاثين، ثلاثة وأربعين، أربعة وخمسين | twenty-one thirty-two forty-three fifty-four : waḥed w-ʿshrin, tnin w-tlathin, tlata w-rbʿin, rbʿa w-khmsin
+اثنين وخمسين، ثلاثة وستين، تسعة وسبعين، سبعة وثمانين، ثمانية وتسعين | fifty-two sixty-three seventy-nine eighty-seven ninety-eight : tnin w-khmsin, tlata w-sttin, tsʿa w-sbʿin, sbʿa w-thmanin, thmenia w-tsʿin
+
+#Verbs
+مشيت للمدرسة وشفت قطة | I went to school and saw a cat : mshit l-mdrasa w shft qṭṭa
+شنو درتي البارح؟ | what did you do yesterday? : shnu drti lbareḥ?
+مشينا للمدينة ومن بعد كلّينا | we went to the city and then ate : mshina l-mdina w men baʿd klina
+هضرتو بالتركي وكلشي فهم | you all spoke Turkish, and everyone understood : hḍartu b-turki w kulshi fhem
+شربو قهوة وخدمو | they drank coffee and worked : shrbu qahwa w khadmu
+شفتك بصح ما كنتش تعرفني | I saw you, but you didn’t know me. : shftk bṣaḥ ma kontsh taʿrefni
+راني ناكل دابا | I am eating now : rani nakul daba
+هو يقرى كتاب كل نهار | He/she reads a book every day. : huwa yiqra ktab kul nhar
+حاب تتعلّم تركي بصح خصك تدريب | you want to learn Turkish, but you need to practice : ḥab t-taʿllam turki bṣaḥ khaṣṣk tadrib
+راهم كيشربو قهوة وكيهضرو | we are drinking coffee and talking. : rahom k-yshrbu qahwa w k-yhdro
+واش كتديرو؟ | What are you all doing? : wach katdiru?
+ما فهموش الدرس | They don’t understand the lesson. : ma fhmu-sh ddars
+نحبك بزاف | I love you so much. : nḥabbek bzzaf
+ناكل من بعد | I will eat later. : nakul men baʿd
+غادي تمشي للمدرسة غدوة؟ | Will you go to school tomorrow? : ghadi tmshi l-mdrasa ghodwa?
+راح يشري الهدية ويعطيهالنا | He/she will buy the gift and give it to us. : raḥ yshri l-hdiyya w yaʿṭihalna
+غادي نديرو مشروع جديد | We will do a new project. : ghadi ndīru mashruʿ jdid
+هضرو بالتركي وكلشي غادي يندهش | You all will speak Turkish, and everyone will be impressed. : hdru b-turki w kulshi ghadi yndahesh
+غادي يرجعو للدار غدوة | They will come home tomorrow. : ghadi yrjʿu lldar ghodwa
+
+يمشي، يجي، يدير، ياكل، يشرب - to go, to come, to do/make, to eat, to drink
+يشوف، يعرف، يهضر، يحب، يشري - to see, to know, to speak, to love, to buy
+يعطي، يخدم، يفهم، يبغي، يقرا - to give, to work/study, to understand, to want, to read
+
+#Opposites
+كبير، صغير، طويل، قصير | big small long short : kbir, ṣghir, ṭwil, qaṣir
+سخون، بارد، سريع، بطيء | hot cold fast slow : skhun, barid, sriʿ, baṭiʾ
+جديد، قديم، عالي، واطي | new old high low : jd-id, qdim, ʿali, waṭi
+مفتوح، مسدود، ثقيل، خفيف | open closed heavy light : mftuh, msdud, thqil, khfif
+فرحان، حزين، صحيح، غالط | happy sad right wrong : farḥan, ḥzin, ṣḥiḥ, ghalṭ
+فوق، لتحت، لداخل، لبرا | up down inside outside : fuq, l-taḥt, l-dakhel, l-barra
+مليح، خايب، ساهل، صعيب | good bad easy hard : mliḥ, khayb, sahl, ṣʿib
+ليمن، ليسر، لقدّام، لور | right left front back : l-yemn, l-yser, l-qddam, l-war
+عامر، خاوي، غالي، رخيص | full empty expensive cheap : ʿamer, khawi, ghali, rkhiṣ
+شوية، بزاف، قاسح، رطب | little much hard soft : shwiya, bzzaf, qasḥ, rṭeb
+شاب، شايب، قريب، بعيد | young old near far : shab, shayb, qrib, bʿid
+نقي، موسخ، بكري، معطل | clean dirty early late : nqiy, mwssk, bkri, mʿaṭṭl
+غليظ، رقيق، كامل، ناقص | thick thin complete incomplete : ghlīḍ, rqiq, kamel, naqis
+مضيء، مظلم، هادئ، صخاب | bright dark quiet noisy : muḍiʾ, muẓlim, hadiʾ, ṣkhab
+كبير صغير طويل قصير | big small long short : kbir ṣghir ṭwil qaṣir
+سخون بارد جديد قديم | hot cold new old : skhun barid jd-id qdim
+زين خايب ساهل صعيب | beautiful ugly easy difficult : zin khayb sahl ṣʿib
+دور على ليمن، من بعد ليسر، دغيا لقدّام | go right then left straight ahead : dur ʿla l-yemn, men baʿd l-yser, dghya l-qddam
+
+#Learning Greek
+زوج سمانات اللي فاتت قرّرت نتعلّم تركي | two weeks ago I decided to learn Turkish : zuj smanat lli fatet qarrart ntʿallam turki
+حيت رحِت في عطلتي لتركيا | because I went on a holiday to Turkey : ḥit reḥt f ʿutlti l-turkiya
+بديت بالسهلة | I started with the easy stuff : bdit b-s-sahla
+خصني نتدرّب وإلاّ ننسى كلش | I need to practice otherwise I will forget everything! : khsni ntdarrab w illa nansa kulsh
+بصراحة راهي نسيت تقريباً كلش | in fact, I already forgot almost everything! : bṣaraḥa rahi nsit tqriban kulsh
+
+#Weather
+اليوم الجو شاب. السما زرقة. ما كاينش غيوم. | nice weather today. the sky is blue. no clouds. : lyum ljaw shab. s-sma zarqa. ma kayensh ghyum
+مشمس. ما كاينش ريح. ما كاش شتا. | sunny. no wind. it isn't raining. : mshms. ma kayensh riḥ. ma kash shta
+شمس قوية. شوية ريح. ومن بعد شتا. | bright sun. some wind. then rain. : shams qwiya. shwiya riḥ. w men baʿd shta
+كان الجو مليح وما كانش خايب | weather was fine and not bad at all : kan ljaw mliḥ w ma kansh khayb
+كان الجو شبه كامل | the weather was nearly perfect : kan ljaw sh-bh kamel
+شمس تقريب كل نهار، غير نهار واحد صبت شتا | sunny almost every day, but one day it rained : shams tqrib kul nhar, ghir nhar waḥed ṣbbet shta
+
+#Time
+أحياناً، ديما، عمر، قليل، كثير | sometimes, always, never, seldom, often : aḥyanan, dima, ʿumr, qllil, kthir
+دابا، اليوم، غدوة، البارح، السيمانة اللي فاتت، العام الجاي، كل نهار | now, today, tomorrow, yesterday, last week, next year, every day : daba, lyum, ghodwa, lbareḥ, simana lli fatet, lʿam ljay, kul nhar
+السيمانة الجاية، هاد العام، الشهر اللي فات، ثلاثيام فاتت، الويكاند | next week, this year, last month, three days ago, at the weekend : simana ljaya, had lʿam, sh-shahr lli fat, tlata yyam fatet, l-weekend
