@@ -1,0 +1,154 @@
+// Format: Russian words | English translation : hint
+#Small Talk:
+Привет, как дела, у меня всё хорошо, приятно познакомиться | hello how are you, I'm fine, pleased to meet you : privet, kak dela, u menya vsyo khorosho, priyatno poznakomitsya
+Откуда ты? Я ирландец, но живу в Германии | where are you from, I am Irish but I live in Germany : otkuda ty? ya irlandets, no zhivu v Germanii
+Кем ты работаешь? Я инженер | what do you do for work; I am an engineer : kem ty rabotaesh? ya inzhener
+У меня есть брат и три сестры | I have a brother and three sisters : u menya yest brat i tri sestry
+У меня трое детей, два сына и дочь | I have three kids, two sons and a daughter : u menya troe detey, dva syna i doch
+Доброе утро, добрый вечер, до свидания, увидимся позже | good morning good evening goodbye see you later : dobroe utro, dobryy vecher, do svidaniya, uvidimsya pozhe
+Пожалуйста, спасибо, извините, я понимаю | please thank you sorry I understand : pozhaluysta, spasibo, izvinite, ya ponimayu
+
+#More small talk
+Я голоден, мне нужно что-нибудь поесть | I am hungry I need to eat something : ya goloden, mne nuzhno chto-nibud poyest
+Я хочу пить, мне нужно что-нибудь выпить | I am thirsty I need to drink something : ya khochu pit, mne nuzhno chto-nibud vypit
+Оставь меня в покое | leave me alone : ostav menya v pokoye
+Тоже очень хорошо. Подожди здесь | also very good. wait here : tozhe ochen khorosho. podozhdi zdes
+Посмотри на меня. Откуда ты? Ты уверен? Увидимся позже | look at me. where are you from? are you sure? see you later : posmotri na menya. otkuda ty? ty uveren? uvidimsya pozhe
+Откуда ты? Добрый день. Я не знаю. Я голоден. Я хочу пить | where are you from? good afternoon. I don't know. I'm hungry. I'm thirsty. : otkuda ty? dobryy den. ya ne znayu. ya goloden. ya khochu pit
+Увидимся позже. Который час? Как тебя зовут | see you later. what time is it? what's your name? : uvidimsya pozhe. kotoryy chas? kak tebya zovut
+Трудно. Легко. Не просто. Я живу в Германии. Я ирландец. Отлично. Удивительно | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing. : trudno. legko. ne prosto. ya zhivu v Germanii. ya irlandets. otlichno. udivitelno
+Да и нет. Сколько? Я устал. Где? | yes and no. how much? I'm tired. where? : da i net. skolko? ya ustal. gde
+Вкусно. Дорого. Я здесь. Я там | delicious. expensive. I'm here. I'm there. : vkusno. dorogo. ya zdes. ya tam
+Какая сегодня погода? Вопрос. Пошли. У меня нет денег. Приятно познакомиться | how's the weather today? question. let's go. I have no money. nice to meet you. : kakaya segodnya pogoda? vopros. poshli. u menya net deneg. priyatno poznakomitsya
+Приятно познакомиться | nice to meet you : priyatno poznakomitsya
+Привет, как дела | hello, how are you? : privet, kak dela
+Кто-нибудь, никто, все | someone nobody everybody : kto-nibud, nikto, vse
+
+#Even more:
+У меня всё хорошо, спасибо, а у тебя? | I'm fine thanks, and you? : u menya vsyo khorosho, spasibo, a u tebya
+Меня зовут Джеймс | my name is James : menya zovut Dzheyms
+Я мало знаю турецкий | I don't know much Turkish : ya malo znayu turetskiy
+Но я хочу выучить | but I want to learn : no ya khochu vyuchit
+Вы можете помочь? | can you help me? : vy mozhete pomoch
+Я учу турецкий | I'm learning Turkish : ya uchu turetskiy
+Я не понял, можете повторить? | I didn't understand, can you repeat? : ya ne ponyal, mozhete povtorit
+Можете говорить помедленнее? | can you speak more slowly? : mozhete govorit pomedlennee
+Откуда вы? | where are you from? : otkuda vy
+Я из Америки | I am from America : ya iz Ameriki
+Что это значит? | what does this mean? : chto eto znachit
+Сегодня хорошая погода | the weather is nice today : segodnya khoroshaya pogoda
+Мне нужна помощь | I need help : mne nuzhna pomoshch
+Сколько тебе лет? | how old are you? : skolko tebe let
+Кем вы работаете? | what do you do for work? : kem vy rabotaete
+Я голоден, давай поедим | I'm hungry, let's eat : ya goloden, davay poyedim
+Я хочу пить воду | I want to drink water : ya khochu pit vodu
+Который час? | what time is it? : kotoryy chas
+Это очень дорого, есть что-нибудь подешевле? | it's very expensive, is there something cheaper? : eto ochen dorogo, yest chto-nibud podeshevle
+Где ты живёшь? | where do you live? : gde ty zhivyosh
+До свидания, увидимся завтра | goodbye, see you tomorrow : do svidaniya, uvidimsya zavtra
+Пожалуйста спасибо | please thank you : pozhaluysta spasibo
+Пожалуйста | you're welcome : pozhaluysta
+Кофе чай молоко сахар | coffee tea milk sugar : kofe chay moloko sakhar
+Сегодня завтра вчера | today tomorrow yesterday : segodnya zavtra vchera
+Утро полдень вечер ночь | morning noon evening night : utro polden vecher noch
+
+#Useful
+Великолепно, замечательно, фантастично, невероятно, идеально, потрясающе | fabulous wonderful fantastic unbelievable perfect amazing : velikolepno, zamechatelno, fantastichno, neveroyatno, idealno, potryasayushche
+Я каждый день учу немного больше. По крайней мере пока нет. Что это? | I learn a little more every day. at least not yet. what's that? : ya kazhdyy den uchu nemnogo bolshe. po krainey mere poka net. chto eto
+Ну, приятель! Как дела? Что делаешь? Правда? Серьёзно! Без проблем! Мне понравилось! | well mate, what's up? what are you doing? really? really! no problem. I loved it. : nu, priyatel! kak dela? chto delayesh? pravda? seryozno! bez problem! mne ponravilos
+Во сколько закрываетесь? Не твоё дело! Ты что, сумасшедший? | what time you closed? none of your business! you crazy? : vo skolko zakryvayetes? ne tvoyo delo! ty chto, sumasshedshiy
+Где ты живёшь? Посмотри на меня. Откуда ты? Всё хорошо? Подожди здесь. Увидимся позже. | where do you live? look at me. where are you from? all good? wait here. see you later. : gde ty zhivyosh? posmotri na menya. otkuda ty? vsyo khorosho? podozhdi zdes. uvidimsya pozhe
+Ты говоришь по-турецки? Я немного говорю. Но хотел бы выучить | do you speak Turkish? I speak a little. but I would like to learn. : ty govorish po turetski? ya nemnogo govoryu. no hotel by vyuchit
+Я не очень понимаю. Я говорю только немного | I don't understand very much. I only speak a little. : ya ne ochen ponimayu. ya govoryu tolko nemnogo
+Ты с ума сошёл? Это тебя не касается | are you out of your mind? that is none of your business : ty s uma soshel? eto tebya ne kasaetsya
+Что ты делаешь сегодня? Пошли | what are you doing today? let's go : chto ty delayesh segodnya? poshli
+Ничего особенного. А ты? | not much. and you? : nichego osobennogo. a ty
+Доброе утро. Ладно, мне нужно идти. Пошли. | good morning. okay, I have to go. let's go. : dobroe utro. ladno, mne nuzhno idti. poshli
+
+#Questions
+Почему ты ушёл? Что ты ел? | why did you go? what did you eat? : pochemu ty ushel? chto ty yel
+Что мы нашли? Кого ты видел? | what did we find? who did you see? : chto my nashli? kogo ty videl
+Когда ты приехал? | when did you arrive? : kogda ty priehal
+Где была машина? Куда ты пойдёшь? Какая была погода? | at what place was the car? where will you go? how was the weather? : gde byla mashina? kuda ty poydyosh? kakaya byla pogoda
+Кто, почему, когда, где, что, как | who, why, when, where, what, how. : kto, pochemu, kogda, gde, chto, kak
+
+#Colours and Numbers
+Красный, синий, зелёный, жёлтый | red blue green yellow : krasnyy, siniy, zelenyy, zholtyy
+Оранжевый, фиолетовый, розовый, коричневый | orange purple pink brown : oranzhevyy, fioletovyy, rozovyy, korichnevyy
+Чёрный, белый, серый, бежевый | black white gray beige : chyornyy, belyy, seryy, bezhevyy
+Золотой, серебряный, медный, бронзовый | gold silver copper bronze : zolotoy, serebryanyy, mednyy, bronzovyy
+Тёмно-синий, бирюзовый, голубой, тёмно-зелёный | navy turquoise light blue dark green : temno siniy, biryuzovyy, goluboy, temno zelenyy
+
+Один, два, три, четыре | one two three four : odin, dva, tri, chetyre
+Пять, шесть, семь, восемь | five six seven eight : pyat, shest, sem, vosem
+Девять, десять, одиннадцать, двенадцать | nine ten eleven twelve : devyat, desyat, odinnadtsat, dvenadtsat
+Двадцать, тридцать, сорок, пятьдесят | twenty thirty forty fifty : dvadtsat, tridtsat, sorok, pyatdesyat
+Сто, тысяча, миллион, миллиард | hundred thousand million billion : sto, tysyacha, million, milliard
+Пятьдесят, шестьдесят, семьдесят, восемьдесят, девяносто | fifty sixty seventy eighty ninety : pyatdesyat, shestdesyat, semdesyat, vosemdesyat, devyanosto
+Двадцать один, тридцать два, сорок три, пятьдесят четыре | twenty-one thirty-two forty-three fifty-four : dvadtsat odin, tridtsat dva, sorok tri, pyatdesyat chetyre
+Пятьдесят два, шестьдесят три, семьдесят девять, восемьдесят семь, девяносто восемь | fifty-two sixty-three seventy-nine eighty-seven ninety-eight : pyatdesyat dva, shestdesyat tri, semdesyat devyat, vosemdesyat sem, devyanosto vosem
+
+#Verbs
+Я пошёл в школу и увидел кошку | I went to school and saw a cat : ya poshol v shkolu i uvidel koshku
+Что ты делал вчера? | what did you do yesterday? : chto ty delal vchera
+Мы пошли в город, а потом поели | we went to the city and then ate : my poshli v gorod, a potom poeli
+Вы говорили по-турецки, и все поняли | you all spoke Turkish, and everyone understood : vy govorili po turetski, i vse ponyali
+Они пили кофе и работали | they drank coffee and worked : oni pili kofe i rabotali
+Я увидел тебя, но ты меня не знал | I saw you, but you didn’t know me. : ya uvidel tebya, no ty menya ne znal
+Я сейчас ем | I am eating now : ya seychas yem
+Он читает книгу каждый день | He/she reads a book every day. : on chitayet knigu kazhdyy den
+Ты хочешь выучить турецкий, но тебе нужна практика | you want to learn Turkish, but you need to practice : ty khochesh vyuchit turetskiy, no tebe nuzhna praktika
+Мы пьём кофе и разговариваем | we are drinking coffee and talking. : my pyom kofe i razgovarivaem
+Что вы делаете? | What are you all doing? : chto vy delayete
+Они не понимают урок | They don’t understand the lesson. : oni ne ponimayut urok
+Я тебя очень люблю | I love you so much. : ya tebya ochen lyublyu
+Я поем позже | I will eat later. : ya poyem pozhe
+Ты пойдёшь в школу завтра? | Will you go to school tomorrow? : ty poydyosh v shkolu zavtra
+Он купит подарок и даст его нам | He/she will buy the gift and give it to us. : on kupit podarok i dast ego nam
+Мы сделаем новый проект | We will do a new project. : my sdelaem novyy proyekt
+Вы будете говорить по-турецки, и все впечатлятся | You all will speak Turkish, and everyone will be impressed. : vy budete govorit po turetski, i vse vpechatlyatsya
+Они вернутся домой завтра | They will come home tomorrow. : oni vernutsya domoy zavtra
+
+идти, приходить, делать, есть, пить - to go, to come, to do/make, to eat, to drink
+видеть, знать, говорить, любить, покупать - to see, to know, to speak, to love, to buy
+давать, работать, понимать, хотеть, читать - to give, to work/study, to understand, to want, to read
+
+#Opposites
+Большой, маленький, длинный, короткий | big small long short : bolshoy, malenkiy, dlinnyy, korotkiy
+Тёплый, холодный, быстрый, медленный | hot cold fast slow : tyoplyy, kholodnyy, bystryy, medlennyy
+Новый, старый, высокий, низкий | new old high low : novyy, staryy, vysokiy, nizkiy
+Открытый, закрытый, тяжёлый, лёгкий | open closed heavy light : otkrytyy, zakrytyy, tyazholy, lyogkiy
+Счастливый, грустный, правильный, неправильный | happy sad right wrong : schastlivyy, grustnyy, pravilnyy, nepravilnyy
+Вверх, вниз, внутри, снаружи | up down inside outside : vverkh, vniz, vnutri, snaruzhi
+Хороший, плохой, лёгкий, трудный | good bad easy hard : khoroshiy, plokhoy, lyogkiy, trudnyy
+Справа, слева, впереди, сзади | right left front back : sprava, sleva, vperedi, szadi
+Полный, пустой, дорогой, дешёвый | full empty expensive cheap : polnyy, pustoy, dorogoy, deshovyy
+Мало, много, твёрдый, мягкий | little much hard soft : malo, mnogo, tvyordyy, myagkiy
+Молодой, старый, близкий, далёкий | young old near far : molodoy, staryy, blizkiy, dalekiy
+Чистый, грязный, рано, поздно | clean dirty early late : chistyy, gryaznyy, rano, pozdno
+Толстый, тонкий, полный, неполный | thick thin complete incomplete : tolstyy, tonkiy, polnyy, nepolnyy
+Яркий, тёмный, тихий, шумный | bright dark quiet noisy : yarkiy, tyomnyy, tikhiy, shumnyy
+Большой маленький длинный короткий | big small long short : bolshoy malenkiy dlinnyy korotkiy
+Тёплый холодный новый древний | hot cold new old : tyoplyy kholodnyy novyy drevniy
+Красивый уродливый лёгкий трудный | beautiful ugly easy difficult : krasivyy urodlivyy lyogkiy trudnyy
+Поверни направо, потом налево, прямо | go right then left straight ahead : poverni napravo, potom nalevo, pryamo
+
+#Learning Greek
+Две недели назад я решил выучить турецкий | two weeks ago I decided to learn Turkish : dve nedeli nazad ya reshil vyuchit turetskiy
+Потому что я ездил в отпуск в Турцию | because I went on a holiday to Turkey : potomu chto ya yezdil v otpusk v Turtsiyu
+Я начал с простого | I started with the easy stuff : ya nachal s prostogo
+Мне нужно практиковаться, иначе я всё забуду! | I need to practice otherwise I will forget everything! : mne nuzhno praktikavatsya, inache ya vsyo zabudu
+На самом деле я уже почти всё забыл! | in fact, I already forgot almost everything! : na samom dele ya uzhe pochti vsyo zabyl
+
+#Weather
+Сегодня прекрасная погода. Небо голубое. Ни облачка. | nice weather today. the sky is blue. no clouds. : segodnya prekrasnaya pogoda. nebo goluboye. ni oblachka
+Солнечно. Ветра нет. Дождя нет. | sunny. no wind. it isn't raining. : solnechno. vetra net. dozhdya net
+Яркое солнце. Немного ветра. Потом дождь. | bright sun. some wind. then rain. : yarkoye solntse. nemnogo vetra. potom dozhd
+Погода была хорошая и совсем не плохая | weather was fine and not bad at all : pogoda byla khoroshaya i sovsem ne plokhaya
+Погода была почти идеальная | the weather was nearly perfect : pogoda byla pochti idealnaya
+Почти каждый день было солнечно, но один день шёл дождь | sunny almost every day, but one day it rained : pochti kazhdyy den bylo solnechno, no odin den shel dozhd
+
+#Time
+Иногда, всегда, никогда, редко, часто | sometimes, always, never, seldom, often : inogda, vsegda, nikogda, redko, chasto
+Сейчас, сегодня, завтра, вчера, на прошлой неделе, в следующем году, каждый день | now, today, tomorrow, yesterday, last week, next year, every day : seychas, segodnya, zavtra, vchera, na proshloy nedele, v sleduyushchem godu, kazhdyy den
+На следующей неделе, в этом году, в прошлом месяце, три дня назад, на выходных | next week, this year, last month, three days ago, at the weekend : na sleduyushchey nedele, v etom godu, v proshlom mesyatse, tri dnya nazad, na vykhodnykh

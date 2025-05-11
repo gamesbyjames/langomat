@@ -1,0 +1,154 @@
+// Format: Farsi words | English translation : hint
+#Small Talk:
+سلام، حالت چطوره، من خوبم، خوشوقتم | hello how are you, I'm fine, pleased to meet you : salam, hâlet chetore, man khobam, khoshvaghtam
+اهل کجایی؟ من ایرلندی‌ام اما در آلمان زندگی می‌کنم | where are you from, I am Irish but I live in Germany : ahl-e kojâyi? man irlandi-am ammâ dar âlmân zendegi mikonam
+شغلت چیه؟ من مهندس هستم | what do you do for work; I am an engineer : shoghlat chiye? man mohandes hastam
+من یک برادر و سه خواهر دارم | I have a brother and three sisters : man yek barâdar va se khâhar dâram
+من سه فرزند دارم، دو پسر و یک دختر | I have three kids, two sons and a daughter : man se farzand dâram, do pesar va yek dokhtar
+صبح بخیر، عصر بخیر، خداحافظ، بعداً می‌بینمت | good morning good evening goodbye see you later : sobh bekheir, asr bekheir, khodâhâfez, ba'dan mibinamet
+لطفاً، متشکرم، ببخشید، می‌فهمم | please thank you sorry I understand : lotfan, moteshakeram, bebakhshid, mifahmam
+
+#More small talk
+من گرسنه‌ام، باید چیزی بخورم | I am hungry I need to eat something : man gorsne-am, bâyad chizi bokhoram
+من تشنه‌ام، باید چیزی بنوشم | I am thirsty I need to drink something : man teshne-am, bâyad chizi benusham
+من را تنها بگذار | leave me alone : man râ tanhâ begzâr
+خیلی هم خوب. اینجا منتظر بمان | also very good. wait here : kheyli ham khub. injâ montazer bemân
+به من نگاه کن. اهل کجایی؟ مطمئنی؟ بعداً می‌بینمت | look at me. where are you from? are you sure? see you later : be man negâh kon. ahl-e kojâyi? motma'en-i? ba'dan mibinamet
+اهل کجایی؟ عصر بخیر؛ نمی‌دانم؛ گرسنه‌ام؛ تشنه‌ام | where are you from? good afternoon. I don't know. I'm hungry. I'm thirsty. : ahl-e kojâyi? asr bekheir; nemidânam; gorsne-am; teshne-am
+بعداً می‌بینمت، ساعت چنده، اسمت چیه | see you later. what time is it? what's your name? : ba'dan mibinamet, sâ'at chande, esmet chiye
+سخت. آسان. ساده نیست. من در آلمان زندگی می‌کنم. من ایرلندی‌ام. عالی. شگفت‌انگیز. | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing. : sakht. âsân. sâde nist. man dar âlmân zendegi mikonam. man irlandi-am. âli. shegeft-angiz
+بله و خیر. چقدر؟ خسته‌ام. کجا؟ | yes and no. how much? I'm tired. where? : bale va kheir. cheghadr? khaste-am. kojâ?
+خوشمزه، گران، من اینجا هستم، من آنجا هستم | delicious. expensive. I'm here. I'm there. : khoshmazze, gerân, man injâ hastam, man ânjâ hastam
+هوا امروز چطوره؟ سؤال؛ بریم؛ پول ندارم؛ خوشوقتم | how's the weather today? question. let's go. I have no money. nice to meet you. : havâ emruz chetore? so'âl; berim; pul nadâram; khoshvaghtam
+از دیدنت خوشوقتم | nice to meet you : az didanet khoshvaghtam
+سلام، چطوری | hello, how are you? : salam, chetori
+کسی، هیچ‌کس، همه | someone nobody everybody : kasi, hichkas, hame
+
+#Even more:
+خوبم، ممنون، تو چطور؟ | I'm fine thanks, and you? : khobam, mamnun, to chetor
+اسم من جیمز است | my name is James : esme man James ast
+من زیاد ترکی نمی‌دانم | I don't know much Turkish : man ziyâd torki nemidânam
+اما می‌خواهم یاد بگیرم | but I want to learn : ammâ mikhâham yâd begiram
+می‌توانی کمکم کنی؟ | can you help me? : mitavâni komakam koni
+دارم ترکی یاد می‌گیرم | I'm learning Turkish : dâram torki yâd migiram
+نفهمیدم؛ می‌توانی تکرار کنی؟ | I didn't understand, can you repeat? : nafahmidam; mitavâni tekrar koni
+می‌توانی آهسته‌تر صحبت کنی؟ | can you speak more slowly? : mitavâni âheste-tar sohbat koni
+اهل کجایی؟ | where are you from? : ahl-e kojâyi
+من اهل آمریکا هستم | I am from America : man ahl-e Âmrikâ hastam
+این یعنی چه؟ | what does this mean? : in yani che
+امروز هوا خوب است | the weather is nice today : emruz havâ khub ast
+به کمک نیاز دارم | I need help : be komak niyâz dâram
+چند سال داری؟ | how old are you? : chand sâl dâri
+شغلت چیه؟ | what do you do for work? : shoghlat chiye
+گرسنه‌ام، بیا غذا بخوریم | I'm hungry, let's eat : gorsne-am, biyâ ghazâ bokhorim
+می‌خواهم آب بنوشم | I want to drink water : mikhâham âb benusham
+ساعت چند است؟ | what time is it? : sâ'at chand ast
+خیلی گران است، چیز ارزان‌تری دارید؟ | it's very expensive, is there something cheaper? : kheyli gerân ast, chiz-e arzân-tari dârid
+کجا زندگی می‌کنی؟ | where do you live? : kojâ zendegi mikoni
+خداحافظ، فردا می‌بینمت | goodbye, see you tomorrow : khodâhâfez, fardâ mibinamet
+لطفاً متشکرم | please thank you : lotfan moteshakeram
+خواهش می‌کنم | you're welcome : khâhesh mikonam
+قهوه چای شیر شکر | coffee tea milk sugar : qahve chây shir shekar
+امروز فردا دیروز | today tomorrow yesterday : emruz fardâ diruz
+صبح ظهر عصر شب | morning noon evening night : sobh zohr asr shab
+
+#Useful
+عالی، شگفت‌انگیز، فوق‌العاده، باورنکردنی، کامل، حیرت‌آور | fabulous wonderful fantastic unbelievable perfect amazing : âli, shegeft-angiz, fogh-olâde, bâvar-nakardani, kâmel, heyrat-âvar
+هر روز کمی بیشتر یاد می‌گیرم. حداقل هنوز نه. آن چیست؟ | I learn a little more every day. at least not yet. what's that? : har ruz kami bishtar yâd migiram. hadaghal hanuz na. ân chist
+خب رفیق! چه خبر؟ چه کار می‌کنی؟ واقعاً؟ جدی! مشکلی نیست! خوشم آمد! | well mate, what's up? what are you doing? really? really! no problem. I loved it. : khob rafigh! che khabar? che kâr mikoni? vâghan? jedi! moshkeli nist! khosham âmad
+کی تعطیل می‌کنید؟ به تو ربطی ندارد! دیوانه‌ای؟ | what time you closed? none of your business! you crazy? : key ta'til mikonid? be to rabti nadârad! divâne-i
+کجا زندگی می‌کنی؟ به من نگاه کن. اهل کجایی؟ همه چیز خوبه؟ اینجا صبر کن. بعداً می‌بینمت | where do you live? look at me. where are you from? all good? wait here. see you later. : kojâ zendegi mikoni? be man negâh kon. ahl-e kojâyi? hame chiz khube? injâ sabr kon. ba'dan mibinamet
+ترکی بلدی؟ کمی صحبت می‌کنم. اما دوست دارم یاد بگیرم | do you speak Turkish? I speak a little. but I would like to learn. : torki baladi? kami sohbat mikonam. ammâ dust dâram yâd begiram
+خیلی نمی‌فهمم. فقط کمی صحبت می‌کنم | I don't understand very much. I only speak a little. : kheyli nemifahmam. faqat kami sohbat mikonam
+عقلت را از دست دادی؟ به تو ربطی ندارد | are you out of your mind? that is none of your business : aghlet râ az dast dâdi? be to rabti nadârad
+امروز چه کار می‌کنی؟ بیا برویم | what are you doing today? let's go : emruz che kâr mikoni? biyâ beravim
+چیز خاصی نیست. تو چطور؟ | not much. and you? : chiz-e khâssi nist. to chetor
+صبح بخیر. باشه، باید بروم. برویم. | good morning. okay, I have to go. let's go. : sobh bekheir. bâshe, bâyad beravam. beravim
+
+#Questions
+چرا رفتی؟ چه خوردی؟ | why did you go? what did you eat? : cherâ rafti? che khordi
+چه پیدا کردیم؟ چه کسی را دیدی؟ | what did we find? who did you see? : che peydâ kardim? che kasi râ didi
+کی رسیدی؟ | when did you arrive? : key residi
+ماشین کجا بود؟ کجا خواهی رفت؟ هوا چطور بود؟ | at what place was the car? where will you go? how was the weather? : mâshin kojâ bud? kojâ khâhi raft? havâ chetor bud
+چه کسی، چرا، چه وقت، کجا، چه، چگونه | who, why, when, where, what, how. : che kasi, cherâ, che vaght, kojâ, che, chegoone
+
+#Colours and Numbers
+قرمز، آبی، سبز، زرد | red blue green yellow : ghermez, âbi, sabz, zard
+نارنجی، بنفش، صورتی، قهوه‌ای | orange purple pink brown : nârenji, banafshe, sorati, ghahve-i
+سیاه، سفید، خاکستری، بژ | black white gray beige : siyâh, sefid, khâkestari, bezh
+طلایی، نقره‌ای، مسی، برنزی | gold silver copper bronze : talâyi, noghre-i, mesi, berenzi
+سرمه‌ای، فیروزه‌ای، آبی روشن، سبز تیره | navy turquoise light blue dark green : sormei, firuze-i, âbi roshan, sabz tireh
+
+یک، دو، سه، چهار | one two three four : yek, do, se, chahâr
+پنج، شش، هفت، هشت | five six seven eight : panj, shesh, haft, hasht
+نه، ده، یازده، دوازده | nine ten eleven twelve : noh, dah, yâzdah, davâzdah
+بیست، سی، چهل، پنجاه | twenty thirty forty fifty : bist, si, chehel, panjâh
+صد، هزار، میلیون، میلیارد | hundred thousand million billion : sad, hezâr, milion, milyârd
+پنجاه، شصت، هفتاد، هشتاد، نود | fifty sixty seventy eighty ninety : panjâh, shast, haftâd, hashtâd, navad
+بیست و یک، سی و دو، چهل و سه، پنجاه و چهار | twenty-one thirty-two forty-three fifty-four : bist o yek, si o do, chehel o se, panjâh o chahâr
+پنجاه و دو، شصت و سه، هفتاد و نه، هشتاد و هفت، نود و هشت | fifty-two sixty-three seventy-nine eighty-seven ninety-eight : panjâh o do, shast o se, haftâd o noh, hashtâd o haft, navad o hasht
+
+#Verbs
+به مدرسه رفتم و یک گربه دیدم | I went to school and saw a cat : be madrese raftam va yek gorbe didam
+دیروز چه کار کردی؟ | what did you do yesterday? : diruz che kâr kardi
+به شهر رفتیم و بعد غذا خوردیم | we went to the city and then ate : be shahr raftim va ba'd ghazâ khordim
+شما ترکی صحبت کردید و همه فهمیدند | you all spoke Turkish, and everyone understood : shomâ torki sohbat kardid va hame fahmidand
+آنها قهوه خوردند و کار کردند | they drank coffee and worked : ânhâ qahve khordand va kâr kardand
+من تو را دیدم ولی تو مرا نمی‌شناختی | I saw you, but you didn’t know me. : man to râ didam vali to marâ nemi-shenâkhti
+اکنون در حال خوردن هستم | I am eating now : aknûn dar hâl-e khordan hastam
+او هر روز کتاب می‌خواند | He/she reads a book every day. : u har ruz ketâb mikhânad
+می‌خواهی ترکی یاد بگیری اما نیاز به تمرین داری | you want to learn Turkish, but you need to practice : mikhâhi torki yâd begiri ammâ niyâz be tamrin dâri
+ما قهوه می‌نوشیم و صحبت می‌کنیم | we are drinking coffee and talking. : mâ qahve minushim va sohbat mikonim
+شماها چه کار می‌کنید؟ | What are you all doing? : shomâhâ che kâr mikonid
+آنها درس را نمی‌فهمند | They don’t understand the lesson. : ânhâ dars râ nemifahmand
+خیلی دوستت دارم | I love you so much. : kheyli dustat dâram
+بعداً غذا می‌خورم | I will eat later. : ba'dan ghazâ mikhoram
+فردا به مدرسه می‌روی؟ | Will you go to school tomorrow? : fardâ be madrese miravi?
+او هدیه را می‌خرد و به ما می‌دهد | He/she will buy the gift and give it to us. : u hadiye râ mikharad va be mâ midahad
+ما یک پروژه جدید انجام خواهیم داد | We will do a new project. : mâ yek projeye jadid anjâm khâhim dâd
+شماها ترکی صحبت خواهید کرد و همه تحت تأثیر قرار خواهند گرفت | You all will speak Turkish, and everyone will be impressed. : shomâhâ torki sohbat khâhid kard va hame tahte ta'sir qarâr khâhand gereft
+آنها فردا به خانه باز خواهند گشت | They will come home tomorrow. : ânhâ fardâ be khâne bâz khâhand gasht
+
+رفتن، آمدن، انجام دادن/کردن، خوردن، نوشیدن - to go, to come, to do/make, to eat, to drink
+دیدن، دانستن، صحبت کردن، دوست داشتن، خریدن - to see, to know, to speak, to love, to buy
+دادن، کار کردن، فهمیدن، خواستن، خواندن - to give, to work/study, to understand, to want, to read
+
+#Opposites
+بزرگ، کوچک، بلند، کوتاه | big small long short : bozorg, kuchak, boland, kutâh
+گرم، سرد، تند، آهسته | hot cold fast slow : garm, sard, tond, âheste
+جدید، قدیمی، بلند، پایین | new old high low : jadid, qadimi, boland, pâyin
+باز، بسته، سنگین، سبک | open closed heavy light : bâz, baste, sangin, sabok
+خوشحال، غمگین، درست، نادرست | happy sad right wrong : khoshhâl, ghamgin, dorost, nâdorost
+بالا، پایین، داخل، خارج | up down inside outside : bâlâ, pâyin, dâkhel, khârej
+خوب، بد، آسان، سخت | good bad easy hard : khub, bad, âsân, sakht
+راست، چپ، جلو، پشت | right left front back : râst, chap, jelo, posht
+پر، خالی، گران، ارزان | full empty expensive cheap : por, khâli, gerân, arzân
+کم، زیاد، سخت، نرم | little much hard soft : kam, ziyâd, sakht, narm
+جوان، پیر، نزدیک، دور | young old near far : javân, pir, nazdik, dur
+تمیز، کثیف، زود، دیر | clean dirty early late : tamiz, kasif, zud, dir
+ضخیم، نازک، کامل، ناقص | thick thin complete incomplete : zakhim, nâzok, kâmel, nâqes
+روشن، تاریک، ساکت، پر سر و صدا | bright dark quiet noisy : roshan, târik, sâket, por sar o sedâ
+بزرگ کوچک بلند کوتاه | big small long short : bozorg kuchak boland kutâh
+گرم سرد جدید قدیمی | hot cold new old : garm sard jadid qadimi
+زیبا، زشت، آسان، دشوار | beautiful ugly easy difficult : zibâ, zesht, âsân, doshvâr
+به راست برو، بعد چپ، مستقیم جلو | go right then left straight ahead : be râst boro, ba'd chap, mostaghim jelo
+
+#Learning Greek
+دو هفته پیش تصمیم گرفتم ترکی یاد بگیرم | two weeks ago I decided to learn Turkish : do hafte pish tasmim gereftam torki yâd begiram
+چون برای تعطیلات به ترکیه رفتم | because I went on a holiday to Turkey : chun barâye ta'tilât be Torkiye raftam
+از چیزهای آسان شروع کردم | I started with the easy stuff : az chizhâye âsân shoru' kardam
+باید تمرین کنم وگرنه همه چیز را فراموش می‌کنم! | I need to practice otherwise I will forget everything! : bâyad tamrin konam vagarna hame chiz râ farâmush mikonam
+در واقع، تقریباً همه چیز را از یاد برده‌ام! | in fact, I already forgot almost everything! : dar vâqe', taqriban hame chiz râ az yâd borde-am
+
+#Weather
+امروز هوا عالی است. آسمان آبی است. ابری نیست. | nice weather today. the sky is blue. no clouds. : emruz havâ âli ast. âsemân âbi ast. abri nist
+آفتابی. باد نیست. باران نمی‌بارد. | sunny. no wind. it isn't raining. : âftâbi. bâd nist. bârân nemibâr(ad)
+خورشید درخشان. کمی باد. بعد باران. | bright sun. some wind. then rain. : khorshid derakhshân. kami bâd. ba'd bârân
+هوا خوب بود و اصلاً بد نبود | weather was fine and not bad at all : havâ khub bud va aslan bad nabud
+هوا تقریباً بی‌نقص بود | the weather was nearly perfect : havâ taqriban bi-naqs bud
+تقریباً هر روز آفتابی بود، اما یک روز باران بارید | sunny almost every day, but one day it rained : taqriban har ruz âftâbi bud, ammâ yek ruz bârân bârid
+
+#Time
+گاهی، همیشه، هرگز، به ندرت، اغلب | sometimes, always, never, seldom, often : gâhi, hamishe, hargez, be nodrat, aghlab
+اکنون، امروز، فردا، دیروز، هفته گذشته، سال آینده، هر روز | now, today, tomorrow, yesterday, last week, next year, every day : aknun, emruz, fardâ, diruz, hafte-ye gozashte, sâl-e âyande, har ruz
+هفته آینده، امسال، ماه گذشته، سه روز پیش، آخر هفته | next week, this year, last month, three days ago, at the weekend : hafte-ye âyande, emsâl, mâh-e gozashte, se ruz pish, âkhar-e hafte

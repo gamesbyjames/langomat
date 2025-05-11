@@ -1,0 +1,154 @@
+    // Format: Japanese words | English translation : hint
+#Small Talk:
+こんにちは  、 元気 ？ 私 は 元気 です    はじめまして | hello how are you, I'm fine, pleased to meet you : konnichiwa, genki? watashi wa genki desu, hajimemashite
+どこ から 来た の？ 私 は アイルランド 人 だけど ドイツ に 住んで います | where are you from, I am Irish but I live in Germany : doko kara kita no? watashi wa Airurando-jin dakedo Doitsu ni sunde imasu
+お仕事 は 何 です か？ 私 は エンジニア です | what do you do for work; I am an engineer : oshigoto wa nan desu ka? watashi wa enjinia desu
+兄 が 一人 と 妹 が 三人 います | I have a brother and three sisters : ani ga hitori to imōto ga sannin imasu
+子ども が 三人 、 息子 が 二人 と 娘 が 一人 います | I have three kids, two sons and a daughter : kodomo ga sannin, musuko ga futari to musume ga hitori imasu
+おはよう 、 こんばんは 、 さようなら 、 また 後で | good morning good evening goodbye see you later : ohayō, konbanwa, sayōnara, mata ato de
+お願いします 、 ありがとう 、 ごめんなさい 、 わかります | please thank you sorry I understand : onegai shimasu, arigatō, gomen nasai, wakarimasu
+
+#More small talk:
+お腹が空いた、何か食べないと | I am hungry I need to eat something : onaka ga suita, nanika tabenai to
+喉が渇いた、何か飲まないと | I am thirsty I need to drink something : nodo ga kawaita, nanika nomanai to
+ほっといて | leave me alone : hottoite
+とてもいいよ。ここで待って | also very good. wait here : totemo ii yo. koko de matte
+私を見て。どこから？本当に？またね | look at me. where are you from? are you sure? see you later : watashi o mite. doko kara? hontō ni? mata ne
+どこから来たの？こんにちは；知らない；お腹空いた；喉渇いた | where are you from? good afternoon. I don't know. I'm hungry. I'm thirsty. : doko kara kita no? konnichiwa; shiranai; onaka suita; nodo kawaita
+また後で、今何時？名前は？ | see you later. what time is it? what's your name? : mata ato de, ima nanji? namae wa?
+難しい。簡単。簡単じゃない。ドイツに住んでいる。私はアイルランド人。すごい。素晴らしい。 | hard. easy. not simple. I live in Germany. I'm Irish. great. amazing. : muzukashii. kantan. kantan janai. Doitsu ni sunde iru. watashi wa Airurando-jin. sugoi. subarashii
+はいといいえ。いくら？疲れた。どこ？ | yes and no. how much? I'm tired. where? : hai to iie. ikura? tsukareta. doko?
+おいしい。高い。私はここ。私はそこ。 | delicious. expensive. I'm here. I'm there. : oishii. takai. watashi wa koko. watashi wa soko
+今日の天気は？質問；行こう；お金がない；はじめまして | how's the weather today? question. let's go. I have no money. nice to meet you. : kyō no tenki wa? shitsumon; ikō; okane ga nai; hajimemashite
+お会いできて嬉しいです | nice to meet you : o‐ai dekite ureshii desu
+やあ、調子は？ | hello, how are you? : yā, chōshi wa?
+誰か、誰もいない、みんな | someone nobody everybody : dareka, dare mo inai, minna
+
+#Even more
+元気です、ありがとう、あなたは？ | I'm fine thanks, and you? : genki desu, arigatō, anata wa?
+私の名前はジェームズです | my name is James : watashi no namae wa Jēmuzu desu
+トルコ語はあまり分かりません | I don't know much Turkish : Toruko-go wa amari wakarimasen
+でも習いたいです | but I want to learn : demo naraitai desu
+手伝ってくれますか？ | can you help me? : tetsudatte kuremasu ka?
+トルコ語を勉強しています | I'm learning Turkish : Toruko-go o benkyō shite imasu
+分かりませんでした；もう一度お願いします | I didn't understand, can you repeat? : wakarimasen deshita; mō ichido onegai shimasu
+ゆっくり話してくれますか？ | can you speak more slowly? : yukkuri hanashite kuremasu ka?
+どちらの出身ですか？ | where are you from? : dochira no shusshin desu ka?
+私はアメリカ出身です | I am from America : watashi wa Amerika shusshin desu
+これはどういう意味ですか？ | what does this mean? : kore wa dō iu imi desu ka?
+今日はいい天気です | the weather is nice today : kyō wa ii tenki desu
+助けが必要です | I need help : tasuke ga hitsuyō desu
+何歳ですか？ | how old are you? : nan-sai desu ka?
+お仕事は何を？ | what do you do for work? : oshigoto wa nani o?
+お腹空いた、食べに行こう | I'm hungry, let's eat : onaka suita, tabe ni ikō
+水を飲みたい | I want to drink water : mizu o nomitai
+今何時ですか？ | what time is it? : ima nanji desu ka?
+とても高いです、もっと安いものはありますか？ | it's very expensive, is there something cheaper? : totemo takai desu, motto yasui mono wa arimasu ka?
+どこに住んでいますか？ | where do you live? : doko ni sunde imasu ka?
+さようなら、また明日 | goodbye, see you tomorrow : sayōnara, mata ashita
+お願いします ありがとう | please thank you : onegai shimasu arigatō
+どういたしまして | you're welcome : dō itashimashite
+コーヒー 紅茶 牛乳 砂糖 | coffee tea milk sugar : kōhī kōcha gyūnyū satō
+今日 明日 昨日 | today tomorrow yesterday : kyō ashita kinō
+朝 昼 夕方 夜 | morning noon evening night : asa hiru yūgata yoru
+
+#Useful
+素晴らしい、驚くべき、ファンタスティック、信じられない、完璧、最高 | fabulous wonderful fantastic unbelievable perfect amazing : subarashii, odoroku beki, fantasutikku, shinjirarenai, kanpeki, saikō
+毎日少しずつ学んでいます。まだです。あれは何？ | I learn a little more every day. at least not yet. what's that? : mainichi sukoshi zutsu manande imasu. mada desu. are wa nani?
+ねえ友よ！元気？何してる？本当？マジで！問題ない！気に入った！ | well mate, what's up? what are you doing? really? really! no problem. I loved it. : nē tomo yo! genki? nani shiteru? hontō? maji de! mondai nai! ki ni itta!
+何時に閉店？関係ないだろ！頭おかしい？ | what time you closed? none of your business! you crazy? : nanji ni heiten? kankei nai daro! atama okashii?
+どこに住んでる？私を見て。どこ出身？大丈夫？ここで待って。後でね | where do you live? look at me. where are you from? all good? wait here. see you later. : doko ni sunderu? watashi o mite. doko shusshin? daijōbu? koko de matte. ato de ne
+トルコ語話せる？少しだけ。でも学びたい | do you speak Turkish? I speak a little. but I would like to learn. : Toruko-go hanaseru? sukoshi dake. demo manabitai
+あまり分かりません。少ししか話せません | I don't understand very much. I only speak a little. : amari wakarimasen. sukoshi shika hanasemasen
+正気？あなたには関係ない | are you out of your mind? that is none of your business : shōki? anata ni wa kankei nai
+今日は何する？行こう | what are you doing today? let's go : kyō wa nani suru? ikō
+特にないよ。君は？ | not much. and you? : tokuni nai yo. kimi wa?
+おはよう。じゃあ、行かなきゃ。行こう。 | good morning. okay, I have to go. let's go. : ohayō. jâ, ikanakya. ikō
+
+#Questions
+なぜ行ったの？何を食べた？ | why did you go? what did you eat? : naze itta no? nani o tabeta?
+何を見つけた？誰を見た？ | what did we find? who did you see? : nani o mitsuketa? dare o mita?
+いつ着いた？ | when did you arrive? : itsu tsuita?
+車はどこにあった？どこへ行く？天気はどうだった？ | at what place was the car? where will you go? how was the weather? : kuruma wa doko ni atta? doko e iku? tenki wa dō datta?
+誰、なぜ、いつ、どこ、何、どう | who, why, when, where, what, how. : dare, naze, itsu, doko, nani, dō
+
+#Colours and Numbers
+赤、青、緑、黄色 | red blue green yellow : aka, ao, midori, kiiro
+オレンジ、紫、ピンク、茶色 | orange purple pink brown : orenji, murasaki, pinku, chairo
+黒、白、灰色、ベージュ | black white gray beige : kuro, shiro, haiiro, bēju
+金色、銀色、銅色、ブロンズ | gold silver copper bronze : kin'iro, gin'iro, dō-iro, buronzu
+ネイビー、ターコイズ、水色、深緑 | navy turquoise light blue dark green : neibī, tākoizu, mizuiro, fukamidori
+
+一、二、三、四 | one two three four : ichi, ni, san, yon
+五、六、七、八 | five six seven eight : go, roku, nana, hachi
+九、十、十一、十二 | nine ten eleven twelve : kyū, jū, jūichi, jūni
+二十、三十、四十、五十 | twenty thirty forty fifty : nijū, sanjū, yonjū, gojū
+百、千、百万、十億 | hundred thousand million billion : hyaku, sen, hyakuman, jū-oku
+五十、六十、七十、八十、九十 | fifty sixty seventy eighty ninety : gojū, rokujū, nanajū, hachijū, kyūjū
+二十一、三十二、四十三、五十四 | twenty-one thirty-two forty-three fifty-four : nijū-ichi, sanjū-ni, yonjū-san, gojū-yon
+五十二、六十三、七十九、八十七、九十八 | fifty-two sixty-three seventy-nine eighty-seven ninety-eight : gojū-ni, rokujū-san, nanajū-kyū, hachijū-nana, kyūjū-hachi
+
+#Verbs
+学校に行って猫を見た | I went to school and saw a cat : gakkō ni itte neko o mita
+昨日何した？ | what did you do yesterday? : kinō nani shita?
+街へ行ってそれから食べた | we went to the city and then ate : machi e itte sore kara tabeta
+みんなでトルコ語を話して全員理解した | you all spoke Turkish, and everyone understood : minna de Toruko-go o hanashite zen'in rikai shita
+彼らはコーヒーを飲んで働いた | they drank coffee and worked : karera wa kōhī o nonde hataraita
+君を見たけど私を知らなかった | I saw you, but you didn’t know me. : kimi o mita kedo watashi o shiranakatta
+今食べている | I am eating now : ima tabete iru
+彼は毎日本を読む | He/she reads a book every day. : kare wa mainichi hon o yomu
+トルコ語を学びたいが練習が必要だ | you want to learn Turkish, but you need to practice : Toruko-go o manabitai ga renshū ga hitsuyō da
+コーヒーを飲みながら話している | we are drinking coffee and talking. : kōhī o nominagara hanashite iru
+何をしていますか？ | What are you all doing? : nani o shite imasu ka?
+彼らは授業を理解していない | They don’t understand the lesson. : karera wa jugyō o rikai shite inai
+大好きだよ | I love you so much. : daisuki da yo
+後で食べる | I will eat later. : ato de taberu
+明日学校に行く？ | Will you go to school tomorrow? : ashita gakkō ni iku?
+彼はプレゼントを買って私たちにくれる | He/she will buy the gift and give it to us. : kare wa purezento o katte watashitachi ni kureru
+新しいプロジェクトをやります | We will do a new project. : atarashii purojekuto o yarimasu
+トルコ語を話せば皆感動するでしょう | You all will speak Turkish, and everyone will be impressed. : Toruko-go o hanaseba mina kandō suru deshō
+彼らは明日家に帰る | They will come home tomorrow. : karera wa ashita ie ni kaeru
+
+行く、来る、する、食べる、飲む - to go, to come, to do/make, to eat, to drink
+見る、知る、話す、愛する、買う - to see, to know, to speak, to love, to buy
+与える、働く、理解する、欲しい、読む - to give, to work/study, to understand, to want, to read
+
+#Opposites
+大きい、小さい、長い、短い | big small long short : ōkii, chiisai, nagai, mijikai
+暑い、寒い、速い、遅い | hot cold fast slow : atsui, samui, hayai, osoi
+新しい、古い、高い、低い | new old high low : atarashii, furui, takai, hikui
+開いている、閉じている、重い、軽い | open closed heavy light : hiraite iru, tojite iru, omoi, karui
+幸せ、悲しい、正しい、間違い | happy sad right wrong : shiawase, kanashii, tadashii, machigai
+上、下、内、外 | up down inside outside : ue, shita, uchi, soto
+良い、悪い、易しい、難しい | good bad easy hard : yoi, warui, yasashii, muzukashii
+右、左、前、後ろ | right left front back : migi, hidari, mae, ushiro
+満杯、空っぽ、高価、安価 | full empty expensive cheap : manpai, karappo, kōka, anka
+少し、多い、固い、柔らかい | little much hard soft : sukoshi, ōi, katai, yawarakai
+若い、年寄り、近い、遠い | young old near far : wakai, toshiyori, chikai, tōi
+きれい、汚い、早い、遅い | clean dirty early late : kirei, kitanai, hayai, osoi
+厚い、薄い、完全、不完全 | thick thin complete incomplete : atsui, usui, kanzen, fukanzen
+明るい、暗い、静か、うるさい | bright dark quiet noisy : akarui, kurai, shizuka, urusai
+大きい 小さい 長い 短い | big small long short : ōkii chiisai nagai mijikai
+暑い 寒い 新しい 古い | hot cold new old : atsui samui atarashii furui
+美しい 醜い 易しい 難しい | beautiful ugly easy difficult : utsukushii minikui yasashii muzukashii
+右へ行って、それから左、まっすぐ | go right then left straight ahead : migi e itte, sore kara hidari, massugu
+
+#Learning Greek
+二週間前にトルコ語を学ぶと決めた | two weeks ago I decided to learn Turkish : nishūkan mae ni Toruko-go o manabu to kimeta
+休暇でトルコへ行ったから | because I went on a holiday to Turkey : kyūka de Toruko e itta kara
+簡単なことから始めた | I started with the easy stuff : kantan na koto kara hajimeta
+練習しないと全部忘れてしまう！ | I need to practice otherwise I will forget everything! : renshū shinai to zenbu wasurete shimau!
+実はほとんど全部忘れかけている！ | in fact, I already forgot almost everything! : jitsu wa hotondo zenbu wasurekakete iru!
+
+#Weather
+今日は天気が素晴らしい。空は青い。雲なし。 | nice weather today. the sky is blue. no clouds. : kyō wa tenki ga subarashii. sora wa aoi. kumo nashi
+晴れ。風なし。雨は降っていない。 | sunny. no wind. it isn't raining. : hare. kaze nashi. ame wa futte inai
+明るい太陽。少し風。あとで雨。 | bright sun. some wind. then rain. : akarui taiyō. sukoshi kaze. ato de ame
+天気は良くて全然悪くなかった | weather was fine and not bad at all : tenki wa yokute zenzen warukunakatta
+天気はほぼ完璧だった | the weather was nearly perfect : tenki wa hobo kanpeki datta
+ほとんど毎日晴れだったが、一日は雨が降った | sunny almost every day, but one day it rained : hotondo mainichi hare datta ga, ichinichi wa ame ga futta
+
+#Time
+時々、いつも、決して、たまに、よく | sometimes, always, never, seldom, often : tokidoki, itsumo, kesshite, tama ni, yoku
+今、今日、明日、昨日、先週、来年、毎日 | now, today, tomorrow, yesterday, last week, next year, every day : ima, kyō, ashita, kinō, senshū, rainen, mainichi
+来週、今年、先月、三日前、週末 | next week, this year, last month, three days ago, at the weekend : raishū, kotoshi, sengetsu, mikka mae, shūmatsu
