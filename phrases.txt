@@ -1,4 +1,26 @@
 // Format: Turkish words | English translation
+#Basics:
+Merhaba, günaydın, nasılsın? | Hello, good morning, how are you?
+Selam, günaydın! N’aber? | Hey, good morning! What’s up?
+Çok iyiyim, sağ ol. Sen nasılsın? | I’m great, thanks. How about you?
+Benim adım James. Senin adın ne? | My name’s James. What’s your name?
+Nerelisin? İrlandalıyım ama şimdi Almanya’da yaşıyorum. | Where you from? I’m from Ireland, but living in Germany now.
+Burayı sevdim. Millet çok samimi, | I like it here. People are chill/friendly,
+hava da güzel. | and the weather’s nice too.
+Yardım edeyim mi? | Want me to help?
+Bana bi yardım edebilir misin? | Can you give me a hand?
+Evet evet, yardım ederim. | Yeah, sure, I can help.
+Zaten Almanca, İngilizce biliyorum; Fransızca da biraz var. | I already speak German and English, and a bit of French.
+Ama İspanyolca konuşmak istiyorum. | But I wanna speak Spanish.
+İspanyolca öğrenmem lazım. | Gotta learn Spanish.
+İspanyolca konuşacağım, söz! | I will speak Spanish, promise!
+Şöyle bi durum var... | So here’s the thing...
+Evi görebiliyorum. | I can see the house.
+Yorgunum ya, eve gitmek istiyorum. | I'm tired, man, wanna go home.
+Açım, bi şeyler yemem lazım. | I’m hungry, need to eat something.
+Bi şey içmem lazım. | Gotta drink something.
+
+
 #Small Talk:
 merhaba, nasılsın, iyiyim, memnun oldum | hello how are you good a pleasure
 nerelisin, irlandalıyım ama almanya'da yaşıyorum | where are you from from ireland but i live in germany
@@ -51,6 +73,40 @@ rica ederim | you're welcome
 kahve çay süt şeker | Coffee tea milk sugar
 bugün yarın dün | Today tomorrow yesterday
 sabah öğlen akşam gece | Morning noon evening night
+
+#Taxi:
+Selam abi! Kolay gelsin. | Hey man! Hope the work's going easy.
+Eyvallah, hoş geldin. | Thanks, welcome!
+Oteldeyim... ne kadar sürer sence? | I’m going to a hotel... how long do you think it’ll take?
+Yol durumuna bağlı ama 40-45 dakika falan. | Depends on traffic, but around 40–45 minutes.
+Uzak mı buradan? | Is it far from here?
+Yok yok, çok da uzak değil. | Nah, not too far.
+Bayağı kalabalık bugün ya. | It's really crowded today, huh.
+Aynen, yollar tıklım tıklım. | Totally, the roads are packed.
+Hava da sıcak baya. | And it’s pretty hot too.
+Evet, Temmuz böyle işte. | Yeah, that’s July for you.
+Burada hep bu kadar turist var mı? | Is it always this full of tourists?
+Yazın çok oluyor. Özellikle bu civarda. | In summer, yeah. Especially around here.
+Ben merak ediyorum aslında... şehir nasıl, insanlar nasıl? | I’m actually curious... what’s the city like, what are the people like?
+İstanbul büyük ama güzel. İnsanlar da genel olarak iyi. | Istanbul’s big, but beautiful. People are mostly nice.
+Havası nasıl genelde? | What’s the weather usually like?
+Yazın sıcak, kışın bazen yağmur ama çok soğuk olmaz. | Hot in summer, sometimes rainy in winter, but not too cold.
+Ben baya heyecanlıyım açıkçası. | I’m pretty excited, to be honest.
+Ol, ol. İstanbul’u seversin sen. | You should be! You’ll like Istanbul.
+
+#Waiter:
+İyi akşamlar! | Good evening!
+Hoş geldiniz, buyurun. | Welcome, please come in.
+Şey... kırmızı ya da beyaz şarap var mı? | Umm... do you have red or white wine?
+Var tabii, hangisini istersiniz? | Of course, which one would you like?
+Hmm... beyaz olsun. Soğuk mu? | Hmm... white, please. Is it cold?
+Evet, buz gibi. | Yep, ice-cold.
+Süper. Et içermeyen bir şey var mı? | Great. Do you have anything without meat?
+Evet, birkaç seçenek var. Vejetaryen makarna isterseniz çok güzel. | Yes, we have a few options. The vegetarian pasta is really good if you want.
+Balık var mı peki? | What about fish? Do you have any?
+Levrek var, ızgara yapıyoruz. | We have sea bass, we grill it.
+Ooo tamam, onu alayım o zaman. | Oh nice, I’ll take that then.
+Harika, hemen getiriyorum. | Great, I’ll bring it right away.
 
 #Useful:
 muhteşem, harika, fantastik, inanılmaz, mükemmel, şaşırtıcı | fabulous, wonderful, fantastic, unbelieveable, perfect, amazing
