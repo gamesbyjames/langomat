@@ -1,17 +1,18 @@
-import React, { useEffect, useState, useMemo, useCallback } from "react";
+import React, {
+  useEffect,
+  useState,
+  useMemo,
+  useCallback,
+} from "react";
 import "./App.css";
 
 // ──────────── ElevenLabs API configuration ──────────── //
-const API_KEY_STORAGE_KEY = "elevenLabsApiKey_v1"; // Use a consistent key
-let ELEVEN_LABS_API_KEY = localStorage.getItem(API_KEY_STORAGE_KEY) || ""; // Load key once
-
-// Check if key exists (useful for the indicator)
-// We'll use state for this so the UI updates reactively
-// const initialTtsProvider = ELEVEN_LABS_API_KEY ? 'ElevenLabs' : 'System';
+const API_KEY_STORAGE_KEY = "elevenLabsApiKey_v1"; // consistent LS key
+let ELEVEN_LABS_API_KEY = localStorage.getItem(API_KEY_STORAGE_KEY) || ""; // load once
 
 const ELEVEN_LABS_BASE_URL = "https://api.elevenlabs.io/v1";
 const VOICE_IDS = {
-  // ─── Core voices ─── //
+  // Core voices
   "de-DE": "EXAVITQu4vr4xnSDxMaL",
   "tr-TR": "pNInz6obpgDQGcFmaJgB",
   "fr-FR": "ErXwobaYiN019PkySvjV",
@@ -20,16 +21,13 @@ const VOICE_IDS = {
   "en-US": "21m00Tcm4TlvDq8ikWAM",
   "es-ES": "ThT5KcBeYPX3keUQqHPh",
   "el-GR": "ThT5KcBeYPX3keUQqHPh",
-  // ─── Added in previous update ─── //
-  "ru-RU": "ymDCYd8puC7gYjxIamPt", // Russian – Soft female
-  "hi-IN": "Ag50Eld5oCoZVliw70iY", // Hindi – Kaaya
-  "ar-AR": "EXAVITQu4vr4xnSDxMaL", // Arabic – uses multilingual "Sarah"
-  // ─── NEW: Farsi & Japanese ─── //
-  // These languages are fully supported by ElevenLabs’ multilingual model; we map them
-  // to the same high‑quality neutral voice for now. Swap in a preferred custom voice
-  // ID at any time.
-  "fa-IR": "EXAVITQu4vr4xnSDxMaL", // Farsi (Persian)
-  "ja-JP": "EXAVITQu4vr4xnSDxMaL", // Japanese
+  // Extra voices
+  "ru-RU": "ymDCYd8puC7gYjxIamPt",
+  "hi-IN": "Ag50Eld5oCoZVliw70iY",
+  "ar-AR": "EXAVITQu4vr4xnSDxMaL",
+  // New languages (share neutral voice placeholders)
+  "fa-IR": "EXAVITQu4vr4xnSDxMaL",
+  "ja-JP": "EXAVITQu4vr4xnSDxMaL",
 };
 
 const LANGUAGE_NAMES = {
@@ -44,38 +42,31 @@ const LANGUAGE_NAMES = {
   "ru-RU": "Russian",
   "hi-IN": "Hindi",
   "ar-AR": "Arabic",
-  // NEW
   "fa-IR": "Farsi",
   "ja-JP": "Japanese",
 };
 
-// Writing‑system helper – show transliteration / hint button for complex scripts
-const HINT_LANGS = [
-  "el-GR",
-  "ru-RU",
-  "ja-JP",
-  "fa-IR",
-  "hi-IN",
-  "ar-AR",
-];
+// Languages whose writing system may need a hint / transliteration
+const HINT_LANGS = ["el-GR", "ru-RU", "ja-JP", "fa-IR", "hi-IN", "ar-AR"];
 
-// ──────────── utility helpers ──────────── //
-const shuffleArray = (array) => {
-  const copy = [...array];
+// ──────────── helpers ──────────── //
+const shuffleArray = (arr) => {
+  const copy = [...arr];
   for (let i = copy.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [copy[i], copy[j]] = [copy[j], copy[i]];
   }
   return copy;
 };
+
 async function loadPhrasesFromFile(url) {
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Fetch error ${res.status}`);
-    const text = await res.text();
-    return parsePhrases(text);
-  } catch (err) {
-    console.error("loadPhrasesFromFile", err);
+    const txt = await res.text();
+    return parsePhrases(txt);
+  } catch (e) {
+    console.error("loadPhrasesFromFile", e);
     return {
       Demo: [
         {
@@ -88,33 +79,34 @@ async function loadPhrasesFromFile(url) {
     };
   }
 }
+
 function parsePhrases(text) {
   const sections = {};
-  let currentSection = null;
+  let current = null;
   text.split("\n").forEach((raw) => {
     const line = raw.trim();
     if (!line || line.startsWith("//")) return;
     if (line.startsWith("#")) {
-      currentSection = line.replace(/^#/, "").replace(/:\s*$/, "").trim();
-      if (!sections[currentSection]) sections[currentSection] = [];
+      current = line.replace(/^#/, "").replace(/:\s*$/, "").trim();
+      if (!sections[current]) sections[current] = [];
       return;
     }
-    if (!currentSection) return;
-    const barParts = line.split("|");
-    if (barParts.length < 2) return;
-    const first = barParts[0].trim();
-    const rightSide = barParts.slice(1).join("|").trim();
-    let translation = rightSide;
+    if (!current) return;
+    const bar = line.split("|");
+    if (bar.length < 2) return;
+    const foreign = bar[0].trim();
+    const right = bar.slice(1).join("|").trim();
+    let translation = right;
     let hint = null;
-    const colonIdx = rightSide.indexOf(":");
-    if (colonIdx !== -1) {
-      translation = rightSide.slice(0, colonIdx).trim();
-      hint = rightSide.slice(colonIdx + 1).trim();
+    const idx = right.indexOf(":");
+    if (idx !== -1) {
+      translation = right.slice(0, idx).trim();
+      hint = right.slice(idx + 1).trim();
     }
-    sections[currentSection].push({
-      words: first.split(/\s+/).filter(Boolean),
+    sections[current].push({
+      words: foreign.split(/\s+/).filter(Boolean),
       translation,
-      hint: hint || null,
+      hint,
       audioCache: {},
     });
   });
@@ -122,14 +114,9 @@ function parsePhrases(text) {
 }
 
 // ──────────── TTS helpers ──────────── //
-
-// --- generateSpeech (uses global ELEVEN_LABS_API_KEY) ---
-async function generateSpeech(text, language = "de-DE") {
-  if (!ELEVEN_LABS_API_KEY) {
-    // console.warn("generateSpeech called without API key."); // Optional logging
-    return null;
-  }
-  const voiceId = VOICE_IDS[language] || VOICE_IDS["de-DE"];
+async function generateSpeech(text, lang = "de-DE") {
+  if (!ELEVEN_LABS_API_KEY) return null;
+  const voiceId = VOICE_IDS[lang] || VOICE_IDS["de-DE"];
   try {
     const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
       method: "POST",
@@ -140,164 +127,51 @@ async function generateSpeech(text, language = "de-DE") {
       body: JSON.stringify({
         text,
         model_id: "eleven_multilingual_v2",
-        voice_settings: { stability: 0.5, similarity_boost: 0.75 },
+        voice_settings: { stability: 0.4, similarity_boost: 0.8 },
       }),
     });
     if (!res.ok) {
-      let errorBody = "Unknown API error";
-      try {
-        const errorJson = await res.json();
-        errorBody = errorJson.detail ? JSON.stringify(errorJson.detail) : res.statusText;
-      } catch (parseErr) {
-        /* Ignore */
-      }
-      console.error(`TTS API Error ${res.status}: ${errorBody}`);
-      return null; // Don't throw, let speak() handle fallback
+      console.error("TTS Error", res.status);
+      return null;
     }
     const blob = await res.blob();
     return URL.createObjectURL(blob);
   } catch (err) {
-    console.error("generateSpeech Error:", err);
+    console.error("generateSpeech", err);
     return null;
   }
 }
 
-// fallbackSpeak remains unchanged
-function fallbackSpeak(text, lang = "de-DE", rate = 0.8) {
+function fallbackSpeak(text, lang = "de-DE", rate = 0.85) {
   return new Promise((resolve, reject) => {
-    const MAX_WAIT_TIME = 5000;
-    if (!window.speechSynthesis) return reject(new Error("SpeechSynthesis API not supported"));
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = lang;
-    utterance.rate = rate;
-    let resolved = false,
-      timeoutId = null;
-    const cleanup = () => {
-      clearTimeout(timeoutId);
-      if (window.speechSynthesis.speaking) window.speechSynthesis.cancel();
-      utterance.onend = null;
-      utterance.onerror = null;
-      if (window.speechSynthesis.onvoiceschanged === trySpeakWithVoices)
-        window.speechSynthesis.onvoiceschanged = null;
-    };
-    utterance.onend = () => {
-      if (resolved) return;
-      resolved = true;
-      cleanup();
-      resolve();
-    };
-    utterance.onerror = (event) => {
-      if (resolved) return;
-      console.error("SpeechSynthesis Error:", event.error);
-      resolved = true;
-      cleanup();
-      reject(new Error(`SpeechSynthesis Error: ${event.error || "Unknown"}`));
-    };
-    timeoutId = setTimeout(() => {
-      if (resolved) return;
-      console.warn(`Fallback TTS timed out`);
-      resolved = true;
-      cleanup();
-      reject(new Error(`SpeechSynthesis timed out`));
-    }, MAX_WAIT_TIME);
-    const trySpeakWithVoices = () => {
-      if (window.speechSynthesis.onvoiceschanged === trySpeakWithVoices)
-        window.speechSynthesis.onvoiceschanged = null;
-      try {
-        const voices = window.speechSynthesis.getVoices();
-        const voice =
-          voices.find((v) => v.lang === lang && v.localService) ||
-          voices.find((v) => v.lang === lang) ||
-          voices.find((v) => v.lang.startsWith(lang.split("-")[0]) && v.localService) ||
-          voices.find((v) => v.lang.startsWith(lang.split("-")[0]));
-        if (voice) {
-          utterance.voice = voice;
-          console.log(`Using voice: ${voice.name} (${voice.lang})`);
-        } else console.warn(`No specific voice found for lang "${lang}".`);
-        if (window.speechSynthesis.pending || window.speechSynthesis.speaking)
-          window.speechSynthesis.cancel();
-        setTimeout(() => {
-          if (resolved) return;
-          try {
-            window.speechSynthesis.speak(utterance);
-          } catch (speakError) {
-            if (resolved) return;
-            console.error("Error calling speak():", speakError);
-            resolved = true;
-            cleanup();
-            reject(speakError);
-          }
-        }, 50);
-      } catch (err) {
-        if (resolved) return;
-        console.error("Error during fallbackSpeak setup:", err);
-        resolved = true;
-        cleanup();
-        reject(err);
-      }
-    };
-    const initialVoices = window.speechSynthesis.getVoices();
-    if (initialVoices.length > 0) trySpeakWithVoices();
-    else if (window.speechSynthesis.onvoiceschanged !== undefined)
-      window.speechSynthesis.onvoiceschanged = trySpeakWithVoices;
-    else trySpeakWithVoices();
+    if (!window.speechSynthesis) return reject(new Error("SpeechSynthesis not supported"));
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = lang;
+    utter.rate = rate;
+    utter.onend = resolve;
+    utter.onerror = reject;
+    window.speechSynthesis.speak(utter);
   });
 }
 
-// --- speak (uses global ELEVEN_LABS_API_KEY) ---
-async function speak(text, language = "de-DE", cachedUrl = null) {
-  let generatedUrl = null;
-  let usePremium = !!ELEVEN_LABS_API_KEY; // Decide based on global variable existence
-
+async function speak(text, lang = "de-DE", cachedUrl = null) {
   try {
-    if (cachedUrl) {
-      console.log("Speak: Using cached audio URL.");
-      generatedUrl = cachedUrl;
-    } else if (usePremium) {
-      console.log("Speak: Attempting ElevenLabs generation...");
-      generatedUrl = await generateSpeech(text, language); // Checks key inside
-      if (!generatedUrl) {
-        console.log("Speak: ElevenLabs generation failed, attempting fallback.");
-        throw new Error("ElevenLabs generation failed"); // Force fallback
-      } else {
-        console.log("Speak: ElevenLabs generation successful.");
-      }
-    } else {
-      // No cached URL and no API key
-      console.log("Speak: No API key, using browser fallback.");
-      throw new Error("Skipping premium TTS, using fallback.");
+    let url = cachedUrl;
+    if (!url && ELEVEN_LABS_API_KEY) url = await generateSpeech(text, lang);
+    if (url) {
+      const audio = new Audio(url);
+      await audio.play();
+      return url;
     }
-
-    // If we have a URL (cached or generated)
-    if (generatedUrl) {
-      await new Promise((resolve, reject) => {
-        const audio = new Audio(generatedUrl);
-        audio.onended = resolve;
-        audio.onerror = (e) => {
-          let msg = "HTML Audio error.";
-          if (audio.error) msg += ` Code: ${audio.error.code}, Msg: ${audio.error.message}`;
-          reject(new Error(msg));
-        };
-        const playPromise = audio.play();
-        if (playPromise !== undefined)
-          playPromise.catch((err) => reject(new Error(`Audio play() rejected: ${err.message}`)));
-      });
-      return generatedUrl;
-    }
-    throw new Error("Generated URL unexpectedly null after processing");
+    await fallbackSpeak(text, lang);
+    return null;
   } catch (err) {
-    console.warn(`Speak function caught error, attempting fallback: ${err.message}`);
-    try {
-      await fallbackSpeak(text, language);
-      return null;
-    } catch (fallbackErr) {
-      console.error("Fallback TTS also failed:", fallbackErr);
-      return null;
-    }
+    console.error("speak", err);
+    return null;
   }
 }
 
-// ──────────── Components ──────────── //
+// ──────────── UI components ──────────── //
 const LoadingOverlay = ({ isLoading, message }) =>
   !isLoading ? null : (
     <div className="fixed inset-0 flex flex-col items-center justify-center gap-4 bg-black/60 text-white z-50">
@@ -305,8 +179,12 @@ const LoadingOverlay = ({ isLoading, message }) =>
       <p className="text-lg font-semibold">{message}</p>
     </div>
   );
+
 function WordTile({ word, hidden, isCorrect, onClick }) {
-  const [pos] = useState({ top: Math.random() * 70 + 5, left: Math.random() * 70 + 5 });
+  const [pos] = useState({
+    top: Math.random() * 70 + 5,
+    left: Math.random() * 70 + 5,
+  });
   if (hidden) return null;
   return (
     <div
@@ -323,13 +201,14 @@ function WordTile({ word, hidden, isCorrect, onClick }) {
 
 // ──────────── Main App ──────────── //
 export default function App() {
-  // --- State ---
+  /* ---------- state ---------- */
+  const [mode, setMode] = useState(() => localStorage.getItem("langLearningGameMode") || "test");
   const [language, setLanguage] = useState(() => localStorage.getItem("langLearningGameLang") || "de-DE");
   const [sections, setSections] = useState({});
   const [currentSection, setCurrentSection] = useState(null);
   const [idx, setIdx] = useState(0);
   const [isRandomOrder, setIsRandomOrder] = useState(() => JSON.parse(localStorage.getItem("langLearningGameRandom") ?? "true"));
-  const [ttsProvider, setTtsProvider] = useState(() => (ELEVEN_LABS_API_KEY ? "ElevenLabs" : "System")); // State for indicator
+  const [ttsProvider, setTtsProvider] = useState(() => (ELEVEN_LABS_API_KEY ? "ElevenLabs" : "System"));
 
   const [shuffledWords, setShuffledWords] = useState([]);
   const [shuffleVersion, setShuffleVersion] = useState(0);
@@ -342,31 +221,53 @@ export default function App() {
   const [loadingMsg, setLoadingMsg] = useState("Loading...");
   const [isLoading, setIsLoading] = useState(true);
 
-  // --- Derived State & Memoization ---
+  /* ---------- derived ---------- */
   const activePhrases = useMemo(() => {
     if (!currentSection || !sections[currentSection]) return [];
     const original = sections[currentSection];
     return isRandomOrder ? shuffleArray(original) : original;
   }, [sections, currentSection, isRandomOrder]);
+
   const current = useMemo(
-    () => activePhrases[idx] || { words: [], translation: "Loading...", hint: null, audioCache: {} },
+    () =>
+      activePhrases[idx] || {
+        words: [],
+        translation: "Loading...",
+        hint: null,
+        audioCache: {},
+      },
     [activePhrases, idx]
   );
-  const langNeedsHint = useMemo(() => HINT_LANGS.some((l) => language.startsWith(l)), [language]);
 
-  // --- Effects ---
-  // Load phrases file when language changes
+  const langNeedsHint = useMemo(() => HINT_LANGS.includes(language), [language]);
+
+  /* ---------- persist ---------- */
+  useEffect(() => localStorage.setItem("langLearningGameMode", mode), [mode]);
+  useEffect(() => localStorage.setItem("langLearningGameLang", language), [language]);
+  useEffect(() => localStorage.setItem("langLearningGameRandom", JSON.stringify(isRandomOrder)), [isRandomOrder]);
+
+  /* ---------- auto speak in learn mode ---------- */
   useEffect(() => {
-    let isMounted = true;
+    if (mode !== "learn" || !current?.words?.length) return;
+    const sentence = current.words.join(" ");
+    const cached = current.audioCache.fullSentence;
+    handleSpeak(sentence, language, cached).then((url) => {
+      if (url && !cached) current.audioCache.fullSentence = url;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode, idx, current]);
+
+  /* ---------- loading phrases when language changes ---------- */
+  useEffect(() => {
+    let mounted = true;
     (async () => {
-      setIsLoading(true); // Show loading for phrases
+      setIsLoading(true);
       setLoadingMsg(`Loading ${LANGUAGE_NAMES[language] || language} phrases...`);
       setSections({});
       setCurrentSection(null);
       setIdx(0);
 
       const fileMap = {
-        // Existing files
         "de-DE": "german_phrases.txt",
         "tr-TR": "phrases.txt",
         "fr-FR": "french_phrases.txt",
@@ -375,38 +276,35 @@ export default function App() {
         "it-IT": "italian_phrases.txt",
         "el-GR": "greek_phrases.txt",
         "en-US": "english_phrases.txt",
-        // ─── New languages ─── //
         "ru-RU": "russian_phrases.txt",
         "hi-IN": "hindi_phrases.txt",
         "ar-AR": "arabic_phrases.txt",
         "fa-IR": "farsi_phrases.txt",
         "ja-JP": "japanese_phrases.txt",
       };
-      const fileName = fileMap[language] || fileMap["de-DE"]; // Default
+      const fileName = fileMap[language] || fileMap["de-DE"];
       const data = await loadPhrasesFromFile(`${process.env.PUBLIC_URL}/${fileName}`);
-      if (isMounted) {
+      if (mounted) {
         setSections(data);
         setIsLoading(false);
       }
     })();
     return () => {
-      isMounted = false;
+      mounted = false;
     };
-  }, [language]); // Only depends on language now
+  }, [language]);
 
-  // Reset UI state when phrase changes
+  /* ---------- reset UI when phrase changes ---------- */
   useEffect(() => {
-    if (current?.words?.length > 0) {
+    if (current?.words?.length) {
       setShuffledWords(shuffleArray(current.words));
       setShuffleVersion((v) => v + 1);
       setClicked([]);
       setWordStatus({});
       setShowWords(false);
       setShowHint(false);
-      if (window.speechSynthesis?.speaking) {
-        window.speechSynthesis.cancel();
-        setIsSpeaking(false);
-      }
+      if (window.speechSynthesis?.speaking) window.speechSynthesis.cancel();
+      setIsSpeaking(false);
     } else if (!currentSection) {
       setClicked([]);
       setWordStatus({});
@@ -415,104 +313,70 @@ export default function App() {
     }
   }, [current, currentSection]);
 
-  // Save language preference
-  useEffect(() => {
-    localStorage.setItem("langLearningGameLang", language);
-  }, [language]);
-  // Save random order preference
-  useEffect(() => {
-    localStorage.setItem("langLearningGameRandom", JSON.stringify(isRandomOrder));
-  }, [isRandomOrder]);
-
-  // --- Handlers ---
-
-  // Function to prompt for and update API Key
+  /* ---------- handlers ---------- */
   const updateApiKey = useCallback(() => {
     const currentKey = localStorage.getItem(API_KEY_STORAGE_KEY) || "";
-    const newKeyInput = window.prompt("Enter your ElevenLabs API Key (leave blank to clear):", currentKey);
-
-    if (newKeyInput !== null) {
-      // Prompt wasn't cancelled
-      const newKey = newKeyInput.trim();
-      if (newKey) {
-        ELEVEN_LABS_API_KEY = newKey; // Update global variable
-        localStorage.setItem(API_KEY_STORAGE_KEY, newKey); // Save to storage
-        setTtsProvider("ElevenLabs"); // Update indicator state
-        console.log("API Key updated.");
-        alert("API Key saved. Premium TTS will be used if the key is valid."); // Simple feedback
-      } else {
-        // User entered blank - clear the key
-        ELEVEN_LABS_API_KEY = ""; // Update global variable
-        localStorage.removeItem(API_KEY_STORAGE_KEY); // Remove from storage
-        setTtsProvider("System"); // Update indicator state
-        console.log("API Key cleared.");
-        alert("API Key cleared. System TTS will be used.");
-      }
+    const input = window.prompt("Enter your ElevenLabs API Key (blank to clear):", currentKey);
+    if (input === null) return; // cancelled
+    const key = input.trim();
+    if (key) {
+      ELEVEN_LABS_API_KEY = key;
+      localStorage.setItem(API_KEY_STORAGE_KEY, key);
+      setTtsProvider("ElevenLabs");
+      alert("API key saved。");
+    } else {
+      ELEVEN_LABS_API_KEY = "";
+      localStorage.removeItem(API_KEY_STORAGE_KEY);
+      setTtsProvider("System");
+      alert("API key cleared。");
     }
-    // If prompt was cancelled (newKeyInput === null), do nothing
-  }, []); // No dependencies needed as it reads/writes directly
+  }, []);
 
-  // Speak handler now implicitly uses the global key via speak()
-  const handleSpeak = useCallback(
-    async (text, lang, cachedUrl = null) => {
-      if (isSpeaking) return null;
-      setIsSpeaking(true);
-      let generatedUrl = null;
-      try {
-        generatedUrl = await speak(text, lang, cachedUrl); // speak() checks global key
-      } catch (error) {
-        console.error(`Error in handleSpeak for "${text}":`, error);
-      } finally {
-        setIsSpeaking(false);
-      }
-      return generatedUrl;
-    },
-    [isSpeaking]
-  );
+  const handleSpeak = useCallback(async (text, lang, cachedUrl = null) => {
+    if (isSpeaking) return null;
+    setIsSpeaking(true);
+    try {
+      const url = await speak(text, lang, cachedUrl);
+      return url;
+    } finally {
+      setIsSpeaking(false);
+    }
+  }, [isSpeaking]);
 
-  // Other handlers remain largely the same, using handleSpeak
-  const handleWordClick = useCallback(
-    async (word) => {
-      if (!showWords || isSpeaking || isLoading || !current?.words) return;
-      const expected = current.words[clicked.length];
-      if (word === expected) {
-        setWordStatus((prev) => ({ ...prev, [word]: true }));
-        const newArr = [...clicked, word];
-        setClicked(newArr);
-        if (newArr.length === current.words.length) {
-          const phraseToSpeak = current.words.join(" ");
-          const cachedAudio = current.audioCache.fullSentence;
-          const spokenUrl = await handleSpeak(phraseToSpeak, language, cachedAudio);
-          if (spokenUrl && !cachedAudio && activePhrases[idx]) {
-            activePhrases[idx].audioCache.fullSentence = spokenUrl;
-          }
-        }
-      } else {
-        setWordStatus((prev) => ({ ...prev, [word]: false }));
-        setTimeout(() =>
-          setWordStatus((prev) => ({ ...prev, [word]: undefined })),
-          800
-        );
+  const handleWordClick = useCallback(async (word) => {
+    if (!showWords || isSpeaking || isLoading || !current?.words) return;
+    const expected = current.words[clicked.length];
+    if (word === expected) {
+      setWordStatus((p) => ({ ...p, [word]: true }));
+      const newArr = [...clicked, word];
+      setClicked(newArr);
+      if (newArr.length === current.words.length) {
+        const sentence = current.words.join(" ");
+        const cache = current.audioCache.fullSentence;
+        const url = await handleSpeak(sentence, language, cache);
+        if (url && !cache) current.audioCache.fullSentence = url;
       }
-    },
-    [showWords, isSpeaking, isLoading, current, clicked, language, activePhrases, idx, handleSpeak]
-  );
-  const repeatSentence = useCallback(
-    async () => {
-      if (!current?.words || clicked.length !== current.words.length || isSpeaking || isLoading) return;
-      const phraseToSpeak = current.words.join(" ");
-      const cachedAudio = current.audioCache.fullSentence;
-      await handleSpeak(phraseToSpeak, language, cachedAudio);
-    },
-    [clicked, current, isSpeaking, isLoading, language, handleSpeak]
-  );
-  const reshuffleWordsHandler = useCallback(() => {
+    } else {
+      setWordStatus((p) => ({ ...p, [word]: false }));
+      setTimeout(() => setWordStatus((p) => ({ ...p, [word]: undefined })), 800);
+    }
+  }, [showWords, isSpeaking, isLoading, current, clicked, language, handleSpeak]);
+
+  const repeatSentence = useCallback(async () => {
+    if (!current?.words || clicked.length !== current.words.length || isSpeaking || isLoading) return;
+    const sentence = current.words.join(" ");
+    const cache = current.audioCache.fullSentence;
+    await handleSpeak(sentence, language, cache);
+  }, [clicked, current, isSpeaking, isLoading, language, handleSpeak]);
+
+  const reshuffleWords = useCallback(() => {
     if (isLoading || !current?.words) return;
     setShuffledWords(shuffleArray(current.words));
     setShuffleVersion((v) => v + 1);
     setWordStatus({});
     if (!showWords) setShowWords(true);
   }, [isLoading, current, showWords]);
+
   const nextPhrase = useCallback(() => {
     if (!activePhrases.length || isLoading || isSpeaking) return;
     let newIdx = idx;
@@ -522,7 +386,8 @@ export default function App() {
       } else newIdx = (idx + 1) % activePhrases.length;
     } else newIdx = 0;
     setIdx(newIdx);
-  }, [activePhrases, idx, isLoading, isSpeaking, isRandomOrder]);
+  }, [activePhrases, idx, isRandomOrder, isLoading, isSpeaking]);
+
   const goHome = useCallback(() => {
     if (isLoading) return;
     setCurrentSection(null);
@@ -530,214 +395,177 @@ export default function App() {
     if (window.speechSynthesis?.speaking) window.speechSynthesis.cancel();
     setIsSpeaking(false);
   }, [isLoading]);
-  const selectSection = useCallback(
-    (sectionName) => {
-      if (isLoading) return;
-      setCurrentSection(sectionName);
-      setIdx(0);
-    },
-    [isLoading]
-  );
-  const handleLanguageChange = useCallback(
-    (e) => {
-      if (isLoading) return;
-      setLanguage(e.target.value);
-    },
-    [isLoading]
-  );
-  const handleOrderToggle = useCallback((event) => {
-    setIsRandomOrder(event.target.checked);
+
+  const selectSection = useCallback((sec) => {
+    if (isLoading) return;
+    setCurrentSection(sec);
+    setIdx(0);
+  }, [isLoading]);
+
+  const handleLanguageChange = useCallback((e) => setLanguage(e.target.value), []);
+
+  const handleOrderToggle = useCallback((e) => {
+    setIsRandomOrder(e.target.checked);
     setIdx(0);
   }, []);
 
-  // ─────────── Render Logic ─────────── //
+  /* ---------- mode toggle ---------- */
+  const toggleMode = useCallback((e) => {
+  setShowHint(false);      // reset
+  setMode(e.target.value);
+}, []);
 
+
+  /* ---------- render ---------- */
   const renderHome = () => (
     <div className="home-screen">
       <h1>Language Learning Game</h1>
 
-      {/* --- API Key Button --- */}
+      {/* API key button */}
       <div className="my-4">
-        <button
-          onClick={updateApiKey}
-          className="px-3 py-1.5 border rounded shadow-sm hover:bg-gray-100 text-sm bg-white"
-          title="Set or Clear ElevenLabs API Key"
-        >
+        <button onClick={updateApiKey} className="px-3 py-1.5 border rounded shadow-sm hover:bg-gray-100 text-sm bg-white">
           Set API Key
         </button>
       </div>
 
-      <div className="language-selector mt-2">
-        <label htmlFor="language" className="mr-2 font-medium">
-          Select Language:
+      {/* mode selector */}
+      <div className="flex items-center gap-4 my-2">
+        <label className="font-medium">Mode:</label>
+        <label className="inline-flex items-center gap-1 cursor-pointer">
+          <input type="radio" name="mode" value="learn" checked={mode === "learn"} onChange={toggleMode} />
+          Learn
         </label>
-        <select
-          id="language"
-          value={language}
-          onChange={handleLanguageChange}
-          disabled={isLoading}
-          className="p-1 border rounded"
-        >
+        <label className="inline-flex items-center gap-1 cursor-pointer">
+          <input type="radio" name="mode" value="test" checked={mode === "test"} onChange={toggleMode} />
+          Test
+        </label>
+      </div>
+
+      {/* language selector */}
+      <div className="language-selector mt-2">
+        <label className="mr-2 font-medium" htmlFor="language">Language:</label>
+        <select id="language" value={language} onChange={handleLanguageChange} className="p-1 border rounded">
           {Object.entries(LANGUAGE_NAMES).map(([code, name]) => (
-            <option key={code} value={code}>
-              {name}
-            </option>
+            <option key={code} value={code}>{name}</option>
           ))}
         </select>
       </div>
-      {Object.keys(sections).length > 0 ? (
+
+      {/* section buttons */}
+      {Object.keys(sections).length ? (
         <>
           <p className="mt-4 font-medium">Select a section:</p>
-          <div className="section-buttons">
+          <div className="section-buttons flex flex-wrap gap-2 justify-center">
             {Object.keys(sections).map((sec) => (
-              <button
-                key={sec}
-                className="section-btn"
-                onClick={() => selectSection(sec)}
-                disabled={isLoading}
-              >
+              <button key={sec} className="section-btn" onClick={() => selectSection(sec)}>
                 {sec}
               </button>
             ))}
           </div>
         </>
-      ) : (
-        !isLoading && (
-          <p className="mt-4 text-gray-500">
-            Loading sections for {LANGUAGE_NAMES[language]}...
-          </p>
-        )
+      ) : !isLoading && (
+        <p className="mt-4 text-gray-500">Loading sections…</p>
       )}
     </div>
   );
 
   const renderGame = () => {
-    const canGoNext = showWords ? clicked.length === current.words.length : true;
-    const totalPhrasesInSection = activePhrases.length;
+    const canGoNext = mode === "learn" ? true : showWords ? clicked.length === current.words.length : true;
+    const total = activePhrases.length;
 
     return (
       <div className="game-screen w-full max-w-3xl">
-        {/* Top Bar */}
-        <div className="top-bar">
-          <button className="home-btn" onClick={goHome} disabled={isLoading}>
-            Home
-          </button>
-          <h2 className="truncate" title={currentSection || ""}>
-            {currentSection || "..."}
-          </h2>
-          <div className="order-toggle ml-auto flex items-center gap-1 text-sm pr-2">
-            <label htmlFor="randomOrder">Random:</label>
-            <input
-              type="checkbox"
-              id="randomOrder"
-              checked={isRandomOrder}
-              onChange={handleOrderToggle}
-              disabled={isLoading || isSpeaking}
-            />
-          </div>
+        {/* top bar */}
+        <div className="top-bar flex items-center gap-2 mb-2">
+          <button className="home-btn" onClick={goHome} disabled={isLoading}>Home</button>
+          <h2 className="truncate flex-1" title={currentSection || ""}>{currentSection}</h2>
+          {/* random toggle */}
+          <label className="text-sm flex items-center gap-1 mr-2">
+            Random
+            <input type="checkbox" checked={isRandomOrder} onChange={handleOrderToggle} />
+          </label>
+          {/* mode selector */}
+          <select value={mode} onChange={toggleMode} className="border rounded text-sm px-1">
+            <option value="learn">Learn</option>
+            <option value="test">Test</option>
+          </select>
         </div>
 
-        {/* Sentence Display */}
-        <div className="sentence-display flex items-center justify-center gap-2 min-h-[2em] my-2 px-4 text-center text-lg md:text-xl">
-          <span>
-            {clicked.join(" ") || (showWords ? "" : <span className="text-gray-400"> </span>)}
-          </span>
-          {clicked.length === current.words.length && !isSpeaking && (
-            <button
-              className="repeat-btn"
-              title="Repeat Sentence"
-              onClick={repeatSentence}
-              disabled={isSpeaking || isLoading}
-            >
+        {/* sentence display */}
+        <div className="sentence-display flex items-center justify-center gap-2 min-h-[2em] text-lg md:text-xl">
+          {mode === "learn" ? (
+            <span>{current.words.join(" ")}</span>
+          ) : (
+            <span>{clicked.join(" ") || (showWords ? "" : <span className="text-gray-400"> </span>)}</span>
+          )}
+          {!isSpeaking && (
+            <button className="repeat-btn"
+              title="Play sentence"
+              onClick={() => handleSpeak(current.words.join(" "), language, current.audioCache.fullSentence)}>
               🔊
             </button>
           )}
-          {isSpeaking && <span className="speaking-indicator" title="Speaking...">📢</span>}
+          {isSpeaking && <span title="Speaking…">📢</span>}
         </div>
 
-        {/* Controls */}
-        <div className="controls flex justify-center gap-2 mt-3 mb-3">
-          <button
-            className="show-words-btn"
-            onClick={reshuffleWordsHandler}
-            disabled={isLoading || isSpeaking}
-          >
-            {showWords ? "Reshuffle Words" : "Show Words"}
-          </button>
-          {langNeedsHint && current.hint && (
-            <button className="hint-btn" onClick={() => setShowHint((v) => !v)} disabled={isLoading || isSpeaking}>
-              {showHint ? "Hide Hint" : "Show Hint"}
-            </button>
-          )}
-        </div>
+        {/* controls (test mode only) */}
+        {mode === "test" && (
+          <div className="controls flex justify-center gap-2 mt-3">
+            <button className="show-words-btn" onClick={reshuffleWords}>{showWords ? "Reshuffle" : "Show Words"}</button>
+            {mode === "test" && langNeedsHint && current.hint && (
+  <button
+    className="hint-btn"
+    onClick={() => setShowHint((v) => !v)}
+    disabled={isLoading || isSpeaking}
+  >
+    {showHint ? "Hide Hint" : "Show Hint"}
+  </button>
+)}
+          </div>
+        )}
 
-        {/* Word Tiles Container */}
-        <div className="word-tiles-container relative h-60 md:h-72 w-full mx-auto border border-gray-300 rounded overflow-hidden my-4 bg-gray-50">
-          {shuffledWords.map((w, index) => (
-            <WordTile
-              key={`${w}-${index}-${shuffleVersion}`}
-              word={w}
-              hidden={!showWords || clicked.includes(w)}
-              isCorrect={wordStatus[w]}
-              onClick={handleWordClick}
-            />
-          ))}
-          {!showWords && (
-            <div className="absolute inset-0 flex items-center justify-center text-gray-500 pointer-events-none">
-              Click "Show Words" to begin.
-            </div>
-          )}
-        </div>
+        {/* word tiles */}
+        {mode === "test" ? (
+          <div className="word-tiles-container relative h-60 md:h-72 w-full mx-auto border rounded overflow-hidden my-4 bg-gray-50">
+            {shuffledWords.map((w, i) => (
+              <WordTile key={`${w}-${i}-${shuffleVersion}`} word={w} hidden={!showWords || clicked.includes(w)} isCorrect={wordStatus[w]} onClick={handleWordClick} />
+            ))}
+            {!showWords && <div className="absolute inset-0 flex items-center justify-center text-gray-500">Click “Show Words” to begin.</div>}
+          </div>
+        ) : (
+          <div className="h-12" />
+        )}
 
-        {/* Translation and Next Button */}
+        {/* translation & next */}
         <div className="translation-footer flex flex-col items-center gap-2 mt-4">
-          <div className="flex items-center justify-center flex-wrap gap-2 px-4 text-center">
-            <p className="translation-text text-lg">{current.translation}</p>
-            <button className="next-button" onClick={nextPhrase} disabled={!canGoNext || isLoading || isSpeaking}>
-              Next Phrase
-            </button>
+          <div className="flex items-center gap-2">
+            <p className="text-lg text-center">{current.translation}</p>
+            <button className="next-button" onClick={nextPhrase} disabled={!canGoNext || isLoading || isSpeaking}>Next Phrase</button>
           </div>
         </div>
 
-        {/* Hint Section */}
-        {showHint && current.hint && (
-          <div className="hint-container w-full text-center mt-2 px-4">
-            <p className="hint-text text-base italic text-gray-600">Hint: {current.hint}</p>
-          </div>
-        )}
+        {(mode === "learn" && langNeedsHint && current.hint) ||
+ (mode === "test" && showHint && current.hint) ? (
+  <div className="hint-container w-full text-center mt-2 px-4">
+    <p className="hint-text text-base italic text-gray-600">
+      Hint: {current.hint}
+    </p>
+  </div>
+) : null}
 
-        {/* Progress Indicator */}
-        {totalPhrasesInSection > 0 && (
-          <div className="progress-indicator text-xs text-gray-400 text-center mt-4">
-            Phrase {idx + 1} of {totalPhrasesInSection} ({isRandomOrder ? "random" : "sequential"} order)
-          </div>
-        )}
+        {/* progress */}
+        {total > 0 && <p className="text-xs text-gray-400 mt-4 text-center">Phrase {idx + 1} of {total} ({isRandomOrder ? "random" : "sequential"})</p>}
       </div>
     );
   };
 
-  // ──────────── Component Output ──────────── //
   return (
     <div className="app container mx-auto p-4 flex flex-col items-center min-h-screen">
       <LoadingOverlay isLoading={isLoading} message={loadingMsg} />
       <div className="flex-grow w-full flex flex-col items-center">
-        {/* Render Home or Game */}
         {!isLoading && (currentSection === null ? renderHome() : renderGame())}
-        {/* Keep showing loading overlay if loading */}
         {isLoading && <div className="pt-10">Loading...</div>}
       </div>
-      <footer className="mt-8 text-center text-xs text-gray-400 w-full flex justify-center items-center gap-4">
-        {/* --- TTS Provider Indicator --- */}
-        <span>Using: {ttsProvider} TTS</span>
-        {/* Optionally keep the button here too */}
-        <button
-          onClick={updateApiKey}
-          className="px-2 py-0.5 border rounded hover:bg-gray-100 text-xs"
-          title="Set or Clear ElevenLabs API Key"
-        >
-          Set API Key
-        </button>
-      </footer>
     </div>
   );
 }
