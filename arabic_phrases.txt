@@ -1,4 +1,32 @@
 // Format: Algerian Arabic words | English translation : hint
+
+#Latest
+سلام، واش راك؟ | Hello, how are you? : salam, wesh rak?
+راني لاباس، شكراً، وانت؟ | I’m fine thanks, and you? : rani lebes, shukran, wentiya?
+اسمي جيمس، واش هو اسمك؟ | My name is James. What is your name? : ismi James, wesh huwa smitak?
+منين انت؟ أنا من إيرلاندا. | Where are you from? I am from Ireland. : mnin nta? ana men Irelanda.
+وين تسكن؟ أنا نسكن في ألمانيا. | Where do you live? I live in Germany. : win teskun? ana neskun fi Almania.
+نهار الجمعة اللي فات قررت نتعلّم الدارجة. | Last Friday I decided to learn Darija. : nhar jemʿa li fat-et qarrart netaʿlem ed-darja.
+خاطر حبيت نتعلّمها. | Because I wanted to learn it. : khater ḥabbeet netaʿlem-ha.
+و خاطر نحبها! | And because I like it! : w khater neḥebb-ha! 
+ايه، صح، بالضبط. | Yes, that’s right, exactly. : ay, ṣaḥ, bel-ḍabt.
+غير ثلاثة أيام برك. | Just three days ago. : ghir q-bel tlata ayyâm.
+ودرك نقدر نهدر بيها شوية. | And now I can speak it a little. : w dork neqader nahder biha shwiya.
+بس صح ماشي بزاف، غير شوية. | But not much. Just a little. : bess saḥ mâshi bzaf, ghir shwiya.
+راني نعرف و نفهم. | I know and I understand. : rani naʿref w nefhem.
+ما نعرفش و ما نفهمش. | I don’t know and I don’t understand. : ma naʿrefsh w ma nefhemsh.
+نحب نتعلّم الدارجة. | I want to learn Darija. : neḥb netaʿlem ed-darja.
+لازم نتمرّن كل يوم. | I need to practise every day. : lazem netmarren kul yôm. lazem netmaren ghir chwia kul nhar
+لازم نتمرّن كل يوم. | I need to practise just a little every day. : lazem netmarren ghir chwia kul nhar
+و لا رح ننسى كلش. | Otherwise I will forget everything. : w la raḥ nensa kul-sh. Wela nensa kulshi.
+بصراحة، راني نسيت تقريباً كلش! | Actually, I already forgot almost everything! : bṣaraḥa, rani nsit taqriban kul-sh!
+تقدر تعاونّي؟ | Can you help me? : teqder taʿawni?
+لازم لي معلّم! | I need a teacher! : lazem li mʿallem!
+شوف فيَّ. | Look at me. : shuf fiyya.
+الدارجة الجزائرية سهلة، ماشي صعيبة. | Algerian Arabic is easy. It’s not hard. : ed-darja sahla, mâshi sʿayba.
+نحبها بزاف. | I really like it. : neḥebb-ha bzaf. Ya jib nee
+بالصح، مانكذبش. | Really, I’m not lying. : bel-ṣaḥ, ma-nkdeb-sh.
+
 #Small Talk:
 سلام، واش راك؟ راني لاباس، متشرفين | hello how are you, I'm fine, pleased to meet you : salam, wach rak? rani labas, mtsharfin
 منين انت؟ أنا إيرلندي بصح ساكن في ألمانيا | where are you from, I am Irish but I live in Germany : menin nta? ana irlandi bṣaḥ sakin fi lmania
