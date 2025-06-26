@@ -1,5 +1,11 @@
 // Format: Algerian Arabic words | English translation : hint
 
+#new
+Nḥebb nshuf bšḥal neqder nʿallem Darja. | I want to see how quickly I can learn Darja.
+Hbbit nshuf bšḥal qdert nʿallemha. | I wanted to see how quickly I could learn it.
+Bdit bšwiya, ghir šwiya d kalimat w afʿal. | I started slowly – just a few words and verbs.
+Nqdar nhdar ghir šwiya, mâši bzzaf, mazal. | I can speak only a little, not much yet.
+
 #Latest
 سلام، واش راك؟ | Hello, how are you? : salam, wesh rak?
 راني لاباس، شكراً، وانت؟ | I’m fine thanks, and you? : rani lebes, shukran, wentiya?
