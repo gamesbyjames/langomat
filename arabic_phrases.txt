@@ -1,10 +1,15 @@
 // Format: Algerian Arabic words | English translation : hint
 
 #new
-Nḥebb nshuf bšḥal neqder nʿallem Darja. | I want to see how quickly I can learn Darja.
-Hbbit nshuf bšḥal qdert nʿallemha. | I wanted to see how quickly I could learn it.
-Bdit bšwiya, ghir šwiya d kalimat w afʿal. | I started slowly – just a few words and verbs.
-Nqdar nhdar ghir šwiya, mâši bzzaf, mazal. | I can speak only a little, not much yet.
+سلام، واش راك؟ | Hello, how are you? : salam, wesh rak?
+اللّون اللي نحب كثر هو زرق | My favourite colour is blue : l-loun li nḥebb kṯer howa zraq
+الرّقم اللي نحب كثر هو ثمانية | My favourite number is eight : raqam li nḥebb kṯer howa ṯmanya
+نحب نشوف بشحال نقدر نتعلم الدارجة | I want to see how quickly I can learn Darja : nḥebb nshuf bšḥal neqder nʿallem d-darja
+حبيت نشوف بشحال قدرت نتعلمها | I wanted to see how quickly I could learn it : ḥbbit nshuf bšḥal qdert nʿallem-ha
+بديت بشوية، غير شوية كلمات وأفعال | I started slowly – just a few words and verbs : bdit bšwiya, ghir šwiya d kalimāt w afʿāl
+نقدر نهدر غير شوية، ماشي بزاف، مازال | I can speak only a little, not much yet : nqdar nhdar ghir šwiya, mâši bzzāf, mazāl
+حمر/حمرا، كحل/كحلة، بيض/بيضة، زرق/زرقة، خضر/خضرة | red, black, white, blue, green : 7mer/7amra, kḥel/kḥla, byāḍ/byāḍa, zraq/zarqa, khḍer/khḍra
+
 
 #Latest
 سلام، واش راك؟ | Hello, how are you? : salam, wesh rak?
