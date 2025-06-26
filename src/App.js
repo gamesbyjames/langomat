@@ -116,6 +116,8 @@ function parsePhrases(text) {
 // ──────────── TTS helpers ──────────── //
 async function generateSpeech(text, lang = "de-DE") {
   if (!ELEVEN_LABS_API_KEY) return null;
+  // pick a slower speed only for Arabic; everything else stays at 1.0
+  const speedByLang = { "ar-AR": 0.8 };          // 0.8 ≈ 20 % slower
   const voiceId = VOICE_IDS[lang] || VOICE_IDS["de-DE"];
   try {
     const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
@@ -127,7 +129,11 @@ async function generateSpeech(text, lang = "de-DE") {
       body: JSON.stringify({
         text,
         model_id: "eleven_multilingual_v2",
-        voice_settings: { stability: 0.4, similarity_boost: 0.8 },
+        voice_settings: {
+            stability: 0.4,
+            similarity_boost: 0.8,
+            speed: speedByLang[lang] ?? 1,   // NEW
+          },
       }),
     });
     if (!res.ok) {
