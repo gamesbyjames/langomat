@@ -1,6 +1,6 @@
 // Format: Algerian Arabic words | English translation : hint
 
-#new
+#new1
 سلام، واش راك؟ | Hello, how are you? : salam, wesh rak?
 اللّون اللي نحب كثر هو زرق | My favourite colour is blue : l-loun li nḥebb kṯer howa zraq
 الرّقم اللي نحب كثر هو ثمانية | My favourite number is eight : raqam li nḥebb kṯer howa ṯmanya
@@ -9,6 +9,77 @@
 بديت بشوية، غير شوية كلمات وأفعال | I started slowly – just a few words and verbs : bdit bšwiya, ghir šwiya d kalimāt w afʿāl
 نقدر نهدر غير شوية، ماشي بزاف، مازال | I can speak only a little, not much yet : nqdar nhdar ghir šwiya, mâši bzzāf, mazāl
 حمر/حمرا، كحل/كحلة، بيض/بيضة، زرق/زرقة، خضر/خضرة | red, black, white, blue, green : 7mer/7amra, kḥel/kḥla, byāḍ/byāḍa, zraq/zarqa, khḍer/khḍra
+
+#intros
+صباح الخير! | Good morning! : Sbah el-khir!
+صباح النور | (reply) Morning of light : Sbah ennour
+واش راك؟ / واش راكي؟ | How are you? (m / f) : Wesh rak? / Wesh raki?
+واش راك اليوم؟ | How are you today? (m) : Wesh rak lyôm?
+لاباس؟ راك مليح / مليحة؟ | All good? / Are you well/fine? (m / f) : Labas? Rak mlih / mliha?
+واش اسمك؟ | What is your name? : Wesh smek?
+واش اسمكم؟ | What is your (plural / polite) name? : Wesh smekum?
+اسمي جيمس | My name is James : Ismi James
+وين تسكني؟ | Where do you live? (to a woman) : Win teskuni?
+راني نسكن في ألمانيا. | I live in Germany. : Rani neskun f Almanya.
+رقدت مليح؟ | Did you sleep well? : Rqadt mlih?
+
+#coffee
+مادابيا لي نشرب قهوة معك. | I’d love to have coffee with you. : Madabiali neshreb qahwa mʿak.
+نحب نشرب قهوة معك. | I’d like to drink coffee with you. : Nebb nsrab qahwa mʿak.
+عندك وقت ليا؟ | Do you have time for me? : andek waqt lia?
+ولا بالك راها سخونة بزاف؟ | Or maybe it’s very hot? : Wella balek raha skhouna bzzaf?
+شنو رايك؟ | What do you think? : Chno rayek?
+على خاطرك، أنا سهلة | Up to you, I’m easy-going (f). : ʿla khatrak, ana sahla
+أنا سهلة / ساهل | I’m easy-going (f / m). : Ana sahla / sahl
+ماعنديش مشكل | I have no problem. : Maandich moshkla
+كلشي مليح عندي | Everything’s fine with me. : Kolshi mlih ʿandi
+
+#dogs, legs and tennis
+
+قريب راه يكون عندي كلب ثاني | Soon I’ll have another dog : qrib rah ykoun ʿandi kelb tâni
+بالك شهر الجاي | maybe next month : balek shaher el-jây
+نلعب تنس كل صباح قبل الخدمة. | I play tennis every morning before work. : Nlʿab tennis kul sbah qbel l-khdma.
+دونك دركا ما نقدرش نلعب بزاف. | So now I can’t play very often. : Donc drka ma nqdar-š nlʿab bzzaf.
+على خاطر رجلي توجعني بزاف. | Although my leg hurts a lot. : 3la khatr rjli twjaʿni bzzaf.
+
+#this week, next month
+جمعة اللي فاتت | last Friday : jomʿa lli fêtet
+سيمانة اللي فاتت | last week : simâna lli fêtet
+هاد الويكند | this weekend : hâd l-wîkênd
+شهر الجاي | next month : shahar el-jay
+الويكند اللي فات | last weekend : l-wîkênd lli fêt
+قبل زوج أيام | two days ago : qbel zoz iyyâm
+قبل ثلاثة أيام | three days ago : qbel tlata iyyâm
+قبل زوج سيمانة | two weeks ago : Qbel zoz simana
+
+#cool stuff
+خاصني معلّم | I need a teacher. : Khâṣṣni mʿallem.
+كيفاش نقولو …؟ | How do we say … ? : Kifâsh ngoulu … ?
+آي، بالتوفيق! | OK, good luck! : Ayh, b’t-tawfiq!
+ربي يسهل! | May God make it easy! : Rabi ysahel!
+بسلامة، ربي يجيب الخير! | Take care, may God bring good! : B’slaama, rabi yjib el-khir!
+صحة، ربي معك! | Thanks / good health, God be with you! : Saha, rbi mʿak!
+لازم نتمرّن كل نهار. | I must work out every day. : lâzem netmarren kul nhâr.
+خاصني نتمرّن كل نهار. | I need to work out every day. : khâṣṣni netmarren kul nhâr.
+ما نصدّقكش | I don’t believe you. : ma nṣaddqek-š
+ماشي معقول! | Unbelievable! : mši maʿqûl!
+ما يتصدّقش! | That can’t be believed! : ma ytsaddq-š!
+أما ديجا نسيت قريب قاع. | But I’ve already forgotten almost everything. : Ama déjà nsit qrîb gaʕ.
+قاع، كامل، كلشي/كلشي | everything (variants) : gaʕ, kâmel, kulši/kulshi
+مادابيا نتمرن غير شوية كل نهار. | I’d love to practise just a little every day. : Madabiya ntmaren ghir šwiya kul nhâr.
+خاصني ندير شوية تمارين كل نهار، ولا ننسى كلشي. | I need to do a bit of exercise each day or I’ll forget everything. : Khâṣṣni nder šwiya tmârin kul nhâr, wela nensa kulši.
+غير شوية كل نهار. | Just a little every day. : Ghir šwiya kul nhâr.
+أنا نتعلّم الدارجة. | I’m learning Darja. : Ana netʿallem Darja.
+نحب نتمرن على الدارجة. | I want to practise Darja. : Nebb ntmaren ʿla Darja.
+راني فرحان / فرحانة | I’m happy (m / f). : Rani ferḥan / ferḥana
+راني هنا عود تاني / تاني. | I’m here again. : Rani hna ʿawd tâni / tâni.
+نعرف وما نعرفش | I know and I don’t know. : Nʿraf w ma-nʿrafš
+نفهم وما نفهمش | I understand and I don’t understand. : Nfhem w ma-nfhemš
+نهدر شوية دارجة، بصح غير شوية. | I speak a little Darja, but only a little. : Nhadr šwiya Darja, bsah ghir šwiya.
+نحتاج ندرب، ولا راني هننسى كلشي. | I need to practise or I’ll forget everything. : Nʿtâj ndarb, wela rani hanssa kulši.
+في الحقيقة، نسيت قريان كلشي ديجا. | In fact I’ve already forgotten almost everything. : Fel-ḥaqîqa, nsit qrîyan kulši déjà.
+بصح/بصاح، إذا/لو، مع، بلا، في، على جال/باش، على، لـ، من، ولا، بالك | but, if, with, without, in, for, on/about, to, from, or, maybe : Bsah / Basah, Ida / Law, Ma, Bla, Fi, ʿla jâl / Bâsh, ʿla, Li, Men, Wela, Balek
+ايه، بالضبط، صح، نوافقك، بارفي، روعة، هايل | yes, exactly, right, I agree, perfect, wonderful, amazing : ayh, beddabt, ṣaḥ, nwâfqek, parfay, rawʿa, hâyel
 
 
 #Latest
