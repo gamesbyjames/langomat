@@ -476,7 +476,7 @@ export default function App() {
   );
 
   const renderGame = () => {
-    const canGoNext = mode === "learn" ? true : showWords ? clicked.length === current.words.length : true;
+    const canGoNext = mode === "learn" ? true : showWords ? true : true;
     const total = activePhrases.length;
 
     return (
