@@ -215,7 +215,6 @@ export default function App() {
   const [idx, setIdx] = useState(0);
   const [isRandomOrder, setIsRandomOrder] = useState(() => JSON.parse(localStorage.getItem("langLearningGameRandom") ?? "true"));
   const [navigationHistory, setNavigationHistory] = useState([0]); // Track navigation history for back button
-  const [ttsProvider, setTtsProvider] = useState(() => (ELEVEN_LABS_API_KEY ? "ElevenLabs" : "System"));
 
   const [shuffledWords, setShuffledWords] = useState([]);
   const [shuffleVersion, setShuffleVersion] = useState(0);
@@ -330,12 +329,10 @@ export default function App() {
     if (key) {
       ELEVEN_LABS_API_KEY = key;
       localStorage.setItem(API_KEY_STORAGE_KEY, key);
-      setTtsProvider("ElevenLabs");
       alert("API key saved。");
     } else {
       ELEVEN_LABS_API_KEY = "";
       localStorage.removeItem(API_KEY_STORAGE_KEY);
-      setTtsProvider("System");
       alert("API key cleared。");
     }
   }, []);
@@ -369,13 +366,6 @@ export default function App() {
       setTimeout(() => setWordStatus((p) => ({ ...p, [word]: undefined })), 800);
     }
   }, [showWords, isSpeaking, isLoading, current, clicked, language, handleSpeak]);
-
-  const repeatSentence = useCallback(async () => {
-    if (!current?.words || clicked.length !== current.words.length || isSpeaking || isLoading) return;
-    const sentence = current.words.join(" ");
-    const cache = current.audioCache.fullSentence;
-    await handleSpeak(sentence, language, cache);
-  }, [clicked, current, isSpeaking, isLoading, language, handleSpeak]);
 
   const reshuffleWords = useCallback(() => {
     if (isLoading || !current?.words) return;
