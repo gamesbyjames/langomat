@@ -245,3 +245,23 @@ const extraStyles = `
   font-size: 16px;
   cursor: pointer;
 }
+
+.previous-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.previous-button:hover:not(:disabled) {
+  background-color: #5a6268;
+}
+
+.previous-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
