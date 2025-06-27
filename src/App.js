@@ -214,6 +214,7 @@ export default function App() {
   const [currentSection, setCurrentSection] = useState(null);
   const [idx, setIdx] = useState(0);
   const [isRandomOrder, setIsRandomOrder] = useState(() => JSON.parse(localStorage.getItem("langLearningGameRandom") ?? "true"));
+  const [navigationHistory, setNavigationHistory] = useState([0]); // Track navigation history for back button
   const [ttsProvider, setTtsProvider] = useState(() => (ELEVEN_LABS_API_KEY ? "ElevenLabs" : "System"));
 
   const [shuffledWords, setShuffledWords] = useState([]);
@@ -272,6 +273,7 @@ export default function App() {
       setSections({});
       setCurrentSection(null);
       setIdx(0);
+      setNavigationHistory([0]); // Reset navigation history when language changes
 
       const fileMap = {
         "de-DE": "german_phrases.txt",
@@ -392,12 +394,38 @@ export default function App() {
       } else newIdx = (idx + 1) % activePhrases.length;
     } else newIdx = 0;
     setIdx(newIdx);
+    // Update navigation history
+    setNavigationHistory(prev => [...prev, newIdx]);
   }, [activePhrases, idx, isRandomOrder, isLoading, isSpeaking]);
+
+  const previousPhrase = useCallback(() => {
+    if (!activePhrases.length || isLoading || isSpeaking) return;
+    
+    if (isRandomOrder) {
+      // For random mode, use navigation history to go back
+      if (navigationHistory.length > 1) {
+        const newHistory = [...navigationHistory];
+        newHistory.pop(); // Remove current index
+        const previousIdx = newHistory[newHistory.length - 1]; // Get previous index
+        setIdx(previousIdx);
+        setNavigationHistory(newHistory);
+      }
+    } else {
+      // For sequential mode, go to previous index
+      if (activePhrases.length > 1) {
+        const newIdx = idx === 0 ? activePhrases.length - 1 : idx - 1;
+        setIdx(newIdx);
+        // Update navigation history for consistency
+        setNavigationHistory(prev => [...prev.slice(0, -1), newIdx]);
+      }
+    }
+  }, [activePhrases, idx, isRandomOrder, isLoading, isSpeaking, navigationHistory]);
 
   const goHome = useCallback(() => {
     if (isLoading) return;
     setCurrentSection(null);
     setIdx(0);
+    setNavigationHistory([0]); // Reset navigation history
     if (window.speechSynthesis?.speaking) window.speechSynthesis.cancel();
     setIsSpeaking(false);
   }, [isLoading]);
@@ -406,6 +434,7 @@ export default function App() {
     if (isLoading) return;
     setCurrentSection(sec);
     setIdx(0);
+    setNavigationHistory([0]); // Reset navigation history
   }, [isLoading]);
 
   const handleLanguageChange = useCallback((e) => setLanguage(e.target.value), []);
@@ -413,6 +442,7 @@ export default function App() {
   const handleOrderToggle = useCallback((e) => {
     setIsRandomOrder(e.target.checked);
     setIdx(0);
+    setNavigationHistory([0]); // Reset navigation history when changing order mode
   }, []);
 
   /* ---------- mode toggle ---------- */
@@ -477,6 +507,7 @@ export default function App() {
 
   const renderGame = () => {
     const canGoNext = mode === "learn" ? true : showWords ? true : true;
+    const canGoPrevious = isRandomOrder ? navigationHistory.length > 1 : idx > 0;
     const total = activePhrases.length;
 
     return (
@@ -542,11 +573,26 @@ export default function App() {
           <div className="h-12" />
         )}
 
-        {/* translation & next */}
+        {/* translation & navigation */}
         <div className="translation-footer flex flex-col items-center gap-2 mt-4">
           <div className="flex items-center gap-2">
             <p className="text-lg text-center">{current.translation}</p>
-            <button className="next-button" onClick={nextPhrase} disabled={!canGoNext || isLoading || isSpeaking}>Next Phrase</button>
+          </div>
+          <div className="flex items-center gap-2">
+            <button 
+              className="previous-button" 
+              onClick={previousPhrase} 
+              disabled={!canGoPrevious || isLoading || isSpeaking}
+            >
+              Previous Phrase
+            </button>
+            <button 
+              className="next-button" 
+              onClick={nextPhrase} 
+              disabled={!canGoNext || isLoading || isSpeaking}
+            >
+              Next Phrase
+            </button>
           </div>
         </div>
 
