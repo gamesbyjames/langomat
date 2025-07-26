@@ -119,6 +119,13 @@ async function generateSpeech(text, lang = "de-DE") {
   // pick a slower speed only for Arabic; everything else stays at 1.0
   const speedByLang = { "ar-AR": 0.8 };          // 0.8 ≈ 20 % slower
   const voiceId = VOICE_IDS[lang] || VOICE_IDS["de-DE"];
+  
+  // Add validation to prevent using invalid voice IDs
+  if (!voiceId || voiceId === "undefined") {
+    console.warn(`No valid voice ID for language ${lang}, skipping TTS`);
+    return null;
+  }
+  
   try {
     const res = await fetch(`${ELEVEN_LABS_BASE_URL}/text-to-speech/${voiceId}`, {
       method: "POST",
@@ -255,11 +262,17 @@ export default function App() {
   /* ---------- auto speak in learn mode ---------- */
   useEffect(() => {
     if (mode !== "learn" || !current?.words?.length) return;
-    const sentence = current.words.join(" ");
-    const cached = current.audioCache.fullSentence;
-    handleSpeak(sentence, language, cached).then((url) => {
-      if (url && !cached) current.audioCache.fullSentence = url;
-    });
+    
+    // Add a small delay to prevent rapid-fire calls
+    const timeoutId = setTimeout(() => {
+      const sentence = current.words.join(" ");
+      const cached = current.audioCache.fullSentence;
+      handleSpeak(sentence, language, cached).then((url) => {
+        if (url && !cached) current.audioCache.fullSentence = url;
+      });
+    }, 500); // 500ms delay
+    
+    return () => clearTimeout(timeoutId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, idx, current]);
 
@@ -329,12 +342,12 @@ export default function App() {
       ELEVEN_LABS_API_KEY = key;
       localStorage.setItem(API_KEY_STORAGE_KEY, key);
       setTtsProvider("ElevenLabs");
-      alert("API key saved。");
+      alert("API key saved.");
     } else {
       ELEVEN_LABS_API_KEY = "";
       localStorage.removeItem(API_KEY_STORAGE_KEY);
       setTtsProvider("System");
-      alert("API key cleared。");
+      alert("API key cleared.");
     }
   }, []);
 
