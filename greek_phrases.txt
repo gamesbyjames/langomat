@@ -173,3 +173,302 @@
 μερικές φορές, πάντα, ποτέ, σπάνια, συχνά  | sometimes, always, never, seldom, often  : merikes fores, panta, pote, spania, sychna
 τώρα, σήμερα, αύριο, χθες, την περασμένη εβδομάδα, τον επόμενο χρόνο, κάθε μέρα  | now, today, tomorrow, yesterday, last week, next year, every day  : tora, simera, avrio, chthes, tin perasmeni evdomada, ton epomeno chrono, kathe mera
 επόμενη εβδομάδα, φέτος, προηγούμενος μήνας, πριν τρεις μέρες, Σαββατοκύριακο  | next week, this year, last month, three days ago, at the weekend  : epomeni evdomada, fetos, proigoumenos minas, prin treis meres, Savvatokyriako
+
+```text
+#Greetings:
+
+Καλημέρα! Πώς είσαι σήμερα; | Good morning! How are you today? : kaliméra! pós íse símera?
+Καλημέρα σας! Θέλετε κάτι να πιείτε; | Good morning! Would you like something to drink? : kaliméra sas! thélete káti na piíte?
+Γεια σου, τι κάνεις; | Hello, how are you? : geiá sou, ti kánis?
+Γεια σου, χαίρομαι που σε βλέπω! | Nice to see you! : geiá sou, chéerome pou se vlépo!
+
+#Thanks & Apologies:
+
+Ευχαριστώ πολύ. | Thank you very much. : efcharistó polí
+Όχι, ευχαριστώ. | No, thank you. : óchi, efcharistó
+Ένα νερό, παρακαλώ. | One water, please. : éna neró, parakaló
+Ευχαριστώ. Παρακαλώ. | Thank you. You’re welcome. : efcharistó. parakaló
+Συγγνώμη, πού είναι η στάση; | Excuse me, where is the bus stop? : signómi, poú íne i stási?
+Συγγνώμη για την καθυστέρηση. | Sorry for the delay. : signómi gia tin kathistérisi
+
+#Yes, No & Prices:
+
+Ναι, μπορώ. | Yes, I can. : ne, boró
+Ναι, θέλω. | Yes, I want. : ne, thélo
+Όχι, δεν γίνεται. | No, it’s not possible. : óchi, den gínete
+Πόσο κάνει αυτό; | How much is this? : póso káni aftó?
+Πόσο κάνει ο καφές; | How much is the coffee? : póso káni o kafés?
+
+#Everyday Questions:
+
+Τι κάνεις σήμερα; | How are you / what are you doing today? : ti kánis símera?
+Τι κάνεις εκεί; | What are you doing there? : ti kánis ekí?
+Είμαι καλά. | I’m good/fine. : íme kalá
+Είμαι πολύ καλά, ευχαριστώ. | I’m very well, thank you. : íme polí kalá, efcharistó
+Πού είναι η στάση; | Where is the stop? : poú íne i stási?
+Πού είναι το σούπερ μάρκετ; | Where is the supermarket? : poú íne to súper márket?
+
+#Wants & Understanding:
+
+Θέλω έναν καφέ. | I want a coffee. : thélo énan kafé
+Θέλω νερό. | I want water. : thélo neró
+Μπορώ να μπω; | Can I enter? : boró na bo?
+Μπορώ να πληρώσω; | Can I pay? : boró na pliróso?
+Μπορώ να έρθω. | I can come. : boró na értho
+Δεν καταλαβαίνω. | I don’t understand. : den katalavéno
+Δεν καταλαβαίνω ελληνικά. | I don’t understand Greek. : den katalavéno elliniká
+Δεν καταλαβαίνω τι λες. | I don’t understand what you’re saying. : den katalavéno ti les
+Μιλάτε αγγλικά; | Do you speak English? : miláte angliká?
+Μιλάς ελληνικά; | Do you speak Greek? : milás elliniká?
+Συγγνώμη, μιλάτε αγγλικά; | Excuse me, do you speak English? : signómi, miláte angliká?
+Θέλω να ρωτήσω κάτι. | I want to ask something. : thélo na rotíso káti
+Δεν μιλάω καλά ελληνικά. | I don’t speak Greek well. : den miláo kalá elliniká
+
+#Reactions & Waiting:
+
+Τέλεια, πάμε! | Perfect, let’s go! : télia, páme!
+Ωραία ιδέα. | Great idea. : oréa idéa
+Ωραία, συμφωνώ. | Nice/great, I agree. : oréa, simfonó
+Ωραία μέρα. | Nice day. : oréa méra
+Ωραία, ευχαριστώ. | Nice, thanks. : oréa, efcharistó
+Ένα λεπτό. | One moment / one minute. : éna leptó
+Ένα λεπτό, παρακαλώ. | One moment, please. : éna leptó, parakaló
+Περίμενε ένα λεπτό. | Wait one minute. : perímene éna leptó
+
+#Food & Movement:
+
+Πεινάω πολύ. | I’m very hungry. : pináo polí
+Πεινάω. Πάμε να φάμε; | I’m hungry. Shall we go eat? : pináo. páme na fáme?
+Διψάω. Έχετε νερό; | I’m thirsty. Do you have water? : dipsáo. échete neró?
+Διψάω πολύ σήμερα. | I’m very thirsty today. : dipsáo polí símera
+Πάμε βόλτα; | Shall we go for a walk? : páme vólta?
+Πάμε τώρα. | Let’s go now. : páme tóra
+Έλα εδώ. | Come here. : éla edó
+Έλα, ξεκινάμε. | Come on, we’re starting. : éla, xekináme
+Περίμενε εδώ. | Wait here. : perímene edó
+Περίμενε έξω. | Wait outside. : perímene éxo
+
+#Time:
+
+Ξέρω. | I know. : xéro
+Ξέρω την απάντηση. | I know the answer. : xéro tin apántisi
+Δεν ξέρω. | I don’t know. : den xéro
+Δεν ξέρω πού είναι. | I don’t know where it is. : den xéro poú íne
+Τι ώρα είναι; | What time is it? : ti óra íne?
+Τι ώρα είναι τώρα; | What time is it now? : ti óra íne tóra?
+Ξέρεις τι ώρα είναι; | Do you know what time it is? : xéris ti óra íne?
+Πότε φεύγουμε; | When are we leaving? : póte févgoume?
+Πότε ανοίγει; | When does it open? : póte anígi?
+Ξέρετε πότε ανοίγει; | Do you know when it opens? : xérete póte anígi?
+Ξέρετε τι ώρα ανοίγει το φαρμακείο; | Do you know what time the pharmacy opens? : xérete ti óra anígi to farmakío?
+Τι ώρα ανοίγει το περίπτερο; | What time does the kiosk open? : ti óra anígi to períptero?
+
+#Questions:
+
+Γιατί; | Why? / Because. : giatí?
+Γιατί αργείς; | Why are you late? : giatí argís?
+Γιατί δεν έρχεσαι; | Why aren’t you coming? : giatí den érchese?
+Γιατί το έκανες αυτό; | Why did you do that? : giatí to ékanes aftó?
+Ποιος είναι; | Who is it? : piós íne?
+Ποιος μίλησε; | Who spoke? : piós mílise?
+Τι είπες; | What did you say? : ti ípes?
+Τι θα κάνεις αύριο; | What will you do tomorrow? : ti tha kánis ávrio?
+Πάω να δω. | I’ll go check/see. : páo na do
+
+#Meeting & Leaving:
+
+Χάρηκα. | Nice to meet you. : chárika
+Γεια σου. Χάρηκα. | Hello. Nice to meet you. : geiá sou. chárika
+Χάρηκα πολύ. | Very nice to meet you. : chárika polí
+Χαίρομαι πολύ που γνωριζόμαστε. | I’m very happy to meet you. : chéerome polí pou gnorizómaste
+Καλώς ήρθες. | Welcome. : kalós írthes
+Καλώς ήρθες στο σπίτι. | Welcome home. : kalós írthes sto spíti
+Καλώς ήρθες στην Ελλάδα. | Welcome to Greece. : kalós írthes stin Elláda
+Φεύγω. | I’m leaving. : févgo
+Φεύγω τώρα. | I’m leaving now. : févgo tóra
+Φεύγω για τη δουλειά. | I’m leaving for work. : févgo gia ti douliá
+
+#Preferences:
+
+Έλαβα το email. | I received the email. : élava to email
+Έλαβα το μήνυμά σου. | I got your message. : élava to mínímá sou
+Θέλεις καφέ; | Do you want coffee? : thélis kafé?
+Θέλεις να πάμε; | Do you want to go? : thélis na páme?
+Μου αρέσει αυτό. | I like this. : mou arési aftó
+Μου αρέσει η Ελλάδα. | I like Greece. : mou arési i Elláda
+Δεν μου αρέσει αυτό. | I don’t like this. : den mou arési aftó
+Δεν μου αρέσει ο καπνός. | I don’t like smoke. : den mou arési o kapnós
+Πόσο συχνά πηγαίνεις; | How often do you go? : póso sichná pigénis?
+Πόσο συχνά ταξιδεύεις; | How often do you travel? : póso sichná taxidévis?
+Εντάξει, συμφωνώ. | Okay, I agree. : endáxi, simfonó
+Εντάξει, πάμε. | Okay, let’s go. : endáxi, páme
+
+#Core Verbs:
+
+Είμαι πολύ χαρούμενος. | I am very happy. : íme polí charoúmenos
+Είμαι πολύ χαρούμενη. | I am very happy. : íme polí charoúmeni
+Χθες ήμουν κουρασμένος. | Yesterday I was tired. : chthes ímoun kourasménos
+Χθες ήμουν κουρασμένη. | Yesterday I was tired. : chthes ímoun kourasméni
+Αύριο θα είμαι σπίτι. | Tomorrow I will be home. : ávrio tha íme spíti
+Χθες ήθελα να βγω. | Yesterday I wanted to go out. : chthes íthela na vgo
+Αύριο θα θέλω περισσότερο χρόνο. | Tomorrow I will want more time. : ávrio tha thélo perissótero chróno
+Πάω βόλτα κάθε μέρα. | I go for a walk every day. : páo vólta káthe méra
+Χθες πήγα στο γυμναστήριο. | Yesterday I went to the gym. : chthes píga sto gymnastírio
+Αύριο θα πάω στο κέντρο. | Tomorrow I will go downtown/to the center. : ávrio tha páo sto kéndro
+Έχω πολλή δουλειά. | I have a lot of work. : écho pollí douliá
+Χθες είχα μία συνάντηση. | Yesterday I had a meeting. : chthes ícha mía sinándisi
+Αύριο θα έχω χρόνο. | Tomorrow I will have time. : ávrio tha écho chróno
+
+#Eating & Speaking:
+
+Κάνω γυμναστική κάθε μέρα. | I exercise every day. : káno gymnastikí káthe méra
+Κάνω γυμναστική κάθε εβδομάδα. | I exercise every week. : káno gymnastikí káthe evdomáda
+Χθες έκανα δουλειές στο σπίτι. | Yesterday I did chores at home. : chthes ékana douliés sto spíti
+Αύριο θα κάνω βίντεο. | Tomorrow I will make a video. : ávrio tha káno vínteo
+Τρώω πρωινό κάθε μέρα. | I eat breakfast every day. : tróo proinó káthe méra
+Χθες έφαγα πίτσα. | Yesterday I ate pizza. : chthes éfaga pítsa
+Αύριο θα φάω έξω. | Tomorrow I will eat out. : ávrio tha fáo éxo
+Πίνω καφέ κάθε πρωί. | I drink coffee every morning. : píno kafé káthe proí
+Χθες ήπια πολύ νερό. | Yesterday I drank a lot of water. : chthes ípia polí neró
+Αύριο θα πιω τσάι. | Tomorrow I will drink tea. : ávrio tha pio tsái
+Μιλάω ελληνικά λίγο. | I speak Greek a little. : miláo elliniká lígo
+Χθες μίλησα με τον φίλο μου. | Yesterday I spoke with my friend. : chthes mílisa me ton fílo mou
+Αύριο θα μιλήσω με τον δάσκαλο. | Tomorrow I will speak with the teacher. : ávrio tha milíso me ton dáskalo
+
+#Work & Study:
+
+Βλέπω τηλεόραση το βράδυ. | I watch TV at night. : vlépo tileórasi to vrádi
+Χθες είδα μια ταινία. | Yesterday I saw a movie. : chthes ída mia tenía
+Αύριο θα δω τους φίλους μου. | Tomorrow I will see my friends. : ávrio tha do tous fílous mou
+Δουλεύω από το πρωί. | I’ve been working since the morning. : doulévo apó to proí
+Χθες δούλεψα έξι ώρες. | Yesterday I worked for six hours. : chthes doúlepsa éxi óres
+Αύριο θα δουλέψω στο γραφείο. | Tomorrow I will work at the office. : ávrio tha doulépso sto grafío
+Διαβάζω κάθε βράδυ. | I read/study every night. : diavázo káthe vrádi
+Χθες διάβασα δύο ώρες. | Yesterday I studied/read for two hours. : chthes diávasá dío óres
+Αύριο θα διαβάσω περισσότερο. | Tomorrow I will study/read more. : ávrio tha diaváso perissótero
+Μένω στην Αθήνα. | I live in Athens. : méno stin Athína
+Χθες έμεινα σπίτι. | Yesterday I stayed home. : chthes émina spíti
+Αύριο θα μείνω στο ξενοδοχείο. | Tomorrow I will stay at the hotel. : ávrio tha míno sto xenodochío
+
+#Ability & Obligation:
+
+Φέρνω δώρα στους φίλους μου. | I bring gifts to my friends. : férno dóra stous fílous mou
+Χθες έφερα τα χαρτιά. | Yesterday I brought the papers. : chthes éfera ta chartiá
+Αύριο θα φέρω το βιβλίο. | Tomorrow I will bring the book. : ávrio tha féro to vivlío
+Δίνω συμβουλές στους μαθητές μου. | I give advice to my students. : díno simvoulés stous mathités mou
+Χθες έδωσα ένα δώρο. | Yesterday I gave a gift. : chthes édosa éna dóro
+Αύριο θα δώσω εξετάσεις. | Tomorrow I will take exams. : ávrio tha dóso exetásis
+Μπορώ να βοηθήσω. | I can help. : boró na voithíso
+Χθες μπόρεσα να τελειώσω τη δουλειά. | Yesterday I managed to finish the work. : chthes bóresa na telióso ti douliá
+Αύριο θα μπορέσω να έρθω. | Tomorrow I’ll be able to come. : ávrio tha boréso na értho
+Πρέπει να φύγω τώρα. | I must leave now. : prépi na fígo tóra
+Χθες έπρεπε να διαβάσω. | Yesterday I had to study. : chthes éprepe na diaváso
+Αύριο θα πρέπει να δουλέψω. | Tomorrow I will have to work. : ávrio tha prépi na doulépso
+
+#Daily Routine:
+
+Κοιμάμαι νωρίς. | I sleep early. : kimáme norís
+Χθες κοιμήθηκα πολύ. | Yesterday I slept a lot. : chthes kimíthika polí
+Αύριο θα κοιμηθώ αργά. | Tomorrow I will sleep late. : ávrio tha kimithó argá
+Ξυπνάω στις επτά. | I wake up at 7. : xipnáo stis eptá
+Χθες ξύπνησα αργά. | Yesterday I woke up late. : chthes xípnisa argá
+Αύριο θα ξυπνήσω νωρίς. | Tomorrow I will wake up early. : ávrio tha xipníso norís
+Σκέφτομαι πολύ. | I think a lot. : skéftome polí
+Χθες σκέφτηκα τη δουλειά. | Yesterday I thought about work. : chthes skéftika ti douliá
+Αύριο θα σκεφτώ την απάντηση. | Tomorrow I will think about the answer. : ávrio tha skeftó tin apántisi
+Αγοράζω φρούτα κάθε μέρα. | I buy fruit every day. : agorázo froúta káthe méra
+Χθες αγόρασα ένα φόρεμα. | Yesterday I bought a dress. : chthes agórasa éna fórema
+Αύριο θα αγοράσω δώρα. | Tomorrow I will buy gifts. : ávrio tha agoráso dóra
+
+#Colors:
+
+Το μήλο είναι κόκκινο. | The apple is red. : to mílo íne kókkino
+Μου αρέσει το κόκκινο φόρεμα. | I like the red dress. : mou arési to kókkino fórema
+Το νερό φαίνεται μπλε. | The water looks blue. : to neró fénete ble
+Έχω ένα μπλε τετράδιο. | I have a blue notebook. : écho éna ble tetrádio
+Το γρασίδι είναι πράσινο. | The grass is green. : to grasídi íne prásino
+Μου αρέσει το πράσινο τσάι. | I like green tea. : mou arési to prásino tsái
+Ο ήλιος είναι κίτρινος. | The sun is yellow. : o ílios íne kítrinos
+Έχω μια κίτρινη τσάντα. | I have a yellow bag. : écho mia kítrini tsánta
+Φοράω μαύρα ρούχα. | I wear black clothes. : foráo mávra roúcha
+Το τηλέφωνο είναι μαύρο. | The phone is black. : to tiléfono íne mávro
+Το χαρτί είναι άσπρο. | The paper is white. : to chartí íne áspro
+Μου αρέσουν τα άσπρα παπούτσια. | I like white shoes. : mou arésoun ta áspra papoútsia
+Το πορτοκάλι είναι πορτοκαλί. | The orange is orange. : to portokáli íne portokalí
+Φόρεσα πορτοκαλί μπλούζα. | I wore an orange T-shirt/blouse. : fóresa portokalí bloúza
+Το φόρεμα είναι μωβ. | The dress is purple. : to fórema íne mov
+Μου αρέσουν τα μωβ λουλούδια. | I like purple flowers. : mou arésoun ta mov louloúdia
+Ο ουρανός είναι γκρι σήμερα. | The sky is gray today. : o ouranós íne gri símera
+Έχω ένα γκρι αυτοκίνητο. | I have a gray car. : écho éna gri aftokínito
+Το τραπέζι είναι καφέ. | The table is brown. : to trapézi íne kafé
+Μου αρέσουν τα καφέ μάτια. | I like brown eyes. : mou arésoun ta kafé mátia
+Το αυτοκίνητο είναι σκούρο μπλε. | The car is dark blue/navy blue. : to aftokínito íne skoúro ble
+Έχει σκούρα μπλε μάτια. | He/she has dark blue eyes. : échi skoúra ble mátia
+Το ρολόι είναι ασημένιο. | The watch is silver. : to rolói íne asiménio
+Αγόρασα μια ασημένια τσάντα. | I bought a silver bag. : agórasa mia asiménia tsánta
+Το δαχτυλίδι είναι χρυσό. | The ring is gold. : to dachtilídi íne chrysó
+Μου αρέσουν τα χρυσά κοσμήματα. | I like gold jewelry. : mou arésoun ta chrysá kosmímata
+Το φόρεμα είναι ροζ. | The dress is pink. : to fórema íne roz
+Μου αρέσει το ροζ χρώμα. | I like the pink color. : mou arési to roz chróma
+
+#Weekdays:
+
+Η Δευτέρα είναι η πρώτη μέρα της εβδομάδας. | Monday is the first day of the week. : i Deftéra íne i próti méra tis evdomádas
+Δουλεύω κάθε Δευτέρα. | I work every Monday. : doulévo káthe Deftéra
+Την Τρίτη έχω μάθημα. | On Tuesday I have a class. : tin Tríti écho máthima
+Πάμε για καφέ την Τρίτη; | Shall we go for coffee on Tuesday? : páme gia kafé tin Tríti?
+Η Τετάρτη είναι γεμάτη ραντεβού. | Wednesday is full of appointments. : i Tetárti íne gemáti randevoú
+Την Τετάρτη βλέπω φίλους. | On Wednesday I see friends. : tin Tetárti vlépo fílous
+Την Πέμπτη πάω στο γυμναστήριο. | On Thursday I go to the gym. : tin Pémpti páo sto gymnastírio
+Η Πέμπτη είναι η αγαπημένη μου μέρα. | Thursday is my favorite day. : i Pémpti íne i agapiméni mou méra
+Την Παρασκευή τελειώνω νωρίς. | On Friday I finish early. : tin Paraskeví telióno norís
+Την Παρασκευή βγαίνουμε έξω. | On Fridays we go out. : tin Paraskeví vjénoume éxo
+Το Σάββατο ξεκουράζομαι. | On Saturday I rest. : to Sávvato xekourázome
+Το Σάββατο πάμε για ψώνια. | On Saturday we go shopping. : to Sávvato páme gia psónia
+Η Κυριακή είναι για την οικογένεια. | Sunday is for family. : i Kiriakí íne gia tin ikogénia
+Είμαστε μαζί κάθε Κυριακή. | We are together every Sunday. : ímaste mazí káthe Kiriakí
+
+#Months:
+
+Ο Ιανουάριος είναι πολύ κρύος μήνας. | January is a very cold month. : o Ianouários íne polí kríos mínas
+Ξεκινάω τη νέα χρονιά τον Ιανουάριο. | I start the new year in January. : xekináo ti néa chroniá ton Ianouário
+Ο Φεβρουάριος έχει λίγες μέρες. | February has a few days. : o Fevrouários échi líges méres
+Γιορτάζουμε τον Άγιο Βαλεντίνο τον Φεβρουάριο. | We celebrate Valentine’s Day in February. : yiortázoume ton Ágio Valentíno ton Fevrouário
+Ο Μάρτιος φέρνει την άνοιξη. | March brings spring. : o Mártios férni tin ánixi
+Ο Μάρτιος έχει πολλές αλλαγές στον καιρό. | March has many weather changes. : o Mártios échi pollés allagés ston keró
+Ο Απρίλιος έχει λουλούδια παντού. | April has flowers everywhere. : o Aprílios échi louloúdia pandoú
+Το Πάσχα πέφτει συχνά τον Απρίλιο. | Easter often falls in April. : to Páscha péfti sichná ton Aprílio
+Ο Μάιος είναι ο ανθισμένος μήνας. | May is the blooming month. : o Máios íne o anthisménos mínas
+Το καλοκαίρι αρχίζει τον Μάιο. | Summer begins in May. : to kalokaíri archízi ton Máio
+Ο Ιούνιος είναι ο πρώτος καλοκαιρινός μήνας. | June is the first summer month. : o Ioúnios íne o prótos kalokerinós mínas
+Πάμε για μπάνιο τον Ιούνιο. | We go swimming in June. : páme gia bánio ton Ioúnio
+Ο Ιούλιος είναι ο πιο ζεστός μήνας. | July is the hottest month. : o Ioúlios íne o pio zestós mínas
+Πάμε διακοπές τον Ιούλιο. | We go on vacation in July. : páme diakopés ton Ioúlio
+Ο Αύγουστος είναι μήνας διακοπών. | August is a vacation month. : o Ávgoustos íne mínas diakopón
+Οι πόλεις αδειάζουν τον Αύγουστο. | Cities empty out in August. : i pólis adiázoun ton Ávgousto
+Ο Σεπτέμβριος σηματοδοτεί την αρχή του φθινοπώρου. | September marks the start of autumn. : o Septémvrios simatodotí tin archí tou fthinopórou
+Τα σχολεία ανοίγουν τον Σεπτέμβριο. | Schools open in September. : ta scholía anígoun ton Septémvrio
+Ο Οκτώβριος έχει όμορφα χρώματα. | October has beautiful colors. : o Októvrios échi ómorfa chrómata
+Γιορτάζουμε το «Όχι» τον Οκτώβριο. | We celebrate Ohi Day in October. : yiortázoume to “óchi” ton Októvrio
+Ο Νοέμβριος είναι βροχερός. | November is rainy. : o Noémvrios íne vrocherós
+Ο Νοέμβριος φέρνει κρύο. | November brings cold. : o Noémvrios férni krío
+Ο Δεκέμβριος έχει Χριστούγεννα. | December has Christmas. : o Dekémvrios échi Christoúgenna
+Ο Δεκέμβριος είναι γιορτινός μήνας. | December is a festive month. : o Dekémvrios íne yiortinós mínas
+
+#Weather:
+
+Ο χειμώνας στην Ελλάδα είναι ήπιος. | Winter in Greece is mild. : o chimónas stin Elláda íne ípios
+Τον χειμώνα κάνει κρύο. | In the winter it is cold. : ton chimóna káni krío
+Η άνοιξη είναι η αγαπημένη μου εποχή. | Spring is my favorite season. : i ánixi íne i agapiméni mou epochí
+Την άνοιξη ανθίζουν τα λουλούδια. | In spring the flowers bloom. : tin ánixi anthízoun ta louloúdia
+Το καλοκαίρι πάμε στη θάλασσα. | In the summer we go to the sea. : to kalokaíri páme sti thálassa
+Το καλοκαίρι κάνει ζέστη. | In the summer it is hot. : to kalokaíri káni zésti
+Το φθινόπωρο πέφτουν τα φύλλα. | In autumn the leaves fall. : to fthinóporo péftoun ta fílla
+Το φθινόπωρο αλλάζει ο καιρός. | In autumn the weather changes. : to fthinóporo allázi o kerós
+Η άνοιξη είναι όμορφη εποχή. | Spring is a beautiful season. : i ánixi íne ómorfi epochí
+Κάθε εποχή έχει τη δική της γοητεία. | Every season has its own charm. : káthe epochí échi ti dikí tis goïteía
+Ο καιρός σήμερα είναι καλός. | The weather today is good. : o kerós símera íne kalós
+Ο καιρός αλλάζει γρήγορα. | The weather changes quickly. : o kerós allázi grígora
+Η θερμοκρασία είναι χαμηλή τον χειμώνα. | The temperature is low in winter. : i thermokrasía íne chamilí ton chimóna
+Η θερμοκρασία ανεβαίνει το καλοκαίρι. | The temperature rises in the summer. : i thermokrasía anevéni to kalokaíri
+
